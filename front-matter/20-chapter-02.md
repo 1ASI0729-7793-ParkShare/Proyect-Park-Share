@@ -70,4 +70,49 @@ Para este segmento, la entrevista busca comprender cómo los propietarios o resp
 
 ### 2.2.2 Registro de entrevistas
 
+En esta sección se presenta el registro de las entrevistas realizadas a representantes de los segmentos objetivo de ParkShare. Para cada entrevistado se recopilan datos generales, evidencia audiovisual y un resumen descriptivo de la información obtenida durante la sesión.
+
+#### Segmento 2: Propietarios de Espacios y Negocios
+
+#### Entrevista 1
+
+| Dato                | Información                                      |
+| ------------------- | ------------------------------------------------ |
+| Nombres y apellidos | Daniel Pinedo                                    |
+| Edad                | 21                                               |
+| Distrito            | Ventanilla                                       |
+| Segmento objetivo   | Propietarios de Espacios y Negocios              |
+| Fecha de entrevista | 11/09/2026                                       |
+| Duración aproximada | 6 min 54 s                                       |
+| Inicio en el video  | 00:01                                            |
+| URL del video       | https://youtu.be/DHeAJ3CKvXE?si=JknAzuz1o0-fJjBQ |
+
+**Evidencia de la entrevista**
+
+![Entrevista 1 - Segmento 2](../assets/interviews/segment-2/interview-01.png)
+
+**Resumen de la entrevista**
+
+Daniel Pinedo pertenece al segmento de Propietarios de Espacios y Negocios. Actualmente cuenta con una cochera ubicada dentro de su vivienda, con capacidad para un automóvil. El espacio es techado, se encuentra separado de la parte principal de la casa y su acceso se realiza desde la calle mediante un portón operado con control remoto.
+
+Respecto al uso del espacio, indicó que la cochera permanece desocupada durante una parte considerable de la semana. El automóvil familiar es utilizado principalmente por su padre para acudir al trabajo y, durante ciertos periodos del día y también algunos fines de semana, la cochera permanece vacía. Cuando esto sucede, generalmente el espacio no recibe ningún uso adicional, aunque ocasionalmente puede ser utilizado temporalmente por algún familiar.
+
+El entrevistado señaló que hasta el momento solo ha permitido utilizar la cochera a familiares o personas conocidas en quienes tiene confianza. No ha realizado un alquiler formal del espacio. Sin embargo, considera que la posibilidad de generar ingresos adicionales mediante un espacio que normalmente permanece desocupado sería una motivación importante para ofrecerlo temporalmente a otros conductores.
+
+En relación con sus principales preocupaciones, mencionó especialmente la seguridad. Permitir el ingreso de una persona desconocida a su propiedad le generaría preocupación debido a la posibilidad de daños dentro del inmueble o de que ocurra algún inconveniente relacionado con el vehículo. Por esta razón, considera importante poder conocer previamente información del conductor.
+
+Entre los datos que considera necesarios se encuentran el nombre de la persona, algún documento de identificación como el DNI y datos del vehículo, especialmente la placa. También manifestó interés en contar con un sistema de calificaciones para los conductores, ya que las experiencias registradas por otros propietarios podrían ayudarle a evaluar qué tan confiable resulta una persona antes de permitirle utilizar el espacio.
+
+Respecto a la disponibilidad, considera necesario establecer horarios específicos en los que la cochera pueda ser ofrecida. Como ejemplo, señaló que podría encontrarse disponible aproximadamente de lunes a viernes entre las 9:00 a. m. y las 5:00 p. m., siempre que durante ese periodo su familia no necesite utilizarla.
+
+Para establecer el precio del alquiler, tomaría en consideración las tarifas que cobran otros estacionamientos, el tiempo durante el cual permanecerá el vehículo, la ubicación del espacio y factores relacionados con la seguridad. Esto evidencia que el precio no estaría determinado únicamente por el tiempo de uso, sino también por las características y condiciones del estacionamiento.
+
+En cuanto al acceso, explicó que la cochera cuenta con un portón operado mediante control remoto. Actualmente, para permitir el ingreso de un conductor sería necesario que alguna persona se encontrara dentro de la vivienda para abrirlo. Esta situación representa una posible dificultad operativa para ofrecer el espacio cuando el propietario no se encuentra disponible.
+
+El entrevistado indicó también que podría dejar de ofrecer temporalmente la cochera cuando él o su familia necesiten utilizarla, cuando espere la visita de algún familiar o si llegara a tener experiencias negativas recurrentes con los conductores que hagan uso del espacio.
+
+Respecto a sus hábitos digitales, señaló que utiliza principalmente aplicaciones bancarias como BCP y una billetera digital para realizar pagos. También utiliza WhatsApp como uno de sus principales medios de comunicación. Su dispositivo de uso habitual es el teléfono celular y prefiere recibir información importante mediante notificaciones en el dispositivo o a través de WhatsApp.
+
+Finalmente, considera que para sentirse seguro utilizando una plataforma orientada al alquiler temporal de estacionamientos sería necesario contar con mecanismos de verificación de los conductores, conocer la placa de los vehículos, establecer horarios claramente definidos y recibir confirmaciones relacionadas con las reservas. También considera importante conocer con anticipación posibles cancelaciones y mantener control sobre la disponibilidad del espacio.
+
 ### 2.2.3 Análisis de entrevistas
