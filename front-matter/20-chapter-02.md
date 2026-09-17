@@ -190,24 +190,50 @@ Durante esta sesion, trabajamos en una secuencia lógica y cronológica para que
 En esta fase inicial realizamos una lluvia de ideas para identificar los Eventos de Dominio fundamentales de Proyect-Park-Share. 
 Se identificaron eventos que cubren el ciclo de vida completo de los dos roles principales
 
-Registro e Identidad: User Registration Initiated, User Type Chosen, Identity Verification Initiated, Identity Verified y User Account Activated.  
+* Registro e Identidad: User Registration Initiated, User Type Chosen, Identity Verification Initiated, Identity Verified y User Account Activated.  
 
-Perfiles de Usuario: Driver Profile Completed y Property Owner Profile Completed. 
+* Perfiles de Usuario: Driver Profile Completed y Property Owner Profile Completed. 
 
-Gestión del Espacio y Vehículo: Parking Space Listing Initiated, Parking Space Listed, Space Availability Scheduled y Vehicle Plate Registered.  
+* Gestión del Espacio y Vehículo: Parking Space Listing Initiated, Parking Space Listed, Space Availability Scheduled y Vehicle Plate Registered.  
 
-Reserva y Uso del Parqueo: Parking Search Initiated, Reservation Requested, Reservation Confirmed, Vehicle Access Granted, Parking Session Started y Parking Session Ended.  
+* Reserva y Uso del Parqueo: Parking Search Initiated, Reservation Requested, Reservation Confirmed, Vehicle Access Granted, Parking Session Started y Parking Session Ended.  
 
-Pagos: Payment Processed y Payout Transferred to Owner.  
+* Pagos: Payment Processed y Payout Transferred to Owner.  
 
-Excepciones y Cancelaciones: Identity Verification Failed, Listing Registration Rejected y Reservation Cancelled
+* Excepciones y Cancelaciones: Identity Verification Failed, Listing Registration Rejected y Reservation Cancelled
 
 
-
+![STEP1](/report/assets/STEP1.png)
 
 ## Paso 2: Líneas de Tiempo (Timelines)
 
 En este paso organizamos los eventos de manera secuencial, separando los flujos principales y definiendo los caminos alternativos o de error:
+
+
+* Registro e Identidad: Inicia con User Registration Initiated y User Type Chosen. Tras Identity Verified, la cuenta pasa a User Account Activated para derivar en Driver Profile Completed o Property Owner Profile Completed. Ante fallas, el flujo va a Registration Rejected o Identity Verification Failed.
+
+* Flujos Específicos: El propietario requiere Property Documentation Verified para llegar a Parking Space Listed. El conductor completa Driver Profile Created, Driver License Validated y Vehicle Plate Registered.
+
+* Encuentro de Uso: Ambos flujos coinciden en Parking Resource Assigned, pasan a System Permissions Configured y culminan en User Session Started. Si ocurre un error, se activa Space Capacity Exceeded o User Access Denied.
+
+
+![STEP2](/report/assets/STEP2.png)
+
+
+## Paso 3: Líneas de Tiempo con Puntos Criticos(Timelines with Hotspots)
+
+Para complementar el análisis, identificamos los Puntos de Dolor o Puntos de Conflicto (Hotspots) en color rosa sobre el flujo cronológico:  
+
+* Antiguedad en el Selección de Rol: Existe confusión en la interfaz cuando un mismo usuario desea actuar como conductor y propietario en momentos distintos dentro de la plataforma.
+
+* Lentitud en la Verificación Manual: El proceso manual para validar documentos de identidad y titularidad de la propiedad ralentiza la activación de la cuenta, lo que desmotiva a nuevos usuarios durante el registro.
+
+* Incompatibilidad: Dificultad para verificar si las medidas reales de la cochera publicada coinciden con la categoría del vehículo registrado por el conductor.
+
+* Falta de Acceso Automatizado: Fricción en el ingreso si el propietario no se encuentra en casa y no dispone de un sistema de apertura automática o remoto para el portón.
+
+
+![STEP3](/report/assets/STEP3.png)
 
 
 ### 2.5. Ubiquitous Language
