@@ -116,3 +116,96 @@ Respecto a sus hábitos digitales, señaló que utiliza principalmente aplicacio
 Finalmente, considera que para sentirse seguro utilizando una plataforma orientada al alquiler temporal de estacionamientos sería necesario contar con mecanismos de verificación de los conductores, conocer la placa de los vehículos, establecer horarios claramente definidos y recibir confirmaciones relacionadas con las reservas. También considera importante conocer con anticipación posibles cancelaciones y mantener control sobre la disponibilidad del espacio.
 
 ### 2.2.3 Análisis de entrevistas
+
+
+### 2.3 Needfinding
+### 2.3.1. User Personas
+En esta sección se presentan los User Personas representativos de la plataforma. Estos arquetipos sintetizan las necesidades, frustraciones y comportamientos clave identificados en la investigación de mercado para guiar el diseño funcional y la toma de decisiones del proyecto.
+
+User persona del 1er segmento objetivo - Conductores que requieren estacionamiento temporal
+
+![userpersona1](/report/assets/Marcos%20Garcia%20-%20user%20persona.png)
+
+Marcos García representa al segmento de conductores con necesidad de estacionamiento temporal, construido a partir de las entrevistas realizadas a profesionales en zonas de alta congestión urbana. Se definió como un hombre de 38 años, asesor comercial ubicado en Lima, que refleja el perfil de usuarios que se desplazan constantemente por reuniones laborales y gestionan el parqueo de forma operativa y diaria. Sus objetivos de encontrar estacionamiento seguro de manera rápida, optimizar los tiempos de traslado y evitar sobrecostos por tarifas no transparentes responden directamente a lo expresado por la totalidad de los entrevistados, quienes señalaron la puntualidad, la seguridad del vehículo y la previsibilidad de costos como sus prioridades principales. Sus frustraciones de dar vueltas a la manzana perdiendo tiempo, la falta de información en tiempo real sobre disponibilidad, las tarifas elevadas en cocheras tradicionales y el temor al robo o daño de sus herramientas de trabajo fueron mencionadas de forma unánime en las entrevistas. Se eligieron Waze y Google Maps como referentes e influencias porque son las aplicaciones con las que este segmento interactúa diariamente para la navegación urbana. Sus canales incluyen WhatsApp, Google Maps, aplicaciones de pago digital y llamadas telefónicas, reflejando un perfil digitalizado que busca resolver la movilidad inmediata pero que aún depende de métodos informales para encontrar espacio al llegar a su destino.
+
+User persona del 2do segmento objetivo - Propietarios de cocheras privadas con disponibilidad temporal.
+
+
+![userpersona1](/report/assets/Maria%20Becerra%20-%20user%20persona.png)
+
+María Becerra representa al segmento de propietarios de cocheras privadas con disponibilidad temporal. Es una diseñadora de interiores de 33 años que reside en Surco, con un ingreso promedio de S/ 3,500 a S/ 5,500. Trabaja en modalidad remota desde su hogar, por lo que su cochera techada con portón eléctrico permanece desocupada de lunes a viernes mientras su esposo utiliza el auto familiar para ir a la oficina.
+
+Sus principales objetivos se enfocan en convertir ese espacio desuso en una fuente constante de ingresos pasivos sin salir de casa. Para lograrlo de forma segura, requiere conocer previamente el nombre, DNI, placa y puntuación del conductor antes de aceptar una reserva, garantizando flexibilidad total en los horarios de alquiler y recibiendo cobros digitales automáticos sin lidiar con efectivo ni coordinaciones manuales.
+
+Sus frustraciones clave radican en el temor a sufrir daños en su propiedad o tener inconvenientes con personas desconocidas. Asimismo, le resulta sumamente molesto interrumpir sus proyectos de diseño para abrir el portón manualmente cada vez que entra o sale un vehículo, sumado a la falta de alertas inmediatas cuando ocurren cambios o cancelaciones en las reservas.
+
+En cuanto a sus hábitos digitales, María muestra un perfil altamente conectado y organizado. Utiliza activamente canales como WhatsApp, Facebook, Instagram y correo electrónico para comunicarse, operando cotidianamente desde dispositivos móviles con sistema iOS y computadoras con Windows.
+
+### 2.3.2. User Task Matrix
+
+Para diseñar la solución que optimice el uso y rentabilidad de espacios de estacionamiento urbanos, se identificaron dos tipos de usuarios: los conductores con necesidad de estacionamiento temporal, que buscan un lugar para guardar su vehículo durante sus jornadas laborales; y los propietarios de cocheras privadas, que cuentan con disponibilidad temporal para sus espacios en desuso. El diseño de la plataforma se enfoca en facilitar la interacción entre ambos usuarios para asegurar flexibilidad, seguridad y transparencia en todo el proceso.
+
+
+![UserTaskMatrix](/report/assets/USER%20TASK%20MATRIX.png)
+
+
+### 2.3.3. User Journey Mapping
+
+El User Journey Mapping es una herramienta para mostrar paso a paso cómo vive una persona la experiencia de buscar o brindar un servicio. En este proyecto, diseñamos los mapas de viaje para los dos segmentos principales: Marcos García  y María Becerra 
+
+User Journey Mapping del 1er segmento objetivo - Conductores que requieren estacionamiento temporal
+
+![JourneyMapping](/report/assets/Marcos%20Garcia%20-%20Journey%20Map.png)
+
+
+User Journey Mapping del 2do segmento objetivo - Propietarios de cocheras privadas con disponibilidad temporal.
+
+
+![JourneyMapping2](/report/assets/Maria%20Becerra%20-%20Journey%20Map.png)
+
+### 2.3.4. Empathy Mapping
+
+El Empathy Mapping es un método que ayuda a ponernos en el lugar del usuario para entender lo que piensa, siente, escucha, ve, dice y hace. Nos permite conocer a fondo sus emociones, qué le preocupa en su rutina y qué espera conseguir.
+
+Para Park Share, crear esta matriz para Marcos García y María Becerra fue indispensable para ver de cerca los problemas cotidianos al buscar un estacionamiento libre o intentar alquilar una cochera vacía. Entender sus miedos sobre la seguridad del vehículo o la desconfianza al recibir extraños nos da las pautas para crear una aplicación simple, confiable y adaptada a sus necesidades reales.
+
+Empathy Mapping del 1er segmento objetivo - Conductores que requieren estacionamiento temporal
+
+![JourneyMapping2](/report/assets/Marcos%20-%20Empathy%20map.png)
+
+
+Empathy Mapping del 2do segmento objetivo - Propietarios de cocheras privadas con disponibilidad temporal.
+
+![JourneyMapping2](/report/assets/Maria%20Becerra%20-%20Empathy%20map.png)
+
+### 2.4. Big Picture Event Storming
+
+
+
+### 2.5. Ubiquitous Language
+
+El Ubiquitous Language define los términos clave del dominio del negocio para asegurar una comunicación clara entre el equipo de desarrollo y los stakeholders.
+
+Driver (Conductor): Usuario perteneciente al segmento de movilidad temporal que busca, reserva y utiliza espacios de estacionamiento para sus desplazamientos comerciales o diarios.
+
+Property Owner (Propietario de Cochera): Usuario que posee un espacio de estacionamiento privado en desuso y lo publica en la plataforma para generar ingresos pasivos.
+
+Parking Space / Spot (Espacio de Parqueo / Cochera): Área física delimitada en una propiedad privada destinada al estacionamiento de un vehículo durante una franja horaria específica.
+
+Listing (Anuncio / Publicación): Registro creado por el propietario que describe las características del espacio de parqueo, como ubicación, fotos, dimensiones, tarifa y horarios de disponibilidad.
+
+Reservation (Reserva): Acuerdo formal y temporal entre un conductor y un propietario para el uso exclusivo de un espacio de parqueo en un rango de fecha y hora determinado.
+
+Parking Pass / Access Token (Pase de Acceso): Credencial digital o código generado por el sistema que autoriza e identifica el ingreso y salida del vehículo validado en la propiedad.
+
+Parking Session (Sesión de Estacionamiento): Intervalo de tiempo transcurrido desde el momento exacto en que el conductor ingresa el auto a la cochera hasta que se efectúa la salida.
+
+Verification / Identity Check (Validación de Identidad): Proceso de comprobación de la autenticidad del DNI, antecedentes y tarjeta de propiedad/licencia del conductor y propietario para garantizar un entorno seguro.
+
+Parking Fee (Tarifa de Parqueo): Costo monetario fijado por el propietario o determinado por la plataforma según el tiempo de permanencia o fracción de uso del espacio.
+
+Payout (Abono / Transferencia al Propietario): Liquidación financiera que la plataforma transfiere al propietario por los ingresos acumulados del alquiler de su cochera, descontando la comisión del servicio.
+
+Hotspot / Operational Bottleneck (Punto Crítico / Cuello de Botella Operativo): Evento o etapa del flujo donde existe riesgo de retraso, fallo de seguridad o fricción de uso (ej. retrasos en la validación manual de documentos o en el acceso físico al portón).
+
+Cancellation Policy (Política de Cancelación): Reglas establecidas por la plataforma que definen los tiempos límite, penalizaciones o reembolsos aplicables si el conductor o el propietario cancelan una reserva confirmada.
