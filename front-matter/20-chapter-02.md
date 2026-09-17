@@ -180,6 +180,34 @@ Empathy Mapping del 2do segmento objetivo - Propietarios de cocheras privadas co
 
 ### 2.4. Big Picture Event Storming
 
+Para iniciar el modelado de la arquitectura de Proyect-Park-Share, el equipo llevó a cabo una sesión de Event Storming. El objetivo principal fue explorar el dominio del negocio de forma integral, identificando todos los eventos clave que ocurren durante la interacción de los usuarios con la plataforma, desde el registro inicial y la publicación de espacios hasta el inicio de la sesión de parqueo.
+
+Durante esta sesion, trabajamos en una secuencia lógica y cronológica para que todos los miembros del equipo aportaran su visión sobre las etapas del flujo. El enfoque se centró en alinearnos con la terminología del negocio sin preocuparnos aún por las limitaciones técnicas.
+
+
+## Paso 1: Exploración Desestructurada (Unstructured Exploration)
+
+En esta fase inicial realizamos una lluvia de ideas para identificar los Eventos de Dominio fundamentales de Proyect-Park-Share. 
+Se identificaron eventos que cubren el ciclo de vida completo de los dos roles principales
+
+Registro e Identidad: User Registration Initiated, User Type Chosen, Identity Verification Initiated, Identity Verified y User Account Activated.  
+
+Perfiles de Usuario: Driver Profile Completed y Property Owner Profile Completed. 
+
+Gestión del Espacio y Vehículo: Parking Space Listing Initiated, Parking Space Listed, Space Availability Scheduled y Vehicle Plate Registered.  
+
+Reserva y Uso del Parqueo: Parking Search Initiated, Reservation Requested, Reservation Confirmed, Vehicle Access Granted, Parking Session Started y Parking Session Ended.  
+
+Pagos: Payment Processed y Payout Transferred to Owner.  
+
+Excepciones y Cancelaciones: Identity Verification Failed, Listing Registration Rejected y Reservation Cancelled
+
+
+
+
+## Paso 2: Líneas de Tiempo (Timelines)
+
+En este paso organizamos los eventos de manera secuencial, separando los flujos principales y definiendo los caminos alternativos o de error:
 
 
 ### 2.5. Ubiquitous Language
