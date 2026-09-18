@@ -346,56 +346,52 @@ La aplicación te orienta en todo momento mientras buscas:
 
 ### 4.2.5. Navigation Systems.
 
-#### 4.2.5. Navigation Systems
+Se busca que el usuario nunca esté a más de tres interacciones de realizar una acción clave, como buscar una plaza disponible, realizar una reserva, calcular tarifas o validar credenciales.
 
-El sistema de navegación orienta a conductores y propietarios para que se desplacen por la plataforma de manera fluida y predecible, facilitando el logro de sus metas sin rodeos.
+### Navegación Global (Menú superior persistente)
+Se implementa mediante una barra de navegación horizontal fija en la parte superior que otorga acceso directo a los módulos principales del sistema:
+* **Search:** Búsqueda rápida de estacionamientos disponibles por ubicación o zona.
+* **How it works:** Guía explicativa sobre el funcionamiento del sistema de alquiler y uso de plazas.
+* **Media & Demos:** Demostraciones visuales y material interactivo de la plataforma.
+* **Pricing:** Estructura de tarifas, planes y costos del servicio.
+* **Calculator:** Herramienta interactiva para proyectar o estimar costos de estacionamiento.
+* **Verification:** Módulo para la validación de identidad, vehículos o permisos.
+* **Selector de Idioma (EN / ES):** Cambio inmediato de interfaz entre inglés y español.
+* **Acceso de Usuario (Log In / Register Now):** Botones directos para la autenticación e inicio de sesión.
 
-Se prioriza un recorrido práctico y adaptable tanto a la página web de presentación como a la aplicación operativa.
+Esta estructura asegura una navegación clara y accesible desde cualquier sección del sitio.
 
+---
 
+### Navegación de Contexto (Breadcrumbs / Rutas)
+Permite al usuario ubicarse dentro del flujo de la plataforma mediante rutas jerárquicas como:
+* `Search` > `Lima Centro` > `Estacionamiento A` > `Reservar`
+* `Calculator` > `Tarifa Nocturna` > `Estimación de Costo`
+* `Verification` > `Documentación` > `Validación de Vehículo`
 
-### Navegación Principal del Sistema
+Esto facilita la orientación del usuario respecto a su posición actual en la aplicación.
 
-La aplicación utiliza un menú lateral persistente que conecta directamente con los módulos clave:
+---
 
-* Mapa: Acceso inmediato a la localización de cocheras.
-* Mis Reservas: Panel de control de solicitudes y tiempos de parqueo.
-* Mis Cocheras: Gestión de espacios publicados y horarios.
-* Mis Ingresos: Resumen de ganancias y transferencias.
+### Navegación Local
+Dentro de cada módulo se organizan las funcionalidades específicas mediante pestañas o secciones internas:
+* **En la ficha de un estacionamiento:** Detalles de la plaza, Disponibilidad en tiempo real, Tarifas por hora/día, Reseñas.
+* **En el perfil de usuario:** Historial de reservas, Métodos de pago, Vehículos registrados, Alertas.
 
+Esto evita la saturación visual al categorizar la información relevante.
 
+---
 
-### Navegación en la Landing Page
+### Acciones Rápidas
+Se integran botones de llamada a la acción (CTA) destacados para optimizar los flujos más frecuentes:
+* **Register Now:** Botón principal para el registro inmediato de nuevos usuarios.
+* **Log In:** Acceso directo a la cuenta personal.
+* **Buscar / Reservar:** Botones directos dentro de los resultados para completar la reserva en pocos pasos.
 
-La página web de bienvenida incluye una barra superior (*navbar*) orientada a informar y captar nuevos usuarios:
+---
 
-* Inicio / Beneficios: Información clave sobre el servicio para conductores y dueños.
-* Cómo Funciona:** Guía visual rápida sobre cómo reservar o publicar.
-* Iniciar Sesión: Accesos directos a la plataforma.
-* Llamados a la Acción (CTA): Informacion relavante de la pagina, asi como los medio de contacto.
-
-
-Navegación Contextual
-
-Permite realizar acciones sin salir del flujo de trabajo actual mediante:
-
-* Botones de Acción Directa: Opciones de "Reservar", "Confirmar Llegada"* o "Subir Licencia" dentro de la misma pantalla.
-* Fichas de Detalle: Enlaces dentro del mapa para ver fotos del garaje, contactar al dueño o solicitar ayuda.
-* Migas de Pan: Indicadores de ruta para volver fácil a secciones anteriores.
-
-
-#### Flujos de Navegación
-
-Guiado según los objetivos de cada rol dentro de la plataforma:
-
-* Conductor (Reserva rápida):
-*Inicio -> Búsqueda en Mapa -> Selección de Cochera -> Confirmación y Pago -> Iniciar Parqueo
-
-* Propietario (Publicación de espacio):
-*Mi Perfil -> Mis Cocheras -> Publicar Espacio -> Subir Fotos y Horarios ->Espacio Disponible*
-
-* Gestión de Reserva Activa:
-*Mis Reservas -> Detalle de Reserva ->  Confirmar Llegada -> Finalizar Parqueo*
+### Navegación Adaptativa (Responsive)
+La barra de navegación ajusta su distribución según la pantalla (desktop, tablet, móvil). En dispositivos móviles, los enlaces centrales se colapsan en un menú desplegable (hamburguesa), manteniendo los botones clave de acceso rápido para priorizar la usabilidad en pantallas pequeñas.
 
 
 ### 4.3. Landing Page UI Design.
