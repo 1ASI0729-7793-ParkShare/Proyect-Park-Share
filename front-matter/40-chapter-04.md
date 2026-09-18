@@ -396,6 +396,63 @@ La barra de navegación ajusta su distribución según la pantalla (desktop, tab
 
 ### 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+**4.3.1 Landing Page Wireframe**
+
+La *landing page* de Proyect-Park-Share presenta una estructura clara y orientada a la conversión, iniciando con una sección principal (*Hero Section*) que introduce la solución para la reserva de estacionamientos seguros y el alquiler de cocheras privadas en Lima, resaltando beneficios como el ahorro de tiempo, la transparencia en tarifas y la conexión con propietarios verificados[cite: 5].
+
+### Estructura y Secciones del Wireframe
+
+* **Header / Navigation Bar:**
+  * **Branding:** Identificador visual y nombre del proyecto (*Proyect-Park-Share*).
+  * **Menú Principal:** Enlaces de acceso rápido a los módulos principales (*Search*, *How it works*, *Media & Demos*, *Pricing*, *Calculator*, *Verification*).
+  * **Herramientas y Accesos:** Selector de idioma (*EN / ES*) y botones directos para inicio de sesión (*Log In*) y registro (*Register Now*).
+
+* **Hero Section (Búsqueda Inicial y Propuesta de Valor):**
+  * Mensaje principal enfocado en encontrar parqueo seguro o monetizar cocheras privadas.
+  * Selector de rol para la interfaz (*I'm a Driver* / *I'm a Parking Owner*).
+  * Botones de llamada a la acción (*Book Now*, *Learn More*).
+  * **Quick Garage Finder:** Formulario flotante para filtrar búsqueda por distrito/avenida, tipo de vehículo y tarifa máxima por hora.
+
+* **Available Parking Spaces Nearby (Búsqueda en Tiempo Real):**
+  * Listado de tarjetas de cocheras con precio por hora, dirección, atributos (*24/7 Surveillance*, *Automatic Gate*, *Compact Auto*) y calificación de usuarios.
+  * Mapa dinámico e interactivo adjunto que muestra los marcadores de geolocalización y precios en tiempo real.
+
+* **Platform Video Demonstrations & Case Studies (Media & Demos):**
+  * Reproductores de video integrados con casos de estudio y demostraciones técnicas: *About the Team* (proceso de desarrollo y visión urbana) y *ParkShare Platform* (presentación oficial y validación de necesidades).
+
+* **Transparent Pricing & Flexible Plans (Pricing):**
+  * Comparativa de planes según el tipo de usuario:
+    * **Pay As You Go (S/. 5.00/hr avg):** Para conductores ocasionales.
+    * **Driver Pass (S/. 29.90/month):** Opción destacada con descuentos en tarifa horaria y cola de reserva prioritaria.
+    * **Garage Owner (0% monthly fee):** Publicación gratuita y pagos automáticos para propietarios.
+
+* **Simple Step-by-Step Flow (How It Works):**
+  * Explicación del ciclo de servicio en cuatro etapas correlativas:
+    1. **Requested:** Selección de cochera en el mapa y envío de solicitud.
+    2. **Confirmed:** Notificación del propietario y reserva del espacio.
+    3. **In Use:** Estacionamiento seguro y temporizador activo durante la estancia.
+    4. **Finished:** Confirmación de salida, liberación automática de pago y evaluación mutua.
+
+* **Calculate Your Monthly Earnings as an Owner (Calculator):**
+  * Widget interactivo que permite a los propietarios estimar sus ingresos mensuales (ej. S/. 1,008.00) ajustando variables como horas disponibles al día y tarifa por hora.
+
+* **Trust & Document Verification (Verification):**
+  * Módulo enfocado en la seguridad y validación de la comunidad con opción para subir documentación (*Upload Document*):
+    * **National ID / DNI:** Verificación de identidad de conductores y propietarios.
+    * **Driver's License & Plate:** Confirmación de licencia autorizada y placa vehicular.
+    * **Property Title or Utility Bill:** Validación de legitimidad de la propiedad o cochera.
+
+* **Frequently Asked Questions (FAQ):**
+  * Acordeón interactivo con preguntas frecuentes sobre el cálculo de tarifas, límites de tamaño vehicular y métodos de pago a propietarios.
+
+* **Footer:**
+  * Pie de página con el logo, declaración del servicio, enlaces de navegación, módulos del usuario, políticas legales/privacidad y derechos de autor.
+
+  <div style="text-align:center;"><img src="../assets/landing-page/Landing-page-wireframe1.png" alt="texto"></div>
+  <div style="text-align:center;"><img src="../assets/landing-page/Landing-page-wireframe2.png" alt="texto"></div>
+  <div style="text-align:center;"><img src="../assets/landing-page/Landing-page-wireframe3.png" alt="texto"></div>
+  <div style="text-align:center;"><img src="../assets/landing-page/Landing-page-wireframe4.png" alt="texto"></div>
+
 ### 4.3.2. Landing Page Mock-up.
 ### 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
