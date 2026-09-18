@@ -346,7 +346,52 @@ La aplicación te orienta en todo momento mientras buscas:
 
 ### 4.2.5. Navigation Systems.
 
+Se busca que el usuario nunca esté a más de tres interacciones de realizar una acción clave, como buscar una plaza disponible, realizar una reserva, calcular tarifas o validar credenciales.
 
+### Navegación Global (Menú superior persistente)
+Se implementa mediante una barra de navegación horizontal fija en la parte superior que otorga acceso directo a los módulos principales del sistema:
+* **Search:** Búsqueda rápida de estacionamientos disponibles por ubicación o zona.
+* **How it works:** Guía explicativa sobre el funcionamiento del sistema de alquiler y uso de plazas.
+* **Media & Demos:** Demostraciones visuales y material interactivo de la plataforma.
+* **Pricing:** Estructura de tarifas, planes y costos del servicio.
+* **Calculator:** Herramienta interactiva para proyectar o estimar costos de estacionamiento.
+* **Verification:** Módulo para la validación de identidad, vehículos o permisos.
+* **Selector de Idioma (EN / ES):** Cambio inmediato de interfaz entre inglés y español.
+* **Acceso de Usuario (Log In / Register Now):** Botones directos para la autenticación e inicio de sesión.
+
+Esta estructura asegura una navegación clara y accesible desde cualquier sección del sitio.
+
+---
+
+### Navegación de Contexto (Breadcrumbs / Rutas)
+Permite al usuario ubicarse dentro del flujo de la plataforma mediante rutas jerárquicas como:
+* `Search` > `Lima Centro` > `Estacionamiento A` > `Reservar`
+* `Calculator` > `Tarifa Nocturna` > `Estimación de Costo`
+* `Verification` > `Documentación` > `Validación de Vehículo`
+
+Esto facilita la orientación del usuario respecto a su posición actual en la aplicación.
+
+---
+
+### Navegación Local
+Dentro de cada módulo se organizan las funcionalidades específicas mediante pestañas o secciones internas:
+* **En la ficha de un estacionamiento:** Detalles de la plaza, Disponibilidad en tiempo real, Tarifas por hora/día, Reseñas.
+* **En el perfil de usuario:** Historial de reservas, Métodos de pago, Vehículos registrados, Alertas.
+
+Esto evita la saturación visual al categorizar la información relevante.
+
+---
+
+### Acciones Rápidas
+Se integran botones de llamada a la acción (CTA) destacados para optimizar los flujos más frecuentes:
+* **Register Now:** Botón principal para el registro inmediato de nuevos usuarios.
+* **Log In:** Acceso directo a la cuenta personal.
+* **Buscar / Reservar:** Botones directos dentro de los resultados para completar la reserva en pocos pasos.
+
+---
+
+### Navegación Adaptativa (Responsive)
+La barra de navegación ajusta su distribución según la pantalla (desktop, tablet, móvil). En dispositivos móviles, los enlaces centrales se colapsan en un menú desplegable (hamburguesa), manteniendo los botones clave de acceso rápido para priorizar la usabilidad en pantallas pequeñas.
 
 
 ### 4.3. Landing Page UI Design.
