@@ -455,6 +455,16 @@ La *landing page* de Proyect-Park-Share presenta una estructura clara y orientad
   <div style="text-align:center;"><img src="../assets/landing-page/Landing-page-wireframe4.png" alt="texto"></div>
 
 ### 4.3.2. Landing Page Mock-up.
+
+El wireframe de la landing page en su versión de escritorio ha permitido organizar de forma clara y jerárquica los elementos principales de Proyect-Park-Share, facilitando la presentación de la propuesta de valor centrada en la búsqueda de estacionamientos seguros y la monetización de cocheras privadas en Lima. A partir de esta estructura inicial, se desarrolló el mockup de la interfaz, manteniendo coherencia con las funcionalidades definidas, como la localización en tiempo real con mapa interactivo, la simulación de ganancias, la verificación de documentos y el flujo estructurado de reserva.
+
+En la implementación final se puede apreciar el uso consistente de una paleta de colores basada en tonos azul marino y blanco con acentos verdes para botones clave, así como una tipografía moderna seleccionada, lo que contribuye a una estética limpia y tecnológica. Además, la distribución de secciones como el explorador de parqueos cercanos (*Quick Garage Finder*), los planes flexibles, las demostraciones en video y la guía paso a paso refuerzan la claridad y usabilidad de la plataforma. En conjunto, el diseño refleja una identidad visual alineada con los valores de seguridad, claridad y eficiencia operacional, transmitiendo confianza tanto para conductores como para propietarios de cocheras
+
+<div style="text-align:center;"><img src="../assets/landing-page/Landing-page-mockup1.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/landing-page/Landing-page-mockup2.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/landing-page/Landing-page-mockup3.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/landing-page/Landing-page-mockup4.png" alt="texto"></div>
+
 ### 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 ### 4.4.2. Web Applications Wireflow Diagrams.
