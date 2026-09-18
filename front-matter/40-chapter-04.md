@@ -346,7 +346,56 @@ La aplicación te orienta en todo momento mientras buscas:
 
 ### 4.2.5. Navigation Systems.
 
+#### 4.2.5. Navigation Systems
 
+El sistema de navegación orienta a conductores y propietarios para que se desplacen por la plataforma de manera fluida y predecible, facilitando el logro de sus metas sin rodeos.
+
+Se prioriza un recorrido práctico y adaptable tanto a la página web de presentación como a la aplicación operativa.
+
+
+
+### Navegación Principal del Sistema
+
+La aplicación utiliza un menú lateral persistente que conecta directamente con los módulos clave:
+
+* Mapa: Acceso inmediato a la localización de cocheras.
+* Mis Reservas: Panel de control de solicitudes y tiempos de parqueo.
+* Mis Cocheras: Gestión de espacios publicados y horarios.
+* Mis Ingresos: Resumen de ganancias y transferencias.
+
+
+
+### Navegación en la Landing Page
+
+La página web de bienvenida incluye una barra superior (*navbar*) orientada a informar y captar nuevos usuarios:
+
+* Inicio / Beneficios: Información clave sobre el servicio para conductores y dueños.
+* Cómo Funciona:** Guía visual rápida sobre cómo reservar o publicar.
+* Iniciar Sesión: Accesos directos a la plataforma.
+* Llamados a la Acción (CTA): Informacion relavante de la pagina, asi como los medio de contacto.
+
+
+Navegación Contextual
+
+Permite realizar acciones sin salir del flujo de trabajo actual mediante:
+
+* Botones de Acción Directa: Opciones de "Reservar", "Confirmar Llegada"* o "Subir Licencia" dentro de la misma pantalla.
+* Fichas de Detalle: Enlaces dentro del mapa para ver fotos del garaje, contactar al dueño o solicitar ayuda.
+* Migas de Pan: Indicadores de ruta para volver fácil a secciones anteriores.
+
+
+#### Flujos de Navegación
+
+Guiado según los objetivos de cada rol dentro de la plataforma:
+
+* Conductor (Reserva rápida):
+*Inicio -> Búsqueda en Mapa -> Selección de Cochera -> Confirmación y Pago -> Iniciar Parqueo
+
+* Propietario (Publicación de espacio):
+*Mi Perfil -> Mis Cocheras -> Publicar Espacio -> Subir Fotos y Horarios ->Espacio Disponible*
+
+* Gestión de Reserva Activa:
+*Mis Reservas -> Detalle de Reserva ->  Confirmar Llegada -> Finalizar Parqueo*
 
 
 ### 4.3. Landing Page UI Design.
