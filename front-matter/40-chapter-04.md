@@ -736,21 +736,6 @@ Este contexto complementa los procesos principales de ParkShare mediante mecanis
 
 ---
 
-#### Interacción entre Bounded Contexts
-
-Aunque cada Bounded Context mantiene responsabilidades propias, existen eventos relevantes que permiten relacionar los distintos procesos del dominio.
-
-El flujo general representado en el Design-Level Event Storming puede interpretarse de la siguiente manera:
-
-1. **Identity & Access** registra y verifica la información del conductor o propietario.
-2. **Parking Space Management** permite al propietario publicar un espacio y administrar su disponibilidad.
-3. **Booking** permite al conductor buscar espacios disponibles y solicitar una reserva, la cual puede ser confirmada o rechazada por el propietario.
-4. **Payments & Payouts** administra las operaciones económicas asociadas a las reservas.
-5. **Parking Operations** gestiona el pase de estacionamiento, la autorización de acceso y el inicio y finalización de la sesión.
-6. **Reputation & Notifications** permite registrar calificaciones y generar notificaciones relacionadas con las operaciones de ParkShare.
-
-Esta división permite que cada área mantenga claramente delimitadas sus responsabilidades y facilita la posterior definición de los elementos de la arquitectura de software.
-
 #### Evidencia del Design-Level Event Storming
 
 El siguiente diagrama, elaborado en Miro, representa el Design-Level Event Storming de ParkShare. En él se muestran los seis Bounded Contexts identificados y los principales Actors, Commands, Aggregates, Domain Events y Queries / Read Models involucrados en los procesos del dominio.
