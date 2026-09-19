@@ -49,7 +49,7 @@
 | U202113310         | Tello Palacios, Fabrizio Rafael |
 | [Completar código] | Checa Burga, Oscar Diego        |
 | U20241D945         | Yanac Flores, Gabriel Stefano   |
-| [Completar código] | [Completar nombre]              |
+| u202317338         | Palomino Vilcañaupa, Daril Johan|
 | [Completar código] | [Completar nombre]              |
 
 <br>
