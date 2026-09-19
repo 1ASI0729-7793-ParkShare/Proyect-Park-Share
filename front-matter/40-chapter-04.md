@@ -344,7 +344,7 @@ La aplicación te orienta en todo momento mientras buscas:
   
 * Cambio al instante: Cada vez que activas un filtro (como "Cochera techada"), la lista y el mapa se actualizan inmediatamente sin necesidad de recargar la página.
 
-### 4.2.5. Navigation Systems.
+### 4.2.5. Navigation Systems
 
 Se busca que el usuario nunca esté a más de tres interacciones de realizar una acción clave, como buscar una plaza disponible, realizar una reserva, calcular tarifas o validar credenciales.
 
