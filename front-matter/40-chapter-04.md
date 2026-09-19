@@ -1,4 +1,5 @@
-###  4.1. Style Guidelines.
+### 4.1. Style Guidelines.
+
 ### 4.1.1. General Style Guidelines.
 
 El diseño visual de Proyect-Park-Share se basa en los principios de claridad, confiabilidad y agilidad operacional. Está pensado para conductores que buscan un estacionamiento sin perder tiempo y propietarios que desean rentabilizar sus cocheras de manera segura y sin complicaciones.
@@ -7,36 +8,36 @@ Se prioriza una interfaz limpia e intuitiva, fácil de usar tanto para jóvenes 
 
 #### Principios de diseño:
 
-* Simplicidad: Interfaces despejadas y con baja carga cognitiva para que la reserva o publicación de una cochera se realice en pocos pasos.
+- Simplicidad: Interfaces despejadas y con baja carga cognitiva para que la reserva o publicación de una cochera se realice en pocos pasos.
 
-* Consistencia: Uso uniforme de patrones visuales, botones y componentes en toda la plataforma para facilitar el aprendizaje.
+- Consistencia: Uso uniforme de patrones visuales, botones y componentes en toda la plataforma para facilitar el aprendizaje.
 
-* Jerarquía visual: Organización de la información según su urgencia, destacando datos críticos como el estado de la reserva, la ubicación en el mapa y el costo por hora.
+- Jerarquía visual: Organización de la información según su urgencia, destacando datos críticos como el estado de la reserva, la ubicación en el mapa y el costo por hora.
 
-* Accesibilidad: Diseñado con contrastes adecuados, tipografía legible y botones amplios para asegurar un uso cómodo en cualquier condición.
+- Accesibilidad: Diseñado con contrastes adecuados, tipografía legible y botones amplios para asegurar un uso cómodo en cualquier condición.
 
 #### Paleta de colores:
-La combinación de colores transmite seguridad, transparencia y dinamismo urbano:
 
+La combinación de colores transmite seguridad, transparencia y dinamismo urbano:
 
 ![PaletadeColores](/report/assets/paletadecolores.png)
 
-
 ### Tipografía:
+
 Se selecciona la familia tipográfica Inter por su excelente legibilidad en pantallas digitales de diversos tamaños y su apariencia clara y moderna.
 
 #### Jerarquía tipográfica:
 
-* Heading 1: Títulos principales, Inter, Bold, 28px – 34px.
+- Heading 1: Títulos principales, Inter, Bold, 28px – 34px.
 
-* Heading 2: Subtítulos y secciones, Inter, Semi-Bold, 20px – 24px.
+- Heading 2: Subtítulos y secciones, Inter, Semi-Bold, 20px – 24px.
 
-* Heading 3: Encabezados de tarjetas o modales, Inter, Medium, 16px – 18px.
+- Heading 3: Encabezados de tarjetas o modales, Inter, Medium, 16px – 18px.
 
-* Body Text: Texto principal y formularios, Inter, Regular, 14px – 16px.
-
+- Body Text: Texto principal y formularios, Inter, Regular, 14px – 16px.
 
 #### Espaciado:
+
 Se adopta un sistema basado en múltiplos de 8px para asegurar una alineación precisa:
 
 8px: Separación mínima entre elementos estrechos.
@@ -46,7 +47,6 @@ Se adopta un sistema basado en múltiplos de 8px para asegurar una alineación p
 24px: Distancia entre tarjetas o bloques de información.
 
 32px: Margen entre secciones principales del documento o pantalla.
-
 
 #### Tono de comunicación:
 
@@ -60,57 +60,55 @@ Claro y sereno: Enfocado en resolver la necesidad de parqueo sin distracciones n
 
 1. #### Diseño y Distribución de la Pantalla (Layout)
 
-* La plataforma web de Proyect-Park-Share está diseñada para que la búsqueda y el alquiler de cocheras se realicen de forma rápida e intuitiva.
+- La plataforma web de Proyect-Park-Share está diseñada para que la búsqueda y el alquiler de cocheras se realicen de forma rápida e intuitiva.
 
-* Menú Lateral: Una barra fija a la izquierda permite gestionar las cocheras registradas, revisar el historial de reservas y configurar la cuenta.
+- Menú Lateral: Una barra fija a la izquierda permite gestionar las cocheras registradas, revisar el historial de reservas y configurar la cuenta.
 
-* Área Principal: Pantalla dividida que muestra el mapa dinámico a un lado y la lista de opciones de parqueo al otro, permitiendo comparar alternativas fácilmente.
+- Área Principal: Pantalla dividida que muestra el mapa dinámico a un lado y la lista de opciones de parqueo al otro, permitiendo comparar alternativas fácilmente.
 
-* Tarjetas de Información: Recuadros limpios donde se agrupa la información de cada cochera (fotos, precio por hora, dirección y calificación).
+- Tarjetas de Información: Recuadros limpios donde se agrupa la información de cada cochera (fotos, precio por hora, dirección y calificación).
 
 2. #### Organización en Rejilla (Grid System)
 
 Para asegurar una presentación limpia y adaptada a distintas pantallas:
 
-* Sistema de grilla flexible basado en 12 columnas para mantener los elementos alineados.
+- Sistema de grilla flexible basado en 12 columnas para mantener los elementos alineados.
 
-* Espaciado uniforme guiado por múltiplos de 8px (8px, 16px, 24px) que evita la saturación visual.
+- Espaciado uniforme guiado por múltiplos de 8px (8px, 16px, 24px) que evita la saturación visual.
 
 3. #### Componentes Visuales de la Interfaz
 
-* Tablas de Historial: Utilizadas para detallar las reservas pasadas y los ingresos del propietario, incluyendo filtros por fecha y barra de búsqueda.
+- Tablas de Historial: Utilizadas para detallar las reservas pasadas y los ingresos del propietario, incluyendo filtros por fecha y barra de búsqueda.
 
-* Acciones Principales: En tonos azul o verde para acciones clave como "Reservar ahora" o "Publicar cochera".
+- Acciones Principales: En tonos azul o verde para acciones clave como "Reservar ahora" o "Publicar cochera".
 
-* Acciones Secundarias: Botones neutros para acciones como "Ver detalles" o "Volver".
+- Acciones Secundarias: Botones neutros para acciones como "Ver detalles" o "Volver".
 
-* Estados: Variaciones visuales para indicar cuando el botón está activo, en hover o deshabilitado.
+- Estados: Variaciones visuales para indicar cuando el botón está activo, en hover o deshabilitado.
 
-* Etiquetas de Estado: Indicadores visuales en color para identificar rápidamente la situación del parqueo (Disponible, Solicitud Pendiente, Ocupado).
+- Etiquetas de Estado: Indicadores visuales en color para identificar rápidamente la situación del parqueo (Disponible, Solicitud Pendiente, Ocupado).
 
-* Formularios: Campos sencillos con etiquetas claras superiores y validación en tiempo real (por ejemplo: "Ingrese una placa válida").
+- Formularios: Campos sencillos con etiquetas claras superiores y validación en tiempo real (por ejemplo: "Ingrese una placa válida").
 
-* Avisos y Notificaciones: Alertas flotantes (Toasts) que confirman la reserva o notifican cuando el tiempo de estacionamiento está por concluir.
+- Avisos y Notificaciones: Alertas flotantes (Toasts) que confirman la reserva o notifican cuando el tiempo de estacionamiento está por concluir.
 
 4. #### Comportamiento Visual e Interacción
 
-* Respuesta Inmediata: Confirmación visual instantánea tras cada acción (guardar datos, solicitar parqueo o cancelar).
+- Respuesta Inmediata: Confirmación visual instantánea tras cada acción (guardar datos, solicitar parqueo o cancelar).
 
-* Reglas del Flujo: El sistema bloquea acciones no permitidas, como solicitar una cochera si el vehículo excede las dimensiones permitidas.
+- Reglas del Flujo: El sistema bloquea acciones no permitidas, como solicitar una cochera si el vehículo excede las dimensiones permitidas.
 
-* Líneas de Tiempo: Una barra de progreso muestra la etapa actual del servicio (Solicitado > Confirmado > En uso > Finalizado).
+- Líneas de Tiempo: Una barra de progreso muestra la etapa actual del servicio (Solicitado > Confirmado > En uso > Finalizado).
 
-5. Adaptación a Pantallas 
+5. Adaptación a Pantallas
 
 - Versión Desktop: Vista completa a pantalla dividida con el mapa interactivo y la lista de resultados en paralelo.
 
-
 6. Navegación e Iconos
 
-* Barra Superior: Acceso rápido al inicio, selector para alternar entre el perfil de Conductor o Propietario y acceso a la cuenta.
+- Barra Superior: Acceso rápido al inicio, selector para alternar entre el perfil de Conductor o Propietario y acceso a la cuenta.
 
-* Iconos: Símbolos simples y de rápida asociación (lupa para buscar, pin para ubicación, auto para parqueo y candado para seguridad).
-
+- Iconos: Símbolos simples y de rápida asociación (lupa para buscar, pin para ubicación, auto para parqueo y candado para seguridad).
 
 ### 4.2. Information Architecture.
 
@@ -118,39 +116,37 @@ La arquitectura de información de Proyect-Park-Share está pensada para que tan
 
 Se prioriza una estructura sencilla orientada a tareas directas: encontrar una cochera, reservarla o ponerla en alquiler en pocos pasos.
 
-
 ### 4.2.1. Organization Systems.
 
 Los sistemas de organización estructuran los datos de la plataforma para que cualquier usuario pueda realizar sus gestiones sin complicaciones ni rodeos. Para lograrlo, combinamos formas visuales de ordenar la pantalla con listas lógicas adaptadas al uso diario.
 
 #### Organización visual del contenido:
 
-* Organización jerárquica: Se aplica en la pantalla principal y en los detalles del parqueo. Muestra primero la información indispensable (ubicación en el mapa, precio por hora y disponibilidad) y deja en segundo plano los datos secundarios.
+- Organización jerárquica: Se aplica en la pantalla principal y en los detalles del parqueo. Muestra primero la información indispensable (ubicación en el mapa, precio por hora y disponibilidad) y deja en segundo plano los datos secundarios.
 
-* Organización secuencial (Paso a paso): Se utiliza en los procesos principales como el registro de usuarios, la verificación de identidad (DNI y placa) y el flujo de reserva. Guía al usuario paso a paso para evitar equivocaciones.
+- Organización secuencial (Paso a paso): Se utiliza en los procesos principales como el registro de usuarios, la verificación de identidad (DNI y placa) y el flujo de reserva. Guía al usuario paso a paso para evitar equivocaciones.
 
-* Organización matricial: Se aplica en las tablas del panel de control (dashboard). Permite a los propietarios ver de un vistazo varios datos a la vez, como fechas, montos cobrados y estado de sus alquileres.
+- Organización matricial: Se aplica en las tablas del panel de control (dashboard). Permite a los propietarios ver de un vistazo varios datos a la vez, como fechas, montos cobrados y estado de sus alquileres.
 
 #### Categorización del contenido:
 
-* Tipo de usuario: La plataforma adapta lo que muestra según el rol activo. Los conductores ven opciones de búsqueda y reservas, mientras que los propietarios acceden a la publicación y cobros.
+- Tipo de usuario: La plataforma adapta lo que muestra según el rol activo. Los conductores ven opciones de búsqueda y reservas, mientras que los propietarios acceden a la publicación y cobros.
 
-*Por Secciones: El contenido se agrupa por áreas de interés: Búsqueda, Mis Reservas, Mis Cocheras y Pagos.
+\*Por Secciones: El contenido se agrupa por áreas de interés: Búsqueda, Mis Reservas, Mis Cocheras y Pagos.
 
-* Cronológica: Organiza los historiales de alquileres y los cobros realizados de más reciente a más antiguo.
-
+- Cronológica: Organiza los historiales de alquileres y los cobros realizados de más reciente a más antiguo.
 
 #### Módulos principales del sistema:
 
-* Inicio / Buscador: Vista principal con el mapa interactivo para ubicar cocheras cercanas.
+- Inicio / Buscador: Vista principal con el mapa interactivo para ubicar cocheras cercanas.
 
-* Mis Reservas: Sección donde el conductor revisa sus alquileres activos y pasados.
+- Mis Reservas: Sección donde el conductor revisa sus alquileres activos y pasados.
 
-* Mis Cocheras: Panel del propietario para administrar sus espacios, precios y horarios.
+- Mis Cocheras: Panel del propietario para administrar sus espacios, precios y horarios.
 
-* Pagos e Ingresos: Espacio para gestionar tarjetas de crédito/débito y revisar las ganancias obtenidas.
+- Pagos e Ingresos: Espacio para gestionar tarjetas de crédito/débito y revisar las ganancias obtenidas.
 
-* Perfil y Verificación: Lugar para subir documentos personales (DNI, licencia de conducir y tarjeta de propiedad).
+- Perfil y Verificación: Lugar para subir documentos personales (DNI, licencia de conducir y tarjeta de propiedad).
 
 ### 4.2.2. Labeling Systems.
 
@@ -232,52 +228,42 @@ Sirven para mostrar de forma limpia cómo se conectan los datos dentro de la pla
 
 Las etiquetas SEO y las etiquetas Meta de **Proyect-Park-Share** permiten que la plataforma se posicione adecuadamente en los motores de búsqueda como Google. Su función principal es describir de forma directa el propósito de cada vista dentro de la web para ayudar a que los conductores que necesitan estacionamiento y los dueños de estacionamientos nos encuentren fácilmente.
 
-Se configuran directamente en el encabezado HTML de cada vista principal del sitio web y la aplicación mediante los atributos *Title*, *Meta Description*, *Keywords* y *Author*.
-
-
+Se configuran directamente en el encabezado HTML de cada vista principal del sitio web y la aplicación mediante los atributos _Title_, _Meta Description_, _Keywords_ y _Author_.
 
 #### Página Principal / Bienvenida (Landing Page)
 
-* Title: Proyect-Park-Share | Tu Red de Cocheras Privadas en Lima
-* Meta Description:Olvídate del tráfico y busca un estacionamiento seguro por horas o pon en alquiler tu cochera libre para generar dinero extra.
-* Keywords: parqueo en lima, estacionamiento por hora, alquilar mi cochera, estacionamiento privado, parqueo seguro
-* Author: Equipo Proyect-Park-Share
-
-
+- Title: Proyect-Park-Share | Tu Red de Cocheras Privadas en Lima
+- Meta Description:Olvídate del tráfico y busca un estacionamiento seguro por horas o pon en alquiler tu cochera libre para generar dinero extra.
+- Keywords: parqueo en lima, estacionamiento por hora, alquilar mi cochera, estacionamiento privado, parqueo seguro
+- Author: Equipo Proyect-Park-Share
 
 #### Buscador e Integración de Mapa
 
-* Title: Ubicar Estacionamientos Cercanos | Proyect-Park-Share
-* Meta Description: Consulta las cocheras disponibles cerca de tu posición en tiempo real, compara costos por hora y realiza tu reserva al instante.
-* Keywords: mapa de parqueos, cocheras libres, reservar estacionamiento, costo por hora parqueo
-* Author: Equipo Proyect-Park-Share
-
-
+- Title: Ubicar Estacionamientos Cercanos | Proyect-Park-Share
+- Meta Description: Consulta las cocheras disponibles cerca de tu posición en tiempo real, compara costos por hora y realiza tu reserva al instante.
+- Keywords: mapa de parqueos, cocheras libres, reservar estacionamiento, costo por hora parqueo
+- Author: Equipo Proyect-Park-Share
 
 #### Módulo de Registro de Espacios (Para Propietarios)
 
-* Title: Publica tu Garage y Genera Ingresos | Proyect-Park-Share
-* Meta Description: Registra tu espacio de parqueo desocupado, establece las horas en que está libre y recibe pagos seguros por cada alquiler.
-* Keywords: ganar dinero con mi cochera, rentar garage desocupado, alquiler de estacionamiento lima
-* Author: Equipo Proyect-Park-Share
-
+- Title: Publica tu Garage y Genera Ingresos | Proyect-Park-Share
+- Meta Description: Registra tu espacio de parqueo desocupado, establece las horas en que está libre y recibe pagos seguros por cada alquiler.
+- Keywords: ganar dinero con mi cochera, rentar garage desocupado, alquiler de estacionamiento lima
+- Author: Equipo Proyect-Park-Share
 
 #### Acceso y Registro de Usuarios
 
-* Title: Entrar a la Plataforma | Proyect-Park-Share
-* Meta Description: Inicia sesión con tu cuenta para administrar tus solicitudes de parqueo activas o revisar los alquileres de tu cochera.
-* Keywords: ingreso proyect park share, entrar a mi cuenta, login estacionamiento
-* Author: Equipo Proyect-Park-Share
-
-
+- Title: Entrar a la Plataforma | Proyect-Park-Share
+- Meta Description: Inicia sesión con tu cuenta para administrar tus solicitudes de parqueo activas o revisar los alquileres de tu cochera.
+- Keywords: ingreso proyect park share, entrar a mi cuenta, login estacionamiento
+- Author: Equipo Proyect-Park-Share
 
 #### Panel Principal de Gestión -Dashboard:
 
-* Title: Resumen de Mi Cuenta | Proyect-Park-Share
-* Meta Description: Administra el estado de tus reservas, verifica el conteo de tiempo de parqueo y revisa las ganancias del mes.
-* Keywords: resumen de reservas, historial de pagos, panel de control cochera
-* Author: Equipo Proyect-Park-Share
-
+- Title: Resumen de Mi Cuenta | Proyect-Park-Share
+- Meta Description: Administra el estado de tus reservas, verifica el conteo de tiempo de parqueo y revisa las ganancias del mes.
+- Keywords: resumen de reservas, historial de pagos, panel de control cochera
+- Author: Equipo Proyect-Park-Share
 
 ### 4.2.4. Searching Systems.
 
@@ -285,17 +271,14 @@ El sistema de búsqueda está pensado para que los conductores encuentren un par
 
 Se da prioridad a una búsqueda sencilla, directa y fácil de usar en el día a día, permitiendo ubicar el espacio ideal en pocos clics.
 
-
 #### Tipos y Formas de Búsqueda
 
 La plataforma incluye una barra de búsqueda clara en la pantalla principal y en el mapa interactivo. El usuario puede buscar un espacio utilizando distintos datos cotidianos:
 
-* Dirección o avenida principal (por ejemplo: "Av. Javier Prado").
-* Distrito o zona específica (por ejemplo: *"Surco"* o "Miraflores").
-* Puntos de referencia conocidos (por ejemplo: "Cerca al centro comercial" o "Frente a la universidad").
-* Nombre del propietario o código de la cochera.
-
-
+- Dirección o avenida principal (por ejemplo: "Av. Javier Prado").
+- Distrito o zona específica (por ejemplo: _"Surco"_ o "Miraflores").
+- Puntos de referencia conocidos (por ejemplo: "Cerca al centro comercial" o "Frente a la universidad").
+- Nombre del propietario o código de la cochera.
 
 #### Filtros para Ajustar la Búsqueda
 
@@ -303,151 +286,150 @@ Para ayudar al conductor a encontrar justo lo que necesita, el sistema permite f
 
 ##### En la búsqueda de parqueos:
 
-* Rango de precio por hora.
-* Horario y fecha necesaria.
-* Tamaño del vehículo (auto compacto, camioneta, moto).
-* Características (cochera techada, portón automático, vigilancia).
-
+- Rango de precio por hora.
+- Horario y fecha necesaria.
+- Tamaño del vehículo (auto compacto, camioneta, moto).
+- Características (cochera techada, portón automático, vigilancia).
 
 ##### En la lista de reservas del usuario:
 
-* Estado de la reserva (activa, pendiente, finalizada, cancelada).
-* Fecha de alquiler.
+- Estado de la reserva (activa, pendiente, finalizada, cancelada).
+- Fecha de alquiler.
 
 ##### En el panel del propietario:
-* Cocheras libres u ocupadas.
-* Histórico de cobros por fecha.
 
-
-
-
+- Cocheras libres u ocupadas.
+- Histórico de cobros por fecha.
 
 #### Presentación de los Resultados
 
 Las opciones encontradas se organizan en pantalla de dos maneras fáciles de entender:
 
-* Pines en el Mapa: Puntos de ubicación que muestran directamente el costo por hora sobre la zona seleccionada. Al presionar un punto, se abre una vista previa con la foto del garaje.
-  
-* Tarjetas en Lista: Cuadros ordenados por cercanía o menor precio que resumen la foto de la cochera, la distancia, la tarifa y la calificación del dueño.
-  
-* Resultados Ordenados: Posibilidad de ordenar la lista por el precio más bajo, la distancia más corta o las mejores opiniones.
-
-
+- Pines en el Mapa: Puntos de ubicación que muestran directamente el costo por hora sobre la zona seleccionada. Al presionar un punto, se abre una vista previa con la foto del garaje.
+- Tarjetas en Lista: Cuadros ordenados por cercanía o menor precio que resumen la foto de la cochera, la distancia, la tarifa y la calificación del dueño.
+- Resultados Ordenados: Posibilidad de ordenar la lista por el precio más bajo, la distancia más corta o las mejores opiniones.
 
 #### Avisos y Respuestas del Sistema
 
 La aplicación te orienta en todo momento mientras buscas:
 
-* Sin resultados:  Si no hay lugares libres en la zona elegida, la pantalla te avisa claramente y te sugiere ampliar el radio de búsqueda a calles cercanas.
-  
-* Carga rápida: Si la señal está lenta, un pequeño ícono visual indica que los datos se están actualizando.
-  
-* Cambio al instante: Cada vez que activas un filtro (como "Cochera techada"), la lista y el mapa se actualizan inmediatamente sin necesidad de recargar la página.
+- Sin resultados: Si no hay lugares libres en la zona elegida, la pantalla te avisa claramente y te sugiere ampliar el radio de búsqueda a calles cercanas.
+- Carga rápida: Si la señal está lenta, un pequeño ícono visual indica que los datos se están actualizando.
+- Cambio al instante: Cada vez que activas un filtro (como "Cochera techada"), la lista y el mapa se actualizan inmediatamente sin necesidad de recargar la página.
 
 ### 4.2.5. Navigation Systems
 
 Se busca que el usuario nunca esté a más de tres interacciones de realizar una acción clave, como buscar una plaza disponible, realizar una reserva, calcular tarifas o validar credenciales.
 
 ### Navegación Global (Menú superior persistente)
+
 Se implementa mediante una barra de navegación horizontal fija en la parte superior que otorga acceso directo a los módulos principales del sistema:
-* **Search:** Búsqueda rápida de estacionamientos disponibles por ubicación o zona.
-* **How it works:** Guía explicativa sobre el funcionamiento del sistema de alquiler y uso de plazas.
-* **Media & Demos:** Demostraciones visuales y material interactivo de la plataforma.
-* **Pricing:** Estructura de tarifas, planes y costos del servicio.
-* **Calculator:** Herramienta interactiva para proyectar o estimar costos de estacionamiento.
-* **Verification:** Módulo para la validación de identidad, vehículos o permisos.
-* **Selector de Idioma (EN / ES):** Cambio inmediato de interfaz entre inglés y español.
-* **Acceso de Usuario (Log In / Register Now):** Botones directos para la autenticación e inicio de sesión.
+
+- **Search:** Búsqueda rápida de estacionamientos disponibles por ubicación o zona.
+- **How it works:** Guía explicativa sobre el funcionamiento del sistema de alquiler y uso de plazas.
+- **Media & Demos:** Demostraciones visuales y material interactivo de la plataforma.
+- **Pricing:** Estructura de tarifas, planes y costos del servicio.
+- **Calculator:** Herramienta interactiva para proyectar o estimar costos de estacionamiento.
+- **Verification:** Módulo para la validación de identidad, vehículos o permisos.
+- **Selector de Idioma (EN / ES):** Cambio inmediato de interfaz entre inglés y español.
+- **Acceso de Usuario (Log In / Register Now):** Botones directos para la autenticación e inicio de sesión.
 
 Esta estructura asegura una navegación clara y accesible desde cualquier sección del sitio.
 
 ---
 
 ### Navegación de Contexto (Breadcrumbs / Rutas)
+
 Permite al usuario ubicarse dentro del flujo de la plataforma mediante rutas jerárquicas como:
-* `Search` > `Lima Centro` > `Estacionamiento A` > `Reservar`
-* `Calculator` > `Tarifa Nocturna` > `Estimación de Costo`
-* `Verification` > `Documentación` > `Validación de Vehículo`
+
+- `Search` > `Lima Centro` > `Estacionamiento A` > `Reservar`
+- `Calculator` > `Tarifa Nocturna` > `Estimación de Costo`
+- `Verification` > `Documentación` > `Validación de Vehículo`
 
 Esto facilita la orientación del usuario respecto a su posición actual en la aplicación.
 
 ---
 
 ### Navegación Local
+
 Dentro de cada módulo se organizan las funcionalidades específicas mediante pestañas o secciones internas:
-* **En la ficha de un estacionamiento:** Detalles de la plaza, Disponibilidad en tiempo real, Tarifas por hora/día, Reseñas.
-* **En el perfil de usuario:** Historial de reservas, Métodos de pago, Vehículos registrados, Alertas.
+
+- **En la ficha de un estacionamiento:** Detalles de la plaza, Disponibilidad en tiempo real, Tarifas por hora/día, Reseñas.
+- **En el perfil de usuario:** Historial de reservas, Métodos de pago, Vehículos registrados, Alertas.
 
 Esto evita la saturación visual al categorizar la información relevante.
 
 ---
 
 ### Acciones Rápidas
+
 Se integran botones de llamada a la acción (CTA) destacados para optimizar los flujos más frecuentes:
-* **Register Now:** Botón principal para el registro inmediato de nuevos usuarios.
-* **Log In:** Acceso directo a la cuenta personal.
-* **Buscar / Reservar:** Botones directos dentro de los resultados para completar la reserva en pocos pasos.
+
+- **Register Now:** Botón principal para el registro inmediato de nuevos usuarios.
+- **Log In:** Acceso directo a la cuenta personal.
+- **Buscar / Reservar:** Botones directos dentro de los resultados para completar la reserva en pocos pasos.
 
 ---
 
 ### Navegación Adaptativa (Responsive)
-La barra de navegación ajusta su distribución según la pantalla (desktop, tablet, móvil). En dispositivos móviles, los enlaces centrales se colapsan en un menú desplegable (hamburguesa), manteniendo los botones clave de acceso rápido para priorizar la usabilidad en pantallas pequeñas.
 
+La barra de navegación ajusta su distribución según la pantalla (desktop, tablet, móvil). En dispositivos móviles, los enlaces centrales se colapsan en un menú desplegable (hamburguesa), manteniendo los botones clave de acceso rápido para priorizar la usabilidad en pantallas pequeñas.
 
 ### 4.3. Landing Page UI Design.
 
 ### 4.3.1. Landing Page Wireframe.
+
 **4.3.1 Landing Page Wireframe**
 
-La *landing page* de Proyect-Park-Share presenta una estructura clara y orientada a la conversión, iniciando con una sección principal (*Hero Section*) que introduce la solución para la reserva de estacionamientos seguros y el alquiler de cocheras privadas en Lima, resaltando beneficios como el ahorro de tiempo, la transparencia en tarifas y la conexión con propietarios verificados[cite: 5].
+La _landing page_ de Proyect-Park-Share presenta una estructura clara y orientada a la conversión, iniciando con una sección principal (_Hero Section_) que introduce la solución para la reserva de estacionamientos seguros y el alquiler de cocheras privadas en Lima, resaltando beneficios como el ahorro de tiempo, la transparencia en tarifas y la conexión con propietarios verificados[cite: 5].
 
 ### Estructura y Secciones del Wireframe
 
-* **Header / Navigation Bar:**
-  * **Branding:** Identificador visual y nombre del proyecto (*Proyect-Park-Share*).
-  * **Menú Principal:** Enlaces de acceso rápido a los módulos principales (*Search*, *How it works*, *Media & Demos*, *Pricing*, *Calculator*, *Verification*).
-  * **Herramientas y Accesos:** Selector de idioma (*EN / ES*) y botones directos para inicio de sesión (*Log In*) y registro (*Register Now*).
+- **Header / Navigation Bar:**
+  - **Branding:** Identificador visual y nombre del proyecto (_Proyect-Park-Share_).
+  - **Menú Principal:** Enlaces de acceso rápido a los módulos principales (_Search_, _How it works_, _Media & Demos_, _Pricing_, _Calculator_, _Verification_).
+  - **Herramientas y Accesos:** Selector de idioma (_EN / ES_) y botones directos para inicio de sesión (_Log In_) y registro (_Register Now_).
 
-* **Hero Section (Búsqueda Inicial y Propuesta de Valor):**
-  * Mensaje principal enfocado en encontrar parqueo seguro o monetizar cocheras privadas.
-  * Selector de rol para la interfaz (*I'm a Driver* / *I'm a Parking Owner*).
-  * Botones de llamada a la acción (*Book Now*, *Learn More*).
-  * **Quick Garage Finder:** Formulario flotante para filtrar búsqueda por distrito/avenida, tipo de vehículo y tarifa máxima por hora.
+- **Hero Section (Búsqueda Inicial y Propuesta de Valor):**
+  - Mensaje principal enfocado en encontrar parqueo seguro o monetizar cocheras privadas.
+  - Selector de rol para la interfaz (_I'm a Driver_ / _I'm a Parking Owner_).
+  - Botones de llamada a la acción (_Book Now_, _Learn More_).
+  - **Quick Garage Finder:** Formulario flotante para filtrar búsqueda por distrito/avenida, tipo de vehículo y tarifa máxima por hora.
 
-* **Available Parking Spaces Nearby (Búsqueda en Tiempo Real):**
-  * Listado de tarjetas de cocheras con precio por hora, dirección, atributos (*24/7 Surveillance*, *Automatic Gate*, *Compact Auto*) y calificación de usuarios.
-  * Mapa dinámico e interactivo adjunto que muestra los marcadores de geolocalización y precios en tiempo real.
+- **Available Parking Spaces Nearby (Búsqueda en Tiempo Real):**
+  - Listado de tarjetas de cocheras con precio por hora, dirección, atributos (_24/7 Surveillance_, _Automatic Gate_, _Compact Auto_) y calificación de usuarios.
+  - Mapa dinámico e interactivo adjunto que muestra los marcadores de geolocalización y precios en tiempo real.
 
-* **Platform Video Demonstrations & Case Studies (Media & Demos):**
-  * Reproductores de video integrados con casos de estudio y demostraciones técnicas: *About the Team* (proceso de desarrollo y visión urbana) y *ParkShare Platform* (presentación oficial y validación de necesidades).
+- **Platform Video Demonstrations & Case Studies (Media & Demos):**
+  - Reproductores de video integrados con casos de estudio y demostraciones técnicas: _About the Team_ (proceso de desarrollo y visión urbana) y _ParkShare Platform_ (presentación oficial y validación de necesidades).
 
-* **Transparent Pricing & Flexible Plans (Pricing):**
-  * Comparativa de planes según el tipo de usuario:
-    * **Pay As You Go (S/. 5.00/hr avg):** Para conductores ocasionales.
-    * **Driver Pass (S/. 29.90/month):** Opción destacada con descuentos en tarifa horaria y cola de reserva prioritaria.
-    * **Garage Owner (0% monthly fee):** Publicación gratuita y pagos automáticos para propietarios.
+- **Transparent Pricing & Flexible Plans (Pricing):**
+  - Comparativa de planes según el tipo de usuario:
+    - **Pay As You Go (S/. 5.00/hr avg):** Para conductores ocasionales.
+    - **Driver Pass (S/. 29.90/month):** Opción destacada con descuentos en tarifa horaria y cola de reserva prioritaria.
+    - **Garage Owner (0% monthly fee):** Publicación gratuita y pagos automáticos para propietarios.
 
-* **Simple Step-by-Step Flow (How It Works):**
-  * Explicación del ciclo de servicio en cuatro etapas correlativas:
+- **Simple Step-by-Step Flow (How It Works):**
+  - Explicación del ciclo de servicio en cuatro etapas correlativas:
     1. **Requested:** Selección de cochera en el mapa y envío de solicitud.
     2. **Confirmed:** Notificación del propietario y reserva del espacio.
     3. **In Use:** Estacionamiento seguro y temporizador activo durante la estancia.
     4. **Finished:** Confirmación de salida, liberación automática de pago y evaluación mutua.
 
-* **Calculate Your Monthly Earnings as an Owner (Calculator):**
-  * Widget interactivo que permite a los propietarios estimar sus ingresos mensuales (ej. S/. 1,008.00) ajustando variables como horas disponibles al día y tarifa por hora.
+- **Calculate Your Monthly Earnings as an Owner (Calculator):**
+  - Widget interactivo que permite a los propietarios estimar sus ingresos mensuales (ej. S/. 1,008.00) ajustando variables como horas disponibles al día y tarifa por hora.
 
-* **Trust & Document Verification (Verification):**
-  * Módulo enfocado en la seguridad y validación de la comunidad con opción para subir documentación (*Upload Document*):
-    * **National ID / DNI:** Verificación de identidad de conductores y propietarios.
-    * **Driver's License & Plate:** Confirmación de licencia autorizada y placa vehicular.
-    * **Property Title or Utility Bill:** Validación de legitimidad de la propiedad o cochera.
+- **Trust & Document Verification (Verification):**
+  - Módulo enfocado en la seguridad y validación de la comunidad con opción para subir documentación (_Upload Document_):
+    - **National ID / DNI:** Verificación de identidad de conductores y propietarios.
+    - **Driver's License & Plate:** Confirmación de licencia autorizada y placa vehicular.
+    - **Property Title or Utility Bill:** Validación de legitimidad de la propiedad o cochera.
 
-* **Frequently Asked Questions (FAQ):**
-  * Acordeón interactivo con preguntas frecuentes sobre el cálculo de tarifas, límites de tamaño vehicular y métodos de pago a propietarios.
+- **Frequently Asked Questions (FAQ):**
+  - Acordeón interactivo con preguntas frecuentes sobre el cálculo de tarifas, límites de tamaño vehicular y métodos de pago a propietarios.
 
-* **Footer:**
-  * Pie de página con el logo, declaración del servicio, enlaces de navegación, módulos del usuario, políticas legales/privacidad y derechos de autor.
+- **Footer:**
+  - Pie de página con el logo, declaración del servicio, enlaces de navegación, módulos del usuario, políticas legales/privacidad y derechos de autor.
 
   <div style="text-align:center;"><img src="../assets/landing-page/Landing-page-wireframe1.png" alt="texto"></div>
   <div style="text-align:center;"><img src="../assets/landing-page/Landing-page-wireframe2.png" alt="texto"></div>
@@ -458,7 +440,7 @@ La *landing page* de Proyect-Park-Share presenta una estructura clara y orientad
 
 El wireframe de la landing page en su versión de escritorio ha permitido organizar de forma clara y jerárquica los elementos principales de Proyect-Park-Share, facilitando la presentación de la propuesta de valor centrada en la búsqueda de estacionamientos seguros y la monetización de cocheras privadas en Lima. A partir de esta estructura inicial, se desarrolló el mockup de la interfaz, manteniendo coherencia con las funcionalidades definidas, como la localización en tiempo real con mapa interactivo, la simulación de ganancias, la verificación de documentos y el flujo estructurado de reserva.
 
-En la implementación final se puede apreciar el uso consistente de una paleta de colores basada en tonos azul marino y blanco con acentos verdes para botones clave, así como una tipografía moderna seleccionada, lo que contribuye a una estética limpia y tecnológica. Además, la distribución de secciones como el explorador de parqueos cercanos (*Quick Garage Finder*), los planes flexibles, las demostraciones en video y la guía paso a paso refuerzan la claridad y usabilidad de la plataforma. En conjunto, el diseño refleja una identidad visual alineada con los valores de seguridad, claridad y eficiencia operacional, transmitiendo confianza tanto para conductores como para propietarios de cocheras
+En la implementación final se puede apreciar el uso consistente de una paleta de colores basada en tonos azul marino y blanco con acentos verdes para botones clave, así como una tipografía moderna seleccionada, lo que contribuye a una estética limpia y tecnológica. Además, la distribución de secciones como el explorador de parqueos cercanos (_Quick Garage Finder_), los planes flexibles, las demostraciones en video y la guía paso a paso refuerzan la claridad y usabilidad de la plataforma. En conjunto, el diseño refleja una identidad visual alineada con los valores de seguridad, claridad y eficiencia operacional, transmitiendo confianza tanto para conductores como para propietarios de cocheras
 
 <div style="text-align:center;"><img src="../assets/landing-page/Landing-page-mockup1.png" alt="texto"></div>
 <div style="text-align:center;"><img src="../assets/landing-page/Landing-page-mockup2.png" alt="texto"></div>
@@ -466,7 +448,9 @@ En la implementación final se puede apreciar el uso consistente de una paleta d
 <div style="text-align:center;"><img src="../assets/landing-page/Landing-page-mockup4.png" alt="texto"></div>
 
 ### 4.4. Web Applications UX/UI Design.
+
 ### 4.4.1. Web Applications Wireframes.
+
 La aplicación web de Proyect-Park-Share constituye el núcleo operativo de la plataforma, permitiendo la interacción coordinada entre los actores clave del ecosistema de movilidad urbana: conductores que buscan estacionamiento seguro, propietarios de cocheras privadas que desean monetizar sus espacios y administradores de la red. El diseño de experiencia de usuario (UX) e interfaz de usuario (UI) se estructura para garantizar la visualización rigurosa de cocheras disponibles en tiempo real, la gestión centralizada de reservas y cobros, y la trazabilidad técnica y validación de seguridad de los vehículos y propiedades.
 
 ### 4.4.1. Web Applications Wireframes
@@ -484,10 +468,10 @@ Los wireframes de la aplicación web definen la disposición esquemática, la je
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-
-
 ### 4.4.2. Web Applications Mock-ups.
+
 ### 4.4.3. Web Applications User Flow Diagrams.
+
 ### 4.5. Web Applications Prototyping.
 
 A continuación, mostraremos un modelo interactivo de la aplicación web para ambos segmentos objetivo.
@@ -496,14 +480,230 @@ A continuación, mostraremos un modelo interactivo de la aplicación web para am
 
 Para el usuario **Conductor**, el dashboard (pantalla inicial) se muestra luego del inicio de sesión exitoso.
 
-
-
 ### 4.6. Domain-Driven Software Architecture.
-### 4.6.1. Design-Level Event Storming.
+
+### 4.6.1. Design-Level Event Storming
+
+El Design-Level Event Storming de ParkShare tiene como objetivo refinar el modelado general desarrollado previamente mediante Big Picture Event Storming, identificando con mayor precisión las responsabilidades del dominio, los comandos ejecutados por los usuarios, los eventos generados por el sistema, los agregados involucrados y las consultas necesarias para soportar los principales procesos de negocio.
+
+A partir de los eventos identificados previamente, el dominio fue organizado en Bounded Contexts que permiten separar las responsabilidades de ParkShare y reducir el acoplamiento entre las distintas áreas funcionales de la solución.
+
+#### Bounded Contexts identificados
+
+| Bounded Context            | Responsabilidad                                                                                                                       |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Identity & Access          | Gestiona el registro de usuarios, autenticación, selección de rol, perfiles, verificación de identidad y registro de vehículos.       |
+| Parking Space Management   | Gestiona la publicación de espacios de estacionamiento, sus características, disponibilidad, fotografías y tarifas.                   |
+| Booking                    | Gestiona la búsqueda de espacios, consulta de disponibilidad, solicitudes de reserva, confirmaciones y cancelaciones.                 |
+| Parking Operations         | Gestiona la autorización de acceso al espacio, inicio de la sesión de estacionamiento, monitoreo del uso y finalización de la sesión. |
+| Payments & Payouts         | Gestiona pagos realizados por conductores, cálculo de importes, registro de ingresos y transferencias hacia los propietarios.         |
+| Reputation & Notifications | Gestiona las calificaciones posteriores a una reserva y las notificaciones asociadas a eventos importantes del servicio.              |
+
+---
+
+#### Identity & Access Bounded Context
+
+Este Bounded Context concentra los procesos relacionados con la incorporación y validación de los usuarios dentro de ParkShare. Su responsabilidad principal es garantizar que conductores y propietarios posean una identidad correctamente registrada antes de interactuar con otras funcionalidades de la plataforma.
+
+**Aggregates principales:**
+
+- User
+- User Profile
+- Vehicle
+- Identity Verification
+
+| Tipo    | Elemento                         | Descripción                                                                       |
+| ------- | -------------------------------- | --------------------------------------------------------------------------------- |
+| Command | Register User                    | Registra un nuevo usuario en ParkShare.                                           |
+| Event   | User Registered                  | Se genera cuando el registro del usuario se completa correctamente.               |
+| Command | Select User Role                 | Define si el usuario actuará como conductor, propietario o ambos.                 |
+| Event   | User Role Selected               | Se genera cuando el usuario define su rol dentro de la plataforma.                |
+| Command | Submit Identity Verification     | Envía los datos necesarios para verificar la identidad.                           |
+| Event   | Identity Verification Initiated  | Indica que el proceso de verificación ha comenzado.                               |
+| Event   | Identity Verified                | Indica que la identidad del usuario fue validada correctamente.                   |
+| Event   | Identity Verification Failed     | Indica que la validación de identidad no pudo completarse.                        |
+| Command | Complete Driver Profile          | Completa la información correspondiente al conductor.                             |
+| Event   | Driver Profile Completed         | Se genera cuando el perfil del conductor queda completo.                          |
+| Command | Complete Property Owner Profile  | Completa la información correspondiente al propietario.                           |
+| Event   | Property Owner Profile Completed | Se genera cuando el perfil del propietario queda completo.                        |
+| Command | Register Vehicle                 | Registra un vehículo perteneciente al conductor.                                  |
+| Event   | Vehicle Plate Registered         | Se genera cuando la placa y los datos del vehículo son registrados correctamente. |
+| Query   | Get User Profile                 | Permite consultar los datos del perfil de un usuario.                             |
+| Query   | Get Verification Status          | Permite consultar el estado de verificación del usuario.                          |
+| Query   | Get Registered Vehicles          | Permite consultar los vehículos asociados al conductor.                           |
+
+---
+
+#### Parking Space Management Bounded Context
+
+Este contexto contiene las operaciones asociadas a los espacios de estacionamiento ofrecidos por los propietarios. Permite registrar, modificar y gestionar la información necesaria para que una cochera pueda ser encontrada y reservada por los conductores.
+
+**Aggregates principales:**
+
+- Parking Space
+- Listing
+- Availability Schedule
+- Parking Fee
+
+| Tipo    | Elemento                        | Descripción                                                    |
+| ------- | ------------------------------- | -------------------------------------------------------------- |
+| Command | Create Parking Space Listing    | Inicia el registro de un nuevo espacio de estacionamiento.     |
+| Event   | Parking Space Listing Initiated | Indica que el propietario comenzó el proceso de publicación.   |
+| Command | Publish Parking Space           | Publica un espacio de estacionamiento registrado.              |
+| Event   | Parking Space Listed            | Se genera cuando el espacio queda disponible en ParkShare.     |
+| Command | Update Parking Space            | Modifica las características registradas del espacio.          |
+| Event   | Parking Space Updated           | Indica que la información del espacio fue actualizada.         |
+| Command | Set Space Availability          | Define los periodos en los que el espacio puede ser reservado. |
+| Event   | Space Availability Scheduled    | Se genera cuando se establecen los horarios disponibles.       |
+| Command | Set Parking Fee                 | Define la tarifa del espacio de estacionamiento.               |
+| Event   | Parking Fee Updated             | Indica que la tarifa fue registrada o modificada.              |
+| Command | Disable Parking Space           | Retira temporalmente un espacio de las búsquedas.              |
+| Event   | Parking Space Disabled          | Indica que el espacio dejó de estar disponible temporalmente.  |
+| Query   | Get Parking Space Details       | Consulta características, ubicación y tarifa del espacio.      |
+| Query   | Get Space Availability          | Consulta los periodos disponibles del estacionamiento.         |
+| Query   | Get Owner Parking Spaces        | Consulta los espacios administrados por un propietario.        |
+
+---
+
+#### Booking Bounded Context
+
+El Booking Bounded Context gestiona el proceso mediante el cual un conductor encuentra un estacionamiento disponible y solicita utilizarlo durante un periodo determinado. También administra la confirmación y cancelación de reservas.
+
+**Aggregate principal:**
+
+- Reservation
+
+**Read Models principales:**
+
+- Parking Search Results
+- Availability View
+
+| Tipo    | Elemento                      | Descripción                                                                |
+| ------- | ----------------------------- | -------------------------------------------------------------------------- |
+| Command | Search Parking Spaces         | Inicia una búsqueda de estacionamientos según ubicación, fecha y horario.  |
+| Event   | Parking Search Initiated      | Se genera cuando el conductor realiza una búsqueda.                        |
+| Query   | Find Available Parking Spaces | Obtiene los estacionamientos que cumplen los criterios definidos.          |
+| Query   | Check Parking Availability    | Verifica que un espacio continúe disponible durante el periodo solicitado. |
+| Command | Request Reservation           | Solicita la reserva de un espacio disponible.                              |
+| Event   | Reservation Requested         | Se genera cuando la solicitud de reserva es registrada.                    |
+| Command | Confirm Reservation           | Confirma una solicitud de reserva.                                         |
+| Event   | Reservation Confirmed         | Indica que el espacio fue reservado para el conductor.                     |
+| Command | Reject Reservation            | Rechaza una solicitud de reserva pendiente.                                |
+| Event   | Reservation Rejected          | Indica que la solicitud no fue aceptada.                                   |
+| Command | Cancel Reservation            | Cancela una reserva existente.                                             |
+| Event   | Reservation Cancelled         | Indica que la reserva fue anulada.                                         |
+| Query   | Get Driver Reservations       | Consulta las reservas asociadas a un conductor.                            |
+| Query   | Get Owner Reservations        | Consulta las reservas correspondientes a los espacios de un propietario.   |
+| Query   | Get Reservation Details       | Consulta la información completa de una reserva.                           |
+
+---
+
+#### Parking Operations Bounded Context
+
+Este Bounded Context gestiona el uso efectivo del estacionamiento una vez que la reserva ha sido confirmada. Su responsabilidad comienza con la autorización de acceso al espacio y termina cuando el vehículo abandona la cochera.
+
+**Aggregates principales:**
+
+- Parking Session
+- Parking Pass
+
+| Tipo    | Elemento                    | Descripción                                                   |
+| ------- | --------------------------- | ------------------------------------------------------------- |
+| Command | Generate Parking Pass       | Genera una autorización asociada a una reserva confirmada.    |
+| Event   | Parking Pass Generated      | Se genera cuando la credencial de acceso queda disponible.    |
+| Command | Validate Parking Access     | Comprueba si el conductor puede ingresar al espacio.          |
+| Event   | Vehicle Access Granted      | Indica que el vehículo está autorizado para ingresar.         |
+| Event   | Vehicle Access Denied       | Indica que el acceso no pudo ser autorizado.                  |
+| Command | Start Parking Session       | Registra el ingreso efectivo del vehículo.                    |
+| Event   | Parking Session Started     | Indica que el espacio se encuentra actualmente en uso.        |
+| Command | End Parking Session         | Registra la salida del vehículo.                              |
+| Event   | Parking Session Ended       | Indica que el uso del espacio ha finalizado.                  |
+| Query   | Get Active Parking Session  | Consulta la sesión de estacionamiento actualmente activa.     |
+| Query   | Get Parking Session History | Consulta las sesiones de estacionamiento finalizadas.         |
+| Query   | Validate Parking Pass       | Consulta la vigencia y validez de una autorización de acceso. |
+
+---
+
+#### Payments & Payouts Bounded Context
+
+Este Bounded Context administra las operaciones económicas de ParkShare. Gestiona los pagos realizados por los conductores y los ingresos correspondientes a los propietarios por el alquiler temporal de sus espacios.
+
+**Aggregates principales:**
+
+- Payment
+- Payout
+
+| Tipo    | Elemento                    | Descripción                                                        |
+| ------- | --------------------------- | ------------------------------------------------------------------ |
+| Command | Process Payment             | Procesa el pago asociado a una reserva.                            |
+| Event   | Payment Processed           | Se genera cuando el pago se completa correctamente.                |
+| Event   | Payment Failed              | Indica que la operación de pago no pudo completarse.               |
+| Command | Calculate Parking Charge    | Calcula el importe correspondiente al uso del espacio.             |
+| Event   | Parking Charge Calculated   | Indica que el importe final fue determinado.                       |
+| Command | Register Owner Income       | Registra el ingreso generado por una reserva completada.           |
+| Event   | Owner Income Registered     | Indica que el ingreso fue asociado al propietario.                 |
+| Command | Transfer Payout             | Ejecuta la transferencia del monto correspondiente al propietario. |
+| Event   | Payout Transferred to Owner | Indica que el propietario recibió el monto correspondiente.        |
+| Query   | Get Payment Status          | Consulta el estado de pago de una reserva.                         |
+| Query   | Get Owner Earnings          | Consulta los ingresos acumulados por el propietario.               |
+| Query   | Get Payment History         | Consulta las operaciones económicas realizadas por un usuario.     |
+
+---
+
+#### Reputation & Notifications Bounded Context
+
+Este contexto soporta la generación de confianza y comunicación entre los usuarios de ParkShare. Gestiona las evaluaciones posteriores al servicio y las notificaciones generadas por eventos relevantes.
+
+**Aggregates principales:**
+
+- Rating
+- Notification
+
+| Tipo    | Elemento                      | Descripción                                                            |
+| ------- | ----------------------------- | ---------------------------------------------------------------------- |
+| Command | Submit Rating                 | Registra una calificación después de una reserva completada.           |
+| Event   | Rating Submitted              | Indica que la valoración fue almacenada correctamente.                 |
+| Command | Update User Reputation        | Actualiza la reputación acumulada del usuario.                         |
+| Event   | User Reputation Updated       | Indica que la valoración general del usuario fue actualizada.          |
+| Command | Send Reservation Notification | Genera una notificación relacionada con una reserva.                   |
+| Event   | Reservation Notification Sent | Indica que se notificó al usuario sobre un evento de la reserva.       |
+| Command | Send Payment Notification     | Genera una notificación relacionada con una operación económica.       |
+| Event   | Payment Notification Sent     | Indica que el usuario recibió información sobre el resultado del pago. |
+| Query   | Get User Ratings              | Consulta las calificaciones asociadas a un usuario.                    |
+| Query   | Get User Reputation           | Consulta la reputación acumulada de un usuario.                        |
+| Query   | Get User Notifications        | Consulta las notificaciones asociadas al usuario.                      |
+
+---
+
+#### Interacción entre Bounded Contexts
+
+Los Bounded Contexts colaboran entre sí para completar el flujo principal de negocio de ParkShare. Sin embargo, cada contexto mantiene la responsabilidad sobre su propia información y reglas de negocio.
+
+El flujo general puede resumirse de la siguiente manera:
+
+1. **Identity & Access** valida que el usuario pueda utilizar ParkShare y mantiene sus datos de identificación.
+2. **Parking Space Management** permite al propietario publicar un espacio y definir su disponibilidad.
+3. **Booking** permite que un conductor encuentre el espacio y genere una reserva.
+4. **Payments & Payouts** procesa el pago asociado a la reserva.
+5. **Parking Operations** valida el acceso y registra el periodo real de utilización del espacio.
+6. **Reputation & Notifications** informa a las partes involucradas y permite registrar una evaluación después del servicio.
+
+Esta separación permite mantener claramente delimitadas las responsabilidades del dominio y facilita que los siguientes niveles de arquitectura representen las relaciones entre los diferentes componentes de ParkShare.
+
+El siguiente diagrama fue elaborado en Miro y representa el resultado del Design-Level Event Storming de ParkShare.
+
+![Design-Level Event Storming de ParkShare](../assets/level-eventstorming.png)
+
 ### 4.6.2. Software Architecture Context Diagram.
+
 ### 4.6.3. Software Architecture Container Diagrams.
+
 ### 4.6.4. Software Architecture Components Diagrams.
+
 ### 4.7. Software Object-Oriented Design.
+
 ### 4.7.1. Class Diagrams.
+
 ### 4.8. Database Design.
+
 ### 4.8.1. Database Diagrams.
