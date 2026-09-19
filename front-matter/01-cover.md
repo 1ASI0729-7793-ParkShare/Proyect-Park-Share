@@ -1,40 +1,65 @@
 <div align="center">
 
-<img src="../assets/readme/upc-logo.png" alt="UPC_logo" width="150"></img>
+<img src="../assets/readme/upc-logo.png" alt="UPC Logo" width="150">
 
-# Universidad Peruana de Ciencias Aplicadas
+### Universidad Peruana de Ciencias Aplicadas
 
-**Facultad:** Ingeniería
+**Carrera de Ingeniería de Software**
 
-**Ingeniería de Software**
+<br>
 
-**Ciclo:** 2026-2
+**1ASI0729**
 
-1ASI0729 - Desarrollo de aplicaciones Open Source
+<br>
 
-**NRC:** 7793
+**Desarrollo de Aplicaciones Open Source**
 
-**Profesor:** Robles Fernandez, Ivan
+<br>
 
-### Informe de trabajo final
+**NRC**
 
-**Nombre del Startup:** ACME Industries
+**7793**
 
-**Nombre del producto:** ParkShare
+<br>
 
-#### Relación de integrantes
+### Informe del Trabajo Final
 
-| Integrante                           | Código     |
-|--------------------------------------|------------|
-| Tello Palacios, Fabrizio Rafael      | U202113310 |
-| Checa Burga, Oscar Diego | U202
-| Nombre alumno | Código alumno |
-| Nombre alumno | Código alumno |
-| nombres apellidos      | codigo alumno |
+**Docente**
 
+**Fernández Robles, Ivan**
 
+<br>
 
+**Equipo**
 
-**Mes y año:** Setiembre 2026
+**ACME Industries**
+
+<br>
+
+**Proyecto**
+
+**ParkShare**
+
+<br>
+
+**Integrantes**
+
+| Código             | Apellidos y Nombres             |
+| ------------------ | ------------------------------- |
+| U202113310         | Tello Palacios, Fabrizio Rafael |
+| [Completar código] | Checa Burga, Oscar Diego        |
+| U20241D945         | Yanac Flores, Gabriel Stefano   |
+| u202317338         | Palomino Vilcañaupa, Daril Johan|
+| [Completar código] | [Completar nombre]              |
+
+<br>
+
+**Período**
+
+**202620**
+
+<br>
+
+**Septiembre 2026**
 
 </div>

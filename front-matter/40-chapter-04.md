@@ -344,7 +344,7 @@ La aplicación te orienta en todo momento mientras buscas:
   
 * Cambio al instante: Cada vez que activas un filtro (como "Cochera techada"), la lista y el mapa se actualizan inmediatamente sin necesidad de recargar la página.
 
-### 4.2.5. Navigation Systems.
+### 4.2.5. Navigation Systems
 
 Se busca que el usuario nunca esté a más de tres interacciones de realizar una acción clave, como buscar una plaza disponible, realizar una reserva, calcular tarifas o validar credenciales.
 
@@ -474,13 +474,13 @@ La aplicación web de Proyect-Park-Share constituye el núcleo operativo de la p
 Los wireframes de la aplicación web definen la disposición esquemática, la jerarquía de información y los flujos funcionales para entornos de escritorio (Desktop Web Browser).
 
 <div style="text-align:center;"><img src="../assets/app-web/app-wireframe1.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe2.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe3.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe4.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe5.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe6.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe7.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe8.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup2.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup3.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup4.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup5.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup6.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup7.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup8.png" alt="texto"></div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
