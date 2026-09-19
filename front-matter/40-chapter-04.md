@@ -467,6 +467,21 @@ En la implementación final se puede apreciar el uso consistente de una paleta d
 
 ### 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
+La aplicación web de Proyect-Park-Share constituye el núcleo operativo de la plataforma, permitiendo la interacción coordinada entre los actores clave del ecosistema de movilidad urbana: conductores que buscan estacionamiento seguro, propietarios de cocheras privadas que desean monetizar sus espacios y administradores de la red. El diseño de experiencia de usuario (UX) e interfaz de usuario (UI) se estructura para garantizar la visualización rigurosa de cocheras disponibles en tiempo real, la gestión centralizada de reservas y cobros, y la trazabilidad técnica y validación de seguridad de los vehículos y propiedades.
+
+### 4.4.1. Web Applications Wireframes
+
+Los wireframes de la aplicación web definen la disposición esquemática, la jerarquía de información y los flujos funcionales para entornos de escritorio (Desktop Web Browser).
+
+<div style="text-align:center;"><img src="../assets/app-web/app-wireframe1.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-wireframe2.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-wireframe3.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-wireframe4.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-wireframe5.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-wireframe6.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-wireframe7.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-wireframe8.png" alt="texto"></div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 ### 4.4.2. Web Applications Mock-ups.
 ### 4.4.3. Web Applications User Flow Diagrams.
