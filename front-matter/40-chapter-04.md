@@ -484,59 +484,68 @@ Para el usuario **Conductor**, el dashboard (pantalla inicial) se muestra luego 
 
 ### 4.6.1. Design-Level Event Storming
 
-El Design-Level Event Storming de ParkShare tiene como objetivo refinar el modelado general desarrollado previamente mediante Big Picture Event Storming, identificando con mayor precisión las responsabilidades del dominio, los comandos ejecutados por los usuarios, los eventos generados por el sistema, los agregados involucrados y las consultas necesarias para soportar los principales procesos de negocio.
+El Design-Level Event Storming de ParkShare tiene como objetivo refinar el modelado general desarrollado previamente mediante Big Picture Event Storming. En esta etapa se profundiza en los principales procesos del dominio para identificar sus Bounded Contexts, actores, comandos, agregados, eventos de dominio y consultas.
 
-A partir de los eventos identificados previamente, el dominio fue organizado en Bounded Contexts que permiten separar las responsabilidades de ParkShare y reducir el acoplamiento entre las distintas áreas funcionales de la solución.
+A partir del análisis realizado, el dominio de ParkShare fue dividido en seis Bounded Contexts. Cada uno representa un conjunto de responsabilidades relacionadas y mantiene los conceptos necesarios para desarrollar una parte específica del servicio.
 
 #### Bounded Contexts identificados
 
-| Bounded Context            | Responsabilidad                                                                                                                       |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Identity & Access          | Gestiona el registro de usuarios, autenticación, selección de rol, perfiles, verificación de identidad y registro de vehículos.       |
-| Parking Space Management   | Gestiona la publicación de espacios de estacionamiento, sus características, disponibilidad, fotografías y tarifas.                   |
-| Booking                    | Gestiona la búsqueda de espacios, consulta de disponibilidad, solicitudes de reserva, confirmaciones y cancelaciones.                 |
-| Parking Operations         | Gestiona la autorización de acceso al espacio, inicio de la sesión de estacionamiento, monitoreo del uso y finalización de la sesión. |
-| Payments & Payouts         | Gestiona pagos realizados por conductores, cálculo de importes, registro de ingresos y transferencias hacia los propietarios.         |
-| Reputation & Notifications | Gestiona las calificaciones posteriores a una reserva y las notificaciones asociadas a eventos importantes del servicio.              |
-
----
+| Bounded Context            | Responsabilidad                                                                                                                          |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Identity & Access          | Gestiona el registro de usuarios, selección de roles, perfiles, verificación de identidad y vehículos registrados.                       |
+| Parking Space Management   | Gestiona la creación y publicación de espacios de estacionamiento, sus características, disponibilidad y tarifas.                        |
+| Booking                    | Gestiona la búsqueda de estacionamientos, disponibilidad, solicitudes, confirmaciones, rechazos y cancelaciones de reservas.             |
+| Payments & Payouts         | Gestiona las operaciones económicas relacionadas con las reservas, incluyendo pagos, cargos, ingresos y transferencias al propietario.   |
+| Parking Operations         | Gestiona el pase de acceso y la utilización efectiva del espacio desde el ingreso hasta la finalización de la sesión de estacionamiento. |
+| Reputation & Notifications | Gestiona las calificaciones, reputación de los usuarios y notificaciones relacionadas con reservas y pagos.                              |
 
 #### Identity & Access Bounded Context
 
-Este Bounded Context concentra los procesos relacionados con la incorporación y validación de los usuarios dentro de ParkShare. Su responsabilidad principal es garantizar que conductores y propietarios posean una identidad correctamente registrada antes de interactuar con otras funcionalidades de la plataforma.
+Identity & Access agrupa las operaciones necesarias para incorporar e identificar a los usuarios de ParkShare. Los principales actores de este contexto son el conductor y el propietario del espacio.
+
+El flujo comienza con el registro del usuario y continúa con la selección de su rol y el proceso de verificación de identidad. También contempla la información de los perfiles y los vehículos registrados por los conductores.
 
 **Aggregates principales:**
 
 - User
 - User Profile
-- Vehicle
 - Identity Verification
+- Vehicle
 
-| Tipo    | Elemento                         | Descripción                                                                       |
-| ------- | -------------------------------- | --------------------------------------------------------------------------------- |
-| Command | Register User                    | Registra un nuevo usuario en ParkShare.                                           |
-| Event   | User Registered                  | Se genera cuando el registro del usuario se completa correctamente.               |
-| Command | Select User Role                 | Define si el usuario actuará como conductor, propietario o ambos.                 |
-| Event   | User Role Selected               | Se genera cuando el usuario define su rol dentro de la plataforma.                |
-| Command | Submit Identity Verification     | Envía los datos necesarios para verificar la identidad.                           |
-| Event   | Identity Verification Initiated  | Indica que el proceso de verificación ha comenzado.                               |
-| Event   | Identity Verified                | Indica que la identidad del usuario fue validada correctamente.                   |
-| Event   | Identity Verification Failed     | Indica que la validación de identidad no pudo completarse.                        |
-| Command | Complete Driver Profile          | Completa la información correspondiente al conductor.                             |
-| Event   | Driver Profile Completed         | Se genera cuando el perfil del conductor queda completo.                          |
-| Command | Complete Property Owner Profile  | Completa la información correspondiente al propietario.                           |
-| Event   | Property Owner Profile Completed | Se genera cuando el perfil del propietario queda completo.                        |
-| Command | Register Vehicle                 | Registra un vehículo perteneciente al conductor.                                  |
-| Event   | Vehicle Plate Registered         | Se genera cuando la placa y los datos del vehículo son registrados correctamente. |
-| Query   | Get User Profile                 | Permite consultar los datos del perfil de un usuario.                             |
-| Query   | Get Verification Status          | Permite consultar el estado de verificación del usuario.                          |
-| Query   | Get Registered Vehicles          | Permite consultar los vehículos asociados al conductor.                           |
+**Commands principales:**
+
+- Register User
+- Select User Role
+- Submit Identity Verification
+- Complete Driver Profile
+- Complete Owner Profile
+- Register Vehicle
+
+**Domain Events principales:**
+
+- User Registered
+- User Role Selected
+- Identity Verification Initiated
+- Identity Verified
+- Driver Profile Completed
+- Property Owner Profile Completed
+- Vehicle Plate Registered
+
+**Queries / Read Models:**
+
+- Get User Profile
+- Get Verification Status
+- Get Registered Vehicles
+
+Este contexto proporciona la información de identidad necesaria para que los usuarios posteriormente puedan participar en los procesos de publicación y reserva de espacios.
 
 ---
 
 #### Parking Space Management Bounded Context
 
-Este contexto contiene las operaciones asociadas a los espacios de estacionamiento ofrecidos por los propietarios. Permite registrar, modificar y gestionar la información necesaria para que una cochera pueda ser encontrada y reservada por los conductores.
+Parking Space Management representa las capacidades necesarias para que un propietario registre y gestione una cochera dentro de ParkShare.
+
+El propietario puede iniciar la creación de una publicación, registrar las características del espacio, establecer su disponibilidad y definir la tarifa correspondiente. También puede modificar los datos publicados o deshabilitar temporalmente el espacio.
 
 **Aggregates principales:**
 
@@ -545,154 +554,203 @@ Este contexto contiene las operaciones asociadas a los espacios de estacionamien
 - Availability Schedule
 - Parking Fee
 
-| Tipo    | Elemento                        | Descripción                                                    |
-| ------- | ------------------------------- | -------------------------------------------------------------- |
-| Command | Create Parking Space Listing    | Inicia el registro de un nuevo espacio de estacionamiento.     |
-| Event   | Parking Space Listing Initiated | Indica que el propietario comenzó el proceso de publicación.   |
-| Command | Publish Parking Space           | Publica un espacio de estacionamiento registrado.              |
-| Event   | Parking Space Listed            | Se genera cuando el espacio queda disponible en ParkShare.     |
-| Command | Update Parking Space            | Modifica las características registradas del espacio.          |
-| Event   | Parking Space Updated           | Indica que la información del espacio fue actualizada.         |
-| Command | Set Space Availability          | Define los periodos en los que el espacio puede ser reservado. |
-| Event   | Space Availability Scheduled    | Se genera cuando se establecen los horarios disponibles.       |
-| Command | Set Parking Fee                 | Define la tarifa del espacio de estacionamiento.               |
-| Event   | Parking Fee Updated             | Indica que la tarifa fue registrada o modificada.              |
-| Command | Disable Parking Space           | Retira temporalmente un espacio de las búsquedas.              |
-| Event   | Parking Space Disabled          | Indica que el espacio dejó de estar disponible temporalmente.  |
-| Query   | Get Parking Space Details       | Consulta características, ubicación y tarifa del espacio.      |
-| Query   | Get Space Availability          | Consulta los periodos disponibles del estacionamiento.         |
-| Query   | Get Owner Parking Spaces        | Consulta los espacios administrados por un propietario.        |
+**Commands principales:**
+
+- Create Parking Space Listing
+- Publish Parking Space
+- Update Parking Space
+- Set Space Availability
+- Set Parking Fee
+- Disable Parking Space
+
+**Domain Events principales:**
+
+- Parking Space Listing Initiated
+- Parking Space Listed
+- Parking Space Updated
+- Space Availability Scheduled
+- Parking Fee Updated
+- Parking Space Disabled
+
+**Queries / Read Models:**
+
+- Get Parking Space Details
+- Get Space Availability
+- Get Owner Parking Spaces
+
+La publicación de un espacio permite que posteriormente pueda ser considerado dentro de las búsquedas realizadas por los conductores.
 
 ---
 
 #### Booking Bounded Context
 
-El Booking Bounded Context gestiona el proceso mediante el cual un conductor encuentra un estacionamiento disponible y solicita utilizarlo durante un periodo determinado. También administra la confirmación y cancelación de reservas.
+Booking representa el proceso mediante el cual un conductor encuentra un espacio de estacionamiento y solicita utilizarlo durante un periodo determinado.
+
+El conductor inicia una búsqueda y consulta los espacios disponibles. Después puede realizar una solicitud de reserva. El propietario participa en este proceso al confirmar o rechazar dicha solicitud. Asimismo, el contexto contempla la cancelación de reservas.
 
 **Aggregate principal:**
 
 - Reservation
 
-**Read Models principales:**
+**Commands principales:**
 
-- Parking Search Results
-- Availability View
+- Search Parking Spaces
+- Request Reservation
+- Confirm Reservation
+- Reject Reservation
+- Cancel Reservation
 
-| Tipo    | Elemento                      | Descripción                                                                |
-| ------- | ----------------------------- | -------------------------------------------------------------------------- |
-| Command | Search Parking Spaces         | Inicia una búsqueda de estacionamientos según ubicación, fecha y horario.  |
-| Event   | Parking Search Initiated      | Se genera cuando el conductor realiza una búsqueda.                        |
-| Query   | Find Available Parking Spaces | Obtiene los estacionamientos que cumplen los criterios definidos.          |
-| Query   | Check Parking Availability    | Verifica que un espacio continúe disponible durante el periodo solicitado. |
-| Command | Request Reservation           | Solicita la reserva de un espacio disponible.                              |
-| Event   | Reservation Requested         | Se genera cuando la solicitud de reserva es registrada.                    |
-| Command | Confirm Reservation           | Confirma una solicitud de reserva.                                         |
-| Event   | Reservation Confirmed         | Indica que el espacio fue reservado para el conductor.                     |
-| Command | Reject Reservation            | Rechaza una solicitud de reserva pendiente.                                |
-| Event   | Reservation Rejected          | Indica que la solicitud no fue aceptada.                                   |
-| Command | Cancel Reservation            | Cancela una reserva existente.                                             |
-| Event   | Reservation Cancelled         | Indica que la reserva fue anulada.                                         |
-| Query   | Get Driver Reservations       | Consulta las reservas asociadas a un conductor.                            |
-| Query   | Get Owner Reservations        | Consulta las reservas correspondientes a los espacios de un propietario.   |
-| Query   | Get Reservation Details       | Consulta la información completa de una reserva.                           |
+**Domain Events principales:**
 
----
+- Parking Search Initiated
+- Reservation Requested
+- Reservation Confirmed
+- Reservation Rejected
+- Reservation Cancelled
 
-#### Parking Operations Bounded Context
+**Queries / Read Models:**
 
-Este Bounded Context gestiona el uso efectivo del estacionamiento una vez que la reserva ha sido confirmada. Su responsabilidad comienza con la autorización de acceso al espacio y termina cuando el vehículo abandona la cochera.
+- Find Available Parking Spaces
+- Check Parking Availability
+- Get Driver Reservations
+- Get Owner Reservations
+- Get Reservation Details
 
-**Aggregates principales:**
-
-- Parking Session
-- Parking Pass
-
-| Tipo    | Elemento                    | Descripción                                                   |
-| ------- | --------------------------- | ------------------------------------------------------------- |
-| Command | Generate Parking Pass       | Genera una autorización asociada a una reserva confirmada.    |
-| Event   | Parking Pass Generated      | Se genera cuando la credencial de acceso queda disponible.    |
-| Command | Validate Parking Access     | Comprueba si el conductor puede ingresar al espacio.          |
-| Event   | Vehicle Access Granted      | Indica que el vehículo está autorizado para ingresar.         |
-| Event   | Vehicle Access Denied       | Indica que el acceso no pudo ser autorizado.                  |
-| Command | Start Parking Session       | Registra el ingreso efectivo del vehículo.                    |
-| Event   | Parking Session Started     | Indica que el espacio se encuentra actualmente en uso.        |
-| Command | End Parking Session         | Registra la salida del vehículo.                              |
-| Event   | Parking Session Ended       | Indica que el uso del espacio ha finalizado.                  |
-| Query   | Get Active Parking Session  | Consulta la sesión de estacionamiento actualmente activa.     |
-| Query   | Get Parking Session History | Consulta las sesiones de estacionamiento finalizadas.         |
-| Query   | Validate Parking Pass       | Consulta la vigencia y validez de una autorización de acceso. |
+Este contexto conecta la oferta de espacios administrada por los propietarios con la necesidad de estacionamiento de los conductores.
 
 ---
 
 #### Payments & Payouts Bounded Context
 
-Este Bounded Context administra las operaciones económicas de ParkShare. Gestiona los pagos realizados por los conductores y los ingresos correspondientes a los propietarios por el alquiler temporal de sus espacios.
+Payments & Payouts concentra las operaciones económicas generadas a partir de las reservas de ParkShare.
+
+El contexto contempla el procesamiento del pago, el cálculo del cargo relacionado con el estacionamiento, el registro de los ingresos generados para el propietario y la transferencia correspondiente.
 
 **Aggregates principales:**
 
 - Payment
 - Payout
 
-| Tipo    | Elemento                    | Descripción                                                        |
-| ------- | --------------------------- | ------------------------------------------------------------------ |
-| Command | Process Payment             | Procesa el pago asociado a una reserva.                            |
-| Event   | Payment Processed           | Se genera cuando el pago se completa correctamente.                |
-| Event   | Payment Failed              | Indica que la operación de pago no pudo completarse.               |
-| Command | Calculate Parking Charge    | Calcula el importe correspondiente al uso del espacio.             |
-| Event   | Parking Charge Calculated   | Indica que el importe final fue determinado.                       |
-| Command | Register Owner Income       | Registra el ingreso generado por una reserva completada.           |
-| Event   | Owner Income Registered     | Indica que el ingreso fue asociado al propietario.                 |
-| Command | Transfer Payout             | Ejecuta la transferencia del monto correspondiente al propietario. |
-| Event   | Payout Transferred to Owner | Indica que el propietario recibió el monto correspondiente.        |
-| Query   | Get Payment Status          | Consulta el estado de pago de una reserva.                         |
-| Query   | Get Owner Earnings          | Consulta los ingresos acumulados por el propietario.               |
-| Query   | Get Payment History         | Consulta las operaciones económicas realizadas por un usuario.     |
+**Commands principales:**
+
+- Process Payment
+- Calculate Parking Charge
+- Register Owner Income
+- Transfer Payout
+
+**Domain Events principales:**
+
+- Payment Processed
+- Payment Failed
+- Parking Charge Calculated
+- Owner Income Registered
+- Payout Transferred to Owner
+
+**Queries / Read Models:**
+
+- Get Payment Status
+- Get Owner Earnings
+- Get Payment History
+
+De esta manera, el contexto mantiene separadas las responsabilidades económicas de las responsabilidades relacionadas con reservas y operación física del estacionamiento.
+
+---
+
+#### Parking Operations Bounded Context
+
+Parking Operations representa el proceso asociado al uso efectivo de un espacio de estacionamiento.
+
+Una vez que corresponde utilizar una reserva, el sistema puede generar un pase de estacionamiento y validar el acceso. Si la autorización es válida, se registra el ingreso del vehículo y comienza una sesión de estacionamiento. Posteriormente, cuando el vehículo abandona el espacio, dicha sesión puede finalizar.
+
+**Aggregates principales:**
+
+- Parking Pass
+- Parking Session
+
+**Commands principales:**
+
+- Generate Parking Pass
+- Validate Parking Access
+- Start Parking Session
+- End Parking Session
+
+**Domain Events principales:**
+
+- Parking Pass Generated
+- Vehicle Access Granted
+- Vehicle Access Denied
+- Parking Session Started
+- Parking Session Ended
+
+**Queries / Read Models:**
+
+- Validate Parking Pass
+- Get Active Parking Session
+- Get Parking Session History
+
+Este contexto permite separar las actividades relacionadas con el uso físico de la cochera de aquellas relacionadas con su búsqueda, reserva y administración.
 
 ---
 
 #### Reputation & Notifications Bounded Context
 
-Este contexto soporta la generación de confianza y comunicación entre los usuarios de ParkShare. Gestiona las evaluaciones posteriores al servicio y las notificaciones generadas por eventos relevantes.
+Reputation & Notifications concentra los mecanismos que permiten mantener informados a los usuarios y generar confianza dentro de ParkShare.
+
+Una vez desarrolladas las interacciones entre conductores y propietarios, los usuarios pueden registrar una calificación. Estas valoraciones permiten mantener información relacionada con la reputación. El contexto también contempla las notificaciones originadas por eventos de reservas y pagos.
 
 **Aggregates principales:**
 
 - Rating
 - Notification
 
-| Tipo    | Elemento                      | Descripción                                                            |
-| ------- | ----------------------------- | ---------------------------------------------------------------------- |
-| Command | Submit Rating                 | Registra una calificación después de una reserva completada.           |
-| Event   | Rating Submitted              | Indica que la valoración fue almacenada correctamente.                 |
-| Command | Update User Reputation        | Actualiza la reputación acumulada del usuario.                         |
-| Event   | User Reputation Updated       | Indica que la valoración general del usuario fue actualizada.          |
-| Command | Send Reservation Notification | Genera una notificación relacionada con una reserva.                   |
-| Event   | Reservation Notification Sent | Indica que se notificó al usuario sobre un evento de la reserva.       |
-| Command | Send Payment Notification     | Genera una notificación relacionada con una operación económica.       |
-| Event   | Payment Notification Sent     | Indica que el usuario recibió información sobre el resultado del pago. |
-| Query   | Get User Ratings              | Consulta las calificaciones asociadas a un usuario.                    |
-| Query   | Get User Reputation           | Consulta la reputación acumulada de un usuario.                        |
-| Query   | Get User Notifications        | Consulta las notificaciones asociadas al usuario.                      |
+**Commands principales:**
+
+- Submit Rating
+- Update User Reputation
+- Send Reservation Notification
+- Send Payment Notification
+
+**Domain Events principales:**
+
+- Rating Submitted
+- User Reputation Updated
+- Reservation Notification Sent
+- Payment Notification Sent
+
+**Queries / Read Models:**
+
+- Get User Ratings
+- Get User Reputation
+- Get User Notifications
+
+Este contexto complementa los procesos principales de ParkShare mediante mecanismos de reputación y comunicación con los usuarios.
 
 ---
 
 #### Interacción entre Bounded Contexts
 
-Los Bounded Contexts colaboran entre sí para completar el flujo principal de negocio de ParkShare. Sin embargo, cada contexto mantiene la responsabilidad sobre su propia información y reglas de negocio.
+Aunque cada Bounded Context mantiene responsabilidades propias, existen eventos relevantes que permiten relacionar los distintos procesos del dominio.
 
-El flujo general puede resumirse de la siguiente manera:
+El flujo general representado en el Design-Level Event Storming puede interpretarse de la siguiente manera:
 
-1. **Identity & Access** valida que el usuario pueda utilizar ParkShare y mantiene sus datos de identificación.
-2. **Parking Space Management** permite al propietario publicar un espacio y definir su disponibilidad.
-3. **Booking** permite que un conductor encuentre el espacio y genere una reserva.
-4. **Payments & Payouts** procesa el pago asociado a la reserva.
-5. **Parking Operations** valida el acceso y registra el periodo real de utilización del espacio.
-6. **Reputation & Notifications** informa a las partes involucradas y permite registrar una evaluación después del servicio.
+1. **Identity & Access** registra y verifica la información del conductor o propietario.
+2. **Parking Space Management** permite al propietario publicar un espacio y administrar su disponibilidad.
+3. **Booking** permite al conductor buscar espacios disponibles y solicitar una reserva, la cual puede ser confirmada o rechazada por el propietario.
+4. **Payments & Payouts** administra las operaciones económicas asociadas a las reservas.
+5. **Parking Operations** gestiona el pase de estacionamiento, la autorización de acceso y el inicio y finalización de la sesión.
+6. **Reputation & Notifications** permite registrar calificaciones y generar notificaciones relacionadas con las operaciones de ParkShare.
 
-Esta separación permite mantener claramente delimitadas las responsabilidades del dominio y facilita que los siguientes niveles de arquitectura representen las relaciones entre los diferentes componentes de ParkShare.
+Esta división permite que cada área mantenga claramente delimitadas sus responsabilidades y facilita la posterior definición de los elementos de la arquitectura de software.
 
-El siguiente diagrama fue elaborado en Miro y representa el resultado del Design-Level Event Storming de ParkShare.
+#### Evidencia del Design-Level Event Storming
+
+El siguiente diagrama, elaborado en Miro, representa el Design-Level Event Storming de ParkShare. En él se muestran los seis Bounded Contexts identificados y los principales Actors, Commands, Aggregates, Domain Events y Queries / Read Models involucrados en los procesos del dominio.
 
 ![Design-Level Event Storming de ParkShare](../assets/level-eventstorming.png)
+
+El diagrama evidencia la separación de las principales capacidades del dominio y la relación existente entre los procesos de identificación de usuarios, administración de espacios, reservas, pagos, operación del estacionamiento, reputación y notificaciones.
+
+El resultado obtenido mediante Design-Level Event Storming sirve como base para continuar con la representación arquitectónica de ParkShare mediante C4 Model en los siguientes apartados.
 
 ### 4.6.2. Software Architecture Context Diagram.
 
