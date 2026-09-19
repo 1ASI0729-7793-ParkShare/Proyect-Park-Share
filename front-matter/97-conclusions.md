@@ -1,5 +1,4 @@
-#### Conclusiones
-### Conclusiones y recomendaciones.
+### Conclusiones
 
 Existe una necesidad evidente en el sector de la movilidad urbana de contar con una plataforma digital confiable que permita ubicar y reservar estacionamientos, conocer en tiempo real qué espacios están disponibles y hacer seguimiento a cada sesión de parqueo. Tanto los conductores como los dueños de espacios privados necesitan herramientas que reúnan toda esta información en un solo sitio, reduciendo así la pérdida de tiempo y la incertidumbre al momento de desplazarse.
 
@@ -11,4 +10,4 @@ Los resultados del análisis funcional, la definición de historias de usuario y
 
 Durante el desarrollo se emplearon métodos de diseño alineados con Domain-Driven Design, un enfoque que ayuda a estructurar el sistema dividiéndolo en componentes más manejables. Esta división, junto con la elaboración de diagramas de arquitectura, facilitó entender la lógica del negocio y cómo se relacionan sus distintas partes, permitiendo tomar mejores decisiones de diseño.
 
-Por ultimo, se planteó una arquitectura organizada por subdominios y componentes, lo que dio como resultado una estructura ordenada, fácil de mantener y preparada para integrarse en el futuro con servicios externos, como APIs de mapas, pasarelas de pago digitales y mecanismos de autenticación segura.
+Por ultimo, se planteó una arquitectura organizada, lo que dio como resultado una estructura ordenada, fácil de mantener y preparada para integrarse en el futuro con servicios externos, como APIs de mapas, pasarelas de pago digitales y mecanismos de autenticación segura.
