@@ -72,67 +72,6 @@ Para este segmento, la entrevista busca comprender cómo los propietarios o resp
 
 En esta sección se presenta el registro de las entrevistas realizadas a representantes de los segmentos objetivo de ParkShare. Para cada entrevistado se recopilan datos generales, evidencia audiovisual y un resumen descriptivo de la información obtenida durante la sesión.
 
-#### Segmento 1: Conductores que requieren estacionamiento temporal
-
-
-#### Entrevista 1
-
-| Dato                | Información                                       |
-| ------------------- | --------------------------------------------------|
-| Nombres y apellidos | Richard Palomino                                  |
-| Edad                | 23                                                |
-| Distrito            | SJL                                               |
-| Segmento objetivo   | Conductores que requieren estacionamiento temporal|
-| Fecha de entrevista | 13/09/2026                                        |
-| Duración aproximada | 6 min 59 s                                        |
-| Inicio en el video  | 00:04                                             |
-| URL del video       | https://goo.su/n216mre                            |
-
-**Evidencia de la entrevista**
-
-![Entrevista 1 - Segmento 1](../assets/interviews1/segment-1/interview-01-segment1.png)
-
-**Resumen de la entrevista**
-
-Durante la entrevista, Richard Palomino, de 23 años, que corresponde al segmento de Conductores que requieren estacionamiento temporal, compartió sus experiencias y preferencias respecto al uso de su automóvil y la búsqueda de estacionamiento. Utiliza su vehículo de tres a cinco veces por semana principalmente para trasladarse a la universidad, hacer las compras de la semana y asistir a sus entrenamientos los fines de semana. Sin embargo, cuando debe acudir a eventos masivos o a zonas céntricas muy congestionadas, prefiere optar por el transporte público o un taxi para evitar el estrés y la pérdida de tiempo que implica encontrar un lugar donde estacionar.
-
-Al momento de buscar aparcamiento, el entrevistado suele demorar un máximo de 10 a 15 minutos antes de considerar alternativas como buscar una cochera más distante o un centro comercial cercano. Entre las principales dificultades que enfrenta en el día a día destacan la falta de espacios disponibles en horas punta, el tráfico en las entradas de los establecimientos, las tarifas elevadas o poco claras, y las zonas de maniobra reducidas que pueden provocar percances entre los conductores. Para orientarse en zonas desconocidas, recurre principalmente a aplicaciones de navegación como Google Maps y Waze desde su teléfono inteligente.
-
-Para sentirse cómodo dejando su vehículo, Richard prioriza la transparencia en las tarifas, la seguridad del lugar, los horarios y que la estructura sea techada para resguardar el auto del clima. Además, señala que su confianza aumentaría significativamente si existiera una plataforma que verifique la identidad del dueño de la cochera, muestre fotos reales e incluya calificaciones de otros usuarios. Finalmente, propone como solución ideal la posibilidad de consultar la disponibilidad de espacios libres en tiempo real y poder reservar y pagar de forma digital previa a su llegada.
-
-
-#### Entrevista 2
-
-| Dato                | Información                                       |
-| ------------------- | --------------------------------------------------|
-| Nombres y apellidos | David Vivar                                       |
-| Edad                | 22                                                |
-| Distrito            | Magdalena                                         |
-| Segmento objetivo   | Conductores que requieren estacionamiento temporal|
-| Fecha de entrevista | 15/09/2026                                        |
-| Duración aproximada | 7 min 33 s                                        |
-| Inicio en el video  | 00:03                                             |
-| URL del video       | https://goo.su/yqnJ                               |
-
-**Evidencia de la entrevista**
-
-![Entrevista 2 - Segmento 1](../assets/interviews1/segment-1/interview-02-segment2.png)
-
-**Resumen de la entrevista**
-
-Aquí tienes el resumen estructurado en párrafos de esta tercera entrevista:
-
-En esta entrevista, David Vivar, residente del distrito de Magdalena, compartió sus experiencias sobre la conducción y la búsqueda de estacionamiento en la ciudad. Señaló que utiliza su vehículo de 5 a 6 veces por semana, principalmente para ir al trabajo, salir los fines de semana y realizar compras o reunirse con amigos. Relató que en su última experiencia buscando aparcamiento en La Rambla de San Borja, el lugar estaba completamente lleno, por lo que tuvo que dar vueltas durante 10 minutos y terminar dejando el vehículo en una calle a varias cuadras de distancia pagándole a un cuidador. Cuando no tiene un lugar asegurado, su primera opción es buscar un espacio permitido en la vía pública o recurrir a playas de estacionamiento conocidas o localizadas mediante Google Maps.
-
-Entre las principales dificultades que enfrenta, David mencionó la escasez de espacios durante las horas punta, los precios elevados de algunas playas de estacionamiento, la falta de seguridad al dejar el auto en la calle y la pérdida de tiempo que esto representa, lo que en ocasiones le genera retrasos para llegar al trabajo. Por estas razones, prioriza la seguridad del vehículo por encima de otros factores, estando dispuesto a pagar una tarifa más alta si el lugar le brinda confianza. Además, indicó que no suele dedicar más de 10 a 15 minutos a buscar aparcamiento antes de optar por una playa más costosa; e incluso prefiere acudir en Uber a eventos masivos como conciertos para evitar las complicaciones de estacionar.
-
-Respecto a sus hábitos digitales, David suele utilizar Waze y Google Maps para la navegación, billeteras digitales como Yape para pagos y servicios de transporte como Uber cuando no maneja. Realiza todas sus consultas y reservas exclusivamente desde su smartphone a través del navegador Google Chrome, prefiriendo canalizar comunicaciones breves por WhatsApp y recibir comprobantes de pago por correo electrónico.
-
-Finalmente, para sentirse cómodo en un estacionamiento, David requiere información precisa sobre la dirección, fotografías del local, tarifas transparentes (usualmente dispuestas a pagar entre 5 y 8 soles por hora), horarios, y elementos de seguridad como techo, cámaras y facilidad de acceso. Para confiar en el alquiler de una cochera privada de un tercero, considera imprescindible la verificación de identidad del propietario mediante DNI, referencias u opiniones de otros usuarios, contar con un seguro o garantía que cubra eventualidades y la posibilidad de gestionar los pagos directamente desde una aplicación para dejar constancia de la transacción.
-
-
-
-
 #### Segmento 2: Propietarios de Espacios y Negocios
 
 #### Entrevista 1
@@ -140,7 +79,7 @@ Finalmente, para sentirse cómodo en un estacionamiento, David requiere informac
 | Dato                | Información                                      |
 | ------------------- | ------------------------------------------------ |
 | Nombres y apellidos | Daniel Pinedo                                    |
-| Edad                | 23                                               |
+| Edad                | 21                                               |
 | Distrito            | Ventanilla                                       |
 | Segmento objetivo   | Propietarios de Espacios y Negocios              |
 | Fecha de entrevista | 11/09/2026                                       |
