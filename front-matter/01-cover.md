@@ -24,16 +24,13 @@
 
 #### Relación de integrantes
 
-| Integrante                           | Código     |
-|--------------------------------------|------------|
-| Tello Palacios, Fabrizio Rafael      | U202113310 |
-| Checa Burga, Oscar Diego | U202
-| Nombre alumno | Código alumno |
-| Nombre alumno | Código alumno |
-| nombres apellidos      | codigo alumno |
-
-
-
+| Integrante                      | Código        |
+| ------------------------------- | ------------- |
+| Tello Palacios, Fabrizio Rafael | U202113310    |
+| Checa Burga, Oscar Diego        | U202          |
+| Yanac Flores, Gabriel Stefano   | U20241D945    |
+| Nombre alumno                   | Código alumno |
+| nombres apellidos               | codigo alumno |
 
 **Mes y año:** Setiembre 2026
 
