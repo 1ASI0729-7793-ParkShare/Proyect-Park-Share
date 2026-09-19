@@ -483,9 +483,21 @@ Los wireframes de la aplicación web definen la disposición esquemática, la je
 <div style="text-align:center;"><img src="../assets/app-web/app-wireframe8.png" alt="texto"></div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
+
+
 ### 4.4.2. Web Applications Mock-ups.
 ### 4.4.3. Web Applications User Flow Diagrams.
 ### 4.5. Web Applications Prototyping.
+
+A continuación, mostraremos un modelo interactivo de la aplicación web para ambos segmentos objetivo.
+
+<div align="center"><img src="../assets/app-web/prototipo.png" alt="prototipo figma"></div>
+
+Para el usuario **Conductor**, el dashboard (pantalla inicial) se muestra luego del inicio de sesión exitoso.
+
+
+
 ### 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
 ### 4.6.2. Software Architecture Context Diagram.
