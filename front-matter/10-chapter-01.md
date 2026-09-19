@@ -9,6 +9,76 @@ Nuestra empresa nace como un emprendimiento enfocado en resolver uno de los prob
 
 A través de nuestra solución tecnológica, permitimos que los conductores reduzcan significativamente el tiempo invertido en la búsqueda de aparcamiento mediante herramientas de ubicación en tiempo real, comparación de tarifas, consulta de características y reservas anticipadas. Por su parte, la startup brinda a los propietarios la infraestructura digital necesaria para publicar, gestionar y monetizar sus espacios disponibles de forma sencilla y transparente, transformando activos en desuso en una fuente constante de ingresos adicionales.
 
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+<table>
+  <tr>
+    <td width="30%" align="center">
+      <img src="../../assets/images/chapter-1/kalidintegrante.jpg" width="180">
+    </td>
+    <td width="70%">
+      <h3>Desarrollador frontend</h3>
+      <h4>Palacios Jáuregui, Kalid Jesus U201913639</h4>
+      <p>
+        Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Tengo conocimientos en Especificación y Análisis de Requerimientos, desarrollo UI/UX y desarrollo Frontend aplicaré lo aprendido para aportar en UX, diseño de interfaces y prototipado dentro del proyecto.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" align="center">
+      <img src="../../assets/images/chapter-1/manuelintegrante.jpg" width="180">
+    </td>
+    <td width="70%">
+      <h3>Desarrollador backend</h3>
+      <h4>Sanchez Arenas, Manuel Angel U201817507</h4>
+      <p>
+        Soy estudiante de Ingeniería de Software. Tengo conocimientos en Diseño y Patrones de Software, Especificación y Análisis de Requerimientos y desarrollo de Base de Datos.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" align="center">
+      <img src="../../assets/images/chapter-1/Integrante-3.jpeg" width="180">
+    </td>
+    <td width="70%">
+      <h3>Diseñador UI/UX</h3>
+      <h4>Josep Eliu Melgarejo Quiroz u20231516</h4>
+      <p>
+        Soy estudiante de la carrera de ingenieria de software de la UPC, lidero el diseño UI/UX de SafeStep fusionando la estructura técnica de la ingeniería con una visión centrada en el usuario. Mi labor se enfoca en traducir protocolos médicos de alta complejidad en interfaces intuitivas y accesibles, garantizando que la plataforma sea fácil de usar incluso en situaciones de emergencia.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" align="center">
+      <img src="../assets/team_members/Fabrizio2.png" width="180">
+    </td>
+    <td width="70%">
+      <h3>Desarrollador de Base de Datos</h3>
+      <h4>Tello Palacios, Fabrizio Rafael U202113310</h4>
+      <p>
+        Soy estudiante de la carrera de ingenieria de software de la UPC, soy el encargado de diseñar el modelo de base de datos para nuestro proyecto SafeStep aplicando las 3 principales formas de normalizacion. 
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="30%" align="center">
+      <img src="../../assets/images/chapter-1/paulointegrante.jpg" width="180">
+    </td>
+    <td width="70%">
+      <h3>Desarrollador de Base de Datos</h3>
+      <h4>Aylas De La Cruz, Paulo Smit U20181D263</h4>
+      <p>
+        Soy estudiante de la carrera de ingenieria de software de la UPC, soy el encargado de diseñar el modelo de base de datos para nuestro proyecto SafeStep aplicando las 3 principales formas de normalizacion. 
+      </p>
+    </td>
+  </tr>
+
+
+</table>
+
+
 **1.2 Perfil de la Solución**
 
 **1.2.1 Antecedentes y Problemática**
