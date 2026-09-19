@@ -474,16 +474,14 @@ La aplicación web de Proyect-Park-Share constituye el núcleo operativo de la p
 Los wireframes de la aplicación web definen la disposición esquemática, la jerarquía de información y los flujos funcionales para entornos de escritorio (Desktop Web Browser).
 
 <div style="text-align:center;"><img src="../assets/app-web/app-wireframe1.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe2.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe3.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe4.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe5.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe6.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe7.png" alt="texto"></div>
-<div style="text-align:center;"><img src="../assets/app-web/app-wireframe8.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup2.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup3.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup4.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup5.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup6.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup7.png" alt="texto"></div>
+<div style="text-align:center;"><img src="../assets/app-web/app-web-mockup8.png" alt="texto"></div>
 
-### 4.4.2. Web Applications Wireflow Diagrams.
-### 4.4.2. Web Applications Mock-ups.
 ### 4.4.3. Web Applications User Flow Diagrams.
 ### 4.5. Web Applications Prototyping.
 ### 4.6. Domain-Driven Software Architecture.
