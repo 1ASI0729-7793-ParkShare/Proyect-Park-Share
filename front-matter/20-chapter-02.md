@@ -127,8 +127,6 @@ Finalmente, para sentirse cómodo en un estacionamiento, David requiere informac
 
 
 
-
-
 #### Segmento 2: Propietarios de Espacios y Negocios
 
 #### Entrevista 1
@@ -171,6 +169,40 @@ El entrevistado indicó también que podría dejar de ofrecer temporalmente la c
 Respecto a sus hábitos digitales, señaló que utiliza principalmente aplicaciones bancarias como BCP y una billetera digital para realizar pagos. También utiliza WhatsApp como uno de sus principales medios de comunicación. Su dispositivo de uso habitual es el teléfono celular y prefiere recibir información importante mediante notificaciones en el dispositivo o a través de WhatsApp.
 
 Finalmente, considera que para sentirse seguro utilizando una plataforma orientada al alquiler temporal de estacionamientos sería necesario contar con mecanismos de verificación de los conductores, conocer la placa de los vehículos, establecer horarios claramente definidos y recibir confirmaciones relacionadas con las reservas. También considera importante conocer con anticipación posibles cancelaciones y mantener control sobre la disponibilidad del espacio.
+
+#### Segmento 2: Propietarios de Espacios y Negocios
+
+#### Entrevista 1
+
+| Dato                | Información                                      |
+| ------------------- | ------------------------------------------------ |
+| Nombres y apellidos | Sergio Chipoco                                   |
+| Edad                | 20                                               |
+| Distrito            | San Miguel                                       |
+| Segmento objetivo   | Propietarios de Espacios y Negocios              |
+| Fecha de entrevista | 19/09/2026                                       |
+| Duración aproximada | 6 min 57 s                                       |
+| Inicio en el video  | 00:02                                            |
+| URL del video       | https://goo.su/BR7O2NJ                           |
+
+**Evidencia de la entrevista**
+
+![Entrevista 2 - Segmento 2](../assets/interviews/segment-2/interview-02.png)
+
+
+**Resumen de la entrevista**
+
+
+Sergio Chipoco vive en el distrito de San Miguel y tiene un estacionamiento propio en el garaje de su edificio. El lugar tiene el tamaño normal para un auto promedio y se abre con un control remoto que tiene botones para abrir y cerrar. De lunes a viernes, entre las 8:00 a. m. y las 6:00 o 7:00 p. m., el sitio se queda solo porque él sale a trabajar. La mayor parte del tiempo el espacio no se usa, aunque a veces deja que su tío se cuadre ahí.
+
+La razón principal de Sergio para alquilar su estacionamiento cuando está libre es ganar un dinero extra. Para cobrar un monto justo para ambas partes, tomaría en cuenta la zona donde vive, las horas de uso y los precios que cobran otros lugares parecidos. Para coordinar los horarios usaría WhatsApp, y para cobrar o pagar prefiere usar Yape, transferencias de su app del banco o la misma aplicación de mensajes.
+
+Aunque le interesa ganar plata con su espacio, Sergio tiene algunas dudas y temores. Le preocupa que el auto que entre choque o dañe su espacio o el carro de algún vecino, que intenten meter un auto robado, o que la junta del edificio no permita este tipo de alquileres. Por eso, para estar tranquilo, pediría el nombre completo del chofer, su DNI, su WhatsApp, los datos del auto y, si se puede, saber si es una persona de confianza que no ha tenido problemas antes en otras cocheras.
+
+
+
+
+
 
 ### 2.2.3 Análisis de entrevistas
 
