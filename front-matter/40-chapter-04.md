@@ -719,9 +719,21 @@ El Landing Page tiene como objetivo presentar la propuesta de valor del producto
 
 ### 4.6.2. Software Architecture Context Diagram.
 
+![ParkShare Context Diagram](../assets/chapter-04/SystemContext-dark.png)
+
 ### 4.6.3. Software Architecture Container Diagrams.
 
+![ParkShare Container Diagram](../assets/chapter-04/Containers-dark.png)
+
 ### 4.6.4. Software Architecture Components Diagrams.
+#### Identity & Access
+![Identity Component Diagram](../assets/chapter-04/IdentityComponents-dark.png)
+#### Parking Management 
+![Parking Component Diagram](../assets/chapter-04/ParkingComponents-dark.png)
+#### Payment & Billing
+![Payment Component Diagram](../assets/chapter-04/PaymentComponents-dark.png)
+#### Reservation & Parking Session
+![Reservation Component Diagram](../assets/chapter-04/ReservationComponents-dark.png)
 
 ### 4.7. Software Object-Oriented Design.
 
