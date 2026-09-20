@@ -1,0 +1,9 @@
+### Recomendaciones
+
+Primero, resulta imprescindible validar las ideas planteadas conversando directamente con las personas que viven el problema a diario. Realizar entrevistas breves o encuestas a conductores que enfrentan el tráfico constantemente y a propietarios con espacios en desuso permitirá entender sus necesidades reales. Con esta información directa del usuario, se podrá organizar mejor el trabajo y dar prioridad a las funciones que realmente resuelven problemas diarios, evitando destinar tiempo a características secundarias.
+
+Al mismo tiempo, es necesario estudiar a fondo las soluciones y aplicaciones que ya operan en el mercado local. El objetivo es identificar qué aspectos manejan de forma correcta, en cuáles presentan fallas y qué tipo de insatisfacciones expresan sus usuarios. Este análisis permitirá definir con claridad la propuesta de valor del proyecto, logrando que destaque frente a la competencia ya sea por ofrecer mejores precios, mayor seguridad, una interfaz más sencilla o una mejor cobertura en zonas clave.
+
+Para garantizar una buena disponibilidad de espacios desde el comienzo, es aconsejable no limitarse a los garajes de casas particulares. Una excelente alternativa es incorporar también a pequeños y medianos estacionamientos comerciales que actualmente no cuentan con presencia digital. Sumar este tipo de locales ayudará a diversificar la oferta, asegurando que la plataforma sea más confiable para los usuarios que buscan un lugar disponible de forma rápida.
+
+Para lograr una implementacion exitosa, la mejor estrategia de inicio consiste en concentrar los esfuerzos en mejorar los puntos debiles de la aplicacion. De esta manera, los usuario tendran una mejor experiencia a la hora de interactuar con nuestra aplicacion.
