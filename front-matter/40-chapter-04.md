@@ -592,7 +592,7 @@ En esta sección se presentan los prototipos de UI desarrollados en Figma para l
 <br>
 
 <div align="center">
-  <a hrf="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQBcEJ_ITJTYQaugUbTGYrrtAQnXLhbBgqHUf9B7Hzy5onI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k9wWZl">Ver video de prototipo web</a>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQBcEJ_ITJTYQaugUbTGYrrtAQnXLhbBgqHUf9B7Hzy5onI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k9wWZl">Ver video de prototipo web</a>
 </div>
 
 <br>
@@ -608,7 +608,7 @@ Para el usuario **Conductor**, el dashboard (pantalla inicial) se muestra luego 
 <br>
 
 <div align="center">
-  <a hrf="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQBcEJ_ITJTYQaugUbTGYrrtAQnXLhbBgqHUf9B7Hzy5onI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k9wWZl">Ver video de prototipo mobile</a>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQBcEJ_ITJTYQaugUbTGYrrtAQnXLhbBgqHUf9B7Hzy5onI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k9wWZl">Ver video de prototipo mobile</a>
 </div>
 
 <br>
