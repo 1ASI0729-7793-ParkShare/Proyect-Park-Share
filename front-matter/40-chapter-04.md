@@ -490,13 +490,92 @@ Los wireframes de la aplicación web definen la disposición esquemática, la je
 ### 4.4.3. Web Applications User Flow Diagrams.
 ### 4.5. Web Applications Prototyping.
 
-A continuación, mostraremos un modelo interactivo de la aplicación web para ambos segmentos objetivo.
+En esta sección se presentan los prototipos de UI desarrollados en Figma para la aplicación web de SafeStep, tanto en su versión Desktop como Mobile. Los prototipos incluyen simulación de interacción y navegación, alineados con los User Flow Diagrams definidos previamente. El objetivo es demostrar cómo los usuarios pueden completar sus tareas principales a través de los flujos diseñados.
 
-<div align="center"><img src="../assets/app-web/prototipo.png" alt="prototipo figma"></div>
+<div align="center"><img src="../assets/app-web/video_prototipo.png" alt="prototipo web">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
 
-Para el usuario **Conductor**, el dashboard (pantalla inicial) se muestra luego del inicio de sesión exitoso.
+<br>
 
+<div align="center">
+  <a hrf="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQBcEJ_ITJTYQaugUbTGYrrtAQnXLhbBgqHUf9B7Hzy5onI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k9wWZl">Ver video de prototipo web</a>
+</div>
 
+<br>
+
+<div align="center"><img src="../assets/app-web/mobile_proto.png" alt="prototipo web">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+<br>
+
+<div align="center">
+  <a hrf="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQBcEJ_ITJTYQaugUbTGYrrtAQnXLhbBgqHUf9B7Hzy5onI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k9wWZl">Ver video de prototipo mobile</a>
+</div>
+
+<br>
+
+<br>
+
+Los criterios de interacción que guiaron el diseño fueron:
+
+- **Consistencia:** todos los flujos mantienen el mismo estilo visual, patrones de navegación y componentes reutilizables.
+- **Minimización de pasos:** cada tarea se completa en el menor número de clics posible.
+- **Feedback inmediato:** cada acción del usuario genera una respuesta visual clara (confirmaciones, cambios de estado, mensajes de error).
+- **Navegación predecible:** el menú lateral y la barra superior mantienen siempre la misma estructura y ubicación.
+- **Accesibilidad:** contraste adecuado, tipografía legible, botones con estados de foco y navegación por teclado.
+
+Los prototipos respetan las decisiones de arquitectura de información definidas previamente:
+
+- **Sistema de navegación:** el menú lateral contiene las secciones principales (Dashboard, Mis reservas, Mis cocheras, Ingresos, Perfil) y se mantiene fijo en todas las pantallas.
+- **Jerarquía visual:** los indicadores clave (KPIs) se ubican en la parte superior de cada pantalla, seguidos de las acciones principales y los detalles secundarios.
+- **Etiquetado:** los textos de la interfaz son cortos, claros y consistentes con el lenguaje ubicuo del dominio.
+- **Búsqueda y filtrado:** las pantallas de búsqueda permiten filtrar por fecha, ubicación y tipo de cochera.
+
+<br>
+
+A continuación presentaremos los flujos de interacción cubiertos por los prototipos.
+
+**Flujo de Conductores**
+
+Este flujo corresponde al usuario que busca y reserva una cochera.
+
+1. **Login:** el conductor ingresa con sus credenciales.
+Dashboard Driver: visualiza el resumen de sus reservas y accesos rápidos.
+
+2. **Búsqueda:** filtra cocheras por ubicación, fecha y hora.
+
+3. **Resultados:** revisa las cocheras disponibles con su información resumida.
+
+4. **Detalle de cochera:** consulta la información completa y el precio.
+
+5. **Confirmación de reserva:** selecciona la duración y confirma el pago.
+
+6. **Reserva exitosa:** recibe la confirmación y los detalles de la reserva.
+
+7. **Mis reservas:** consulta el historial de reservas anteriores.
+
+<br>
+
+**Flujo de propietarios**
+
+Este flujo corresponde al usuario que publica y gestiona cocheras.
+
+1. **Login:** el propietario ingresa con sus credenciales.
+
+2. **Dashboard propietario:** visualiza los indicadores de su negocio (ingresos, reservas activas, ocupación).
+
+3. **Solicitudes de reserva:** revisa y aprueba o rechaza solicitudes.
+
+4. **Mis cocheras:** administra las cocheras publicadas.
+
+5. **Publicar cochera:** completa el formulario con los datos de la nueva cochera.
+
+6. **Mis ingresos:** consulta los ingresos generados y los reportes.
 
 ### 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
