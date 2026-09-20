@@ -743,6 +743,16 @@ En esta sección se presenta el diseño orientado a la solución, desarrollado a
 La solución fue modelada considerando un enfoque basado en bounded contexts, permitiendo organizar las responsabilidades del sistema en módulos funcionales relacionados con la gestión de usuarios, la administración de espacios de estacionamiento, la búsqueda y visualización en mapa interactivo, las reservas y disponibilidad, los pagos y facturación, y las notificaciones. Cada diagrama incluye clases, atributos, métodos, relaciones, multiplicidades y niveles de acceso. Para la elaboración de los diagramas se utilizará PlantUML.
 
 <div style="text-align:center;"><img src="../assets/class_diagram.png" alt="texto"></div>
+
 ### 4.8. Database Design.
 
 ### 4.8.1. Database Diagrams.
+En esta sección se presenta el diseño de base de datos, desarrollado a partir de los requerimientos funcionales, entidades identificadas y funcionalidades relacionadas con la búsqueda, reserva y administración de espacios de estacionamiento.
+
+El objetivo es garantizar la integridad y organización de la información utilizada por la plataforma, permitiendo almacenar datos relacionados con usuarios, vehículos, espacios de estacionamiento, disponibilidad, reservas, pagos y notificaciones. Se contemplan relaciones entre entidades, restricciones y mecanismos que soporten operaciones de búsqueda en tiempo real y gestión confiable de reservas.
+
+Para la elaboración de los diagramas de base de datos se utilizará PlantUML, empleando diagramas entidad-relación para representar tablas, columnas, claves primarias, claves foráneas y relaciones entre entidades.
+
+<div style="text-align:center;"><img src="../assets/database_diagram.png" alt="texto"></div>
+
+
