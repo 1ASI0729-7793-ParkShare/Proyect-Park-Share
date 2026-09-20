@@ -1,0 +1,207 @@
+@startuml ParkShare_ClassDiagram
+
+title ParkShare - Diagrama de Clases (Bounded Contexts)
+
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+
+' ==========================
+' BOUNDED CONTEXT: Gestión de Usuarios
+' ==========================
+package "Gestión de Usuarios" {
+
+  abstract class Usuario {
+    -id: UUID
+    -nombre: String
+    -email: String
+    -telefono: String
+    -passwordHash: String
+    -fechaRegistro: Date
+    +iniciarSesion(email: String, password: String): boolean
+    +actualizarPerfil(datos: PerfilDTO): void
+    #validarCredenciales(): boolean
+  }
+
+  class Conductor extends Usuario {
+    -vehiculos: List<Vehiculo>
+    -metodoPagoPredeterminado: MetodoPago
+    +buscarEstacionamiento(criterios: FiltroBusqueda): List<Espacio>
+    +reservarEspacio(idEspacio: UUID, horario: Horario): Reserva
+  }
+
+  class Propietario extends Usuario {
+    -espaciosPublicados: List<Espacio>
+    -ingresosTotales: Decimal
+    +publicarEspacio(datos: EspacioDTO): Espacio
+    +gestionarReservas(): List<Reserva>
+  }
+
+  class Vehiculo {
+    -id: UUID
+    -placa: String
+    -tipo: TipoVehiculo
+    -color: String
+  }
+
+  Conductor "1" o-- "0..*" Vehiculo : posee
+}
+
+' ==========================
+' BOUNDED CONTEXT: Publicación y Administración de Espacios
+' ==========================
+package "Espacios de Estacionamiento" {
+
+  class Espacio {
+    -id: UUID
+    -titulo: String
+    -direccion: String
+    -latitud: Double
+    -longitud: Double
+    -precioPorHora: Decimal
+    -fotos: List<String>
+    -estado: EstadoEspacio
+    -idPropietario: UUID
+    +publicar(): void
+    +actualizarDisponibilidad(horario: Horario): void
+    +calcularIngresos(): Decimal
+  }
+
+  class Disponibilidad {
+    -id: UUID
+    -idEspacio: UUID
+    -diaSemana: DiaSemana
+    -horaInicio: Time
+    -horaFin: Time
+    +estaDisponible(fecha: DateTime): boolean
+  }
+
+  enum EstadoEspacio {
+    ACTIVO
+    INACTIVO
+    EN_MANTENIMIENTO
+  }
+
+  Espacio "1" *-- "0..*" Disponibilidad : define
+  Espacio "1" -- "1" EstadoEspacio
+}
+
+' ==========================
+' BOUNDED CONTEXT: Búsqueda y Mapa Interactivo
+' ==========================
+package "Búsqueda y Mapa" {
+
+  class FiltroBusqueda {
+    -ubicacion: Coordenada
+    -radioKm: Double
+    -precioMaximo: Decimal
+    -fechaHoraInicio: DateTime
+    -fechaHoraFin: DateTime
+    +aplicarFiltro(espacios: List<Espacio>): List<Espacio>
+  }
+
+  class Coordenada {
+    -latitud: Double
+    -longitud: Double
+    +calcularDistancia(otra: Coordenada): Double
+  }
+
+  class ServicioMapa {
+    +mostrarEspaciosEnMapa(espacios: List<Espacio>): void
+    +calcularRuta(origen: Coordenada, destino: Coordenada): Ruta
+  }
+
+  FiltroBusqueda "1" -- "1" Coordenada
+  ServicioMapa ..> Espacio : consulta
+}
+
+' ==========================
+' BOUNDED CONTEXT: Reservas
+' ==========================
+package "Reservas" {
+
+  class Reserva {
+    -id: UUID
+    -idConductor: UUID
+    -idEspacio: UUID
+    -fechaHoraInicio: DateTime
+    -fechaHoraFin: DateTime
+    -estado: EstadoReserva
+    -montoTotal: Decimal
+    +confirmar(): void
+    +cancelar(motivo: String): void
+    +calcularMonto(): Decimal
+  }
+
+  enum EstadoReserva {
+    PENDIENTE
+    CONFIRMADA
+    EN_CURSO
+    FINALIZADA
+    CANCELADA
+  }
+
+  Reserva "1" -- "1" EstadoReserva
+  Conductor "1" -- "0..*" Reserva : realiza
+  Espacio "1" -- "0..*" Reserva : recibe
+}
+
+' ==========================
+' BOUNDED CONTEXT: Pagos y Facturación
+' ==========================
+package "Pagos" {
+
+  class MetodoPago {
+    -id: UUID
+    -tipo: TipoMetodoPago
+    -ultimosDigitos: String
+    -idConductor: UUID
+    +procesarPago(monto: Decimal): Transaccion
+  }
+
+  class Transaccion {
+    -id: UUID
+    -idReserva: UUID
+    -monto: Decimal
+    -fecha: DateTime
+    -estado: EstadoTransaccion
+    +generarComprobante(): Comprobante
+  }
+
+  enum EstadoTransaccion {
+    APROBADA
+    RECHAZADA
+    REEMBOLSADA
+  }
+
+  Reserva "1" -- "0..1" Transaccion : genera
+  MetodoPago "1" -- "0..*" Transaccion : procesa
+}
+
+' ==========================
+' BOUNDED CONTEXT: Notificaciones
+' ==========================
+package "Notificaciones" {
+
+  class Notificacion {
+    -id: UUID
+    -idUsuario: UUID
+    -tipo: TipoNotificacion
+    -mensaje: String
+    -fechaEnvio: DateTime
+    -leida: boolean
+    +enviar(): void
+    +marcarComoLeida(): void
+  }
+
+  enum TipoNotificacion {
+    RESERVA_CONFIRMADA
+    RESERVA_CANCELADA
+    RECORDATORIO
+    PAGO_PROCESADO
+  }
+
+  Usuario "1" -- "0..*" Notificacion : recibe
+  Reserva ..> Notificacion : dispara
+}
+
+@enduml
