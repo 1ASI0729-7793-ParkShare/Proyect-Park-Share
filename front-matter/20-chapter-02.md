@@ -125,8 +125,32 @@ Respecto a sus hábitos digitales, David suele utilizar Waze y Google Maps para 
 
 Finalmente, para sentirse cómodo en un estacionamiento, David requiere información precisa sobre la dirección, fotografías del local, tarifas transparentes (usualmente dispuestas a pagar entre 5 y 8 soles por hora), horarios, y elementos de seguridad como techo, cámaras y facilidad de acceso. Para confiar en el alquiler de una cochera privada de un tercero, considera imprescindible la verificación de identidad del propietario mediante DNI, referencias u opiniones de otros usuarios, contar con un seguro o garantía que cubra eventualidades y la posibilidad de gestionar los pagos directamente desde una aplicación para dejar constancia de la transacción.
 
+#### Entrevista 3
 
+| Dato                | Información                                        |
+| ------------------- |----------------------------------------------------|
+| Nombres y apellidos | Wilson Zapata                                      |
+| Edad                | 45                                                 |
+| Distrito            | Jesus Maria                                        |
+| Segmento objetivo   | Conductores que requieren estacionamiento temporal |
+| Fecha de entrevista | 18/09/2026                                         |
+| Duración aproximada | 6 min 58 s                                         |
+| Inicio en el video  | 00:01                                              |
+| URL del video       |      https://drive.google.com/file/d/1Poxf-yU5P5wXuIEzPwNRekEPFfeDpQUz/view?usp=sharing                         |
 
+**Evidencia de la entrevista**
+
+![Entrevista 3 - Segmento 1](../assets/interviews1/segment-1/interview-02-segment1.jpg)
+
+**Resumen de la entrevista**
+
+Wilson zapata utiliza su vehiculo a diario para desplazarse a la oficina donde trabaja, para las compras o para el entretenimiento, para los lugares concurridos ya tiene identificado lugares pertinentes para aparcar con garantía sin embargo el también dispone de soluciones cuando tiene que lidiar con visitar un lugar donde no tiene estacionamiento asegurado. Y el no viajaria en vehiculo en el caso de que el lugar le quede cerca. 
+
+Utiliza aplicaciones versatiles como waze que ofrece una opcion de mostrar estacionamientos locales ya sea por los mismos propietarios u reportados por otros usuarios de la aplicación.
+
+El selecciona un estacionamiento evaluandolo por el nivel de seguridad, precio y que esté ubicado cerca al lugar que quiere visitar para prevenir si es el tipo de servicios donde te solicitan la llave del vehiculo para aparcarlo o cambiarlo de lugar en el estacionamiento cuando lleguen más clientes.
+
+Su experiencia mejoraria si tuviera una aplicacion que le pueda mostrar el precio actual de estacionamientos adicionales que aplicaciones como waze todavia no hay registrado en los alrededores de su lugar de destino.
 
 
 #### Segmento 2: Propietarios de Espacios y Negocios
