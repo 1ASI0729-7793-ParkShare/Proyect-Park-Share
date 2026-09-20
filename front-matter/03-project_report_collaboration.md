@@ -8,7 +8,7 @@ El repositorio aplica **GitFlow** para el control de  las versiones y **Convetio
 
 
 
-
+![Contribuciones](/report/assets/contribuciones.png)
 
 
 
