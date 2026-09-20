@@ -196,6 +196,33 @@ Respecto a sus hábitos digitales, señaló que utiliza principalmente aplicacio
 
 Finalmente, considera que para sentirse seguro utilizando una plataforma orientada al alquiler temporal de estacionamientos sería necesario contar con mecanismos de verificación de los conductores, conocer la placa de los vehículos, establecer horarios claramente definidos y recibir confirmaciones relacionadas con las reservas. También considera importante conocer con anticipación posibles cancelaciones y mantener control sobre la disponibilidad del espacio.
 
+#### Entrevista 3
+
+| Dato                | Información                                                                        |
+| ------------------- |------------------------------------------------------------------------------------|
+| Nombres y apellidos | Jilbert Rivera                                                                     |
+| Edad                | 50                                                                                 |
+| Distrito            | Jesus Maria                                                                        |
+| Segmento objetivo   | Propietarios de Espacios y Negocios                                                |
+| Fecha de entrevista | 14/09/2026                                                                         |
+| Duración aproximada | 7 min 49 s                                                                         |
+| Inicio en el video  | 00:06                                                                              |
+| URL del video       | https://drive.google.com/file/d/147Vbm-eZAHrwq5d-36Sf7RGtoFQLfkqJ/view?usp=sharing |
+
+**Evidencia de la entrevista**
+
+![Entrevista 3 - Segmento 2](../assets/interviews/segment-2/interview-03.jpg)
+
+**Resumen de la entrevista**
+
+Tiene estacionamientos en jesus maria de 12 metros cuadrados, generalmente los estacionamientos paran ocupados debido al trafico del distrito en los días laborales. Hay personal de seguridad que avisan si los propietarios o
+copropietarios de la cochera necesitan utilizar el espacio por la aplicacion whatsApp.
+
+La informacion que consulta jilbert antes de dejar que alguien ocupe sus estacionamientos en el caso de que sea por largo tiempo es que sea una persona que tenga las posibilidades de pagar para evitar el riesgo de que que se vaya sin pagar y otra caracteristica que mejora la confianza al alquilar la cochera es que el cliente viva en la zona o en el mismo distrito
+
+Para el alquiler de una cochera personal el considera que la persona que solicita le cobraría 5 o 10 soles la hora. Sus distintas cocheras tiene una puerta electronica por control remoto y antes deben identificarse con el portero del edificio. En un caso en el que el no permitiria ocupar una cochera temporalmente es por razones economicas. Las principales aplicaciones de comunicacion que utiliza son las de whatsApp y Messenger de facebook. Entre los dispositivos principales que maneja para el alquiler son el celular y la laptop.
+
+La aplicacion ideal deberia mostrar informacion fundamental del cliente, edad, el tipo de vehiculo que va a entrar, dimensiones del vehiculo para cocheras pequeñas y la zona donde reside o de donde viene.
 ### 2.2.3 Análisis de entrevistas
 
 
