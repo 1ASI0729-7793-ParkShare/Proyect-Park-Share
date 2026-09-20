@@ -16,7 +16,8 @@
 
 ---
 
-## [Capítulo II: Requirements Elicitation & Analysis](Capitulo_2.md)
+## [Capítulo II: Requirements Elicitation & Analysis](/front-matter/20-chapter-02.md)
+
 
 - [2.1. Competidores]()
   - [2.1.1. Análisis competitivo]()
