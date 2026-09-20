@@ -1,0 +1,473 @@
+## 2.2 Entrevistas
+
+### 2.2.1 Diseño de entrevistas
+
+Las entrevistas tienen como objetivo recopilar información acerca de las experiencias, necesidades, comportamientos, objetivos y frustraciones de los usuarios pertenecientes a los segmentos objetivo de ParkShare. Asimismo, se busca conocer sus hábitos relacionados con el uso de estacionamientos y servicios digitales, con la finalidad de obtener información que permita desarrollar posteriormente los artefactos de Needfinding.
+
+#### Segmento 1: Conductores en Zonas Urbanas
+
+Para este segmento, la entrevista busca comprender cómo los conductores encuentran actualmente espacios de estacionamiento, qué dificultades experimentan durante este proceso, cuáles son los factores que consideran al seleccionar un espacio y qué herramientas digitales utilizan durante sus desplazamientos.
+
+1. ¿Con qué frecuencia utilizas un automóvil y cuáles suelen ser los principales motivos de tus desplazamientos?
+
+2. Cuéntame sobre la última vez que necesitaste encontrar estacionamiento en una zona urbana concurrida. ¿A dónde ibas y qué ocurrió?
+
+3. Cuando te desplazas hacia una zona donde no tienes estacionamiento asegurado, ¿cómo sueles buscar dónde dejar tu vehículo?
+
+4. ¿Qué dificultades encuentras normalmente durante la búsqueda de estacionamiento?
+
+5. ¿Qué aspectos consideras más importantes al decidir dónde estacionar tu vehículo? ¿Por qué?
+
+6. ¿Cuánto tiempo sueles estar dispuesto a dedicar a buscar estacionamiento antes de considerar otra alternativa?
+
+7. ¿Cómo influye el precio del estacionamiento en tu decisión y cómo determinas cuánto estás dispuesto a pagar?
+
+8. ¿Alguna vez has preferido no ir en automóvil a algún lugar debido a la dificultad para estacionar? Cuéntame qué ocurrió.
+
+9. Si pudieras mejorar algún aspecto de la experiencia actual de buscar y utilizar estacionamientos, ¿qué cambiarías y por qué?
+
+10. ¿Qué aplicaciones o servicios digitales utilizas habitualmente cuando conduces o te desplazas?
+
+11. Cuando necesitas consultar información o realizar una reserva mediante Internet, ¿qué dispositivo y aplicaciones utilizas normalmente?
+
+12. ¿Por qué medios prefieres recibir información importante, como confirmaciones, recordatorios o cambios relacionados con un servicio?
+
+13. ¿Qué información necesitarías conocer sobre un estacionamiento antes de decidir dejar allí tu vehículo?
+
+14. ¿Qué preocupaciones tendrías al estacionar tu vehículo en un espacio perteneciente a una persona o negocio que no conoces? ¿Qué factores aumentarían tu confianza?
+
+#### Segmento 2: Propietarios de Espacios y Negocios
+
+Para este segmento, la entrevista busca comprender cómo los propietarios o responsables administran actualmente sus espacios de estacionamiento, durante qué periodos permanecen disponibles, cuáles serían sus motivaciones para aprovecharlos económicamente y qué preocupaciones tendrían al permitir que terceros los utilicen.
+
+1. Cuéntame sobre el espacio o los espacios de estacionamiento que posees o administras. ¿Dónde se encuentran y cuáles son sus principales características?
+
+2. ¿En qué momentos o días suelen permanecer desocupados esos espacios y aproximadamente durante cuánto tiempo?
+
+3. ¿Cómo se utilizan o gestionan actualmente esos espacios cuando se encuentran disponibles?
+
+4. ¿Alguna vez has permitido, prestado o alquilado alguno de estos espacios a terceros? Cuéntame cómo fue la experiencia.
+
+5. ¿Qué razones podrían motivarte a ofrecer estos espacios a otros conductores durante los periodos en los que están disponibles?
+
+6. ¿Qué preocupaciones o riesgos considerarías antes de permitir que un conductor utilice uno de tus espacios de estacionamiento?
+
+7. ¿Qué información necesitarías conocer sobre un conductor antes de aceptar que utilice uno de tus espacios?
+
+8. ¿Cómo gestionas o gestionarías los horarios de disponibilidad para evitar conflictos con el uso habitual de los espacios?
+
+9. Si decidieras cobrar por el uso temporal de tus espacios, ¿qué factores tomarías en cuenta para establecer el precio?
+
+10. ¿Cómo funciona actualmente el acceso a tus espacios de estacionamiento?
+
+11. ¿Qué situaciones podrían hacer que dejaras de ofrecer temporalmente un espacio, incluso si estuviera desocupado?
+
+12. ¿Qué aplicaciones o servicios digitales utilizas habitualmente para realizar pagos, ventas, alquileres o gestionar otros servicios?
+
+13. ¿Qué dispositivo utilizas principalmente para acceder a servicios digitales y qué medios prefieres para recibir notificaciones o comunicarte con otras personas?
+
+14. ¿Qué tendría que ofrecer un servicio de este tipo para que te sintieras suficientemente seguro y cómodo administrando temporalmente tus espacios de estacionamiento?
+
+### 2.2.2 Registro de entrevistas
+
+En esta sección se presenta el registro de las entrevistas realizadas a representantes de los segmentos objetivo de ParkShare. Para cada entrevistado se recopilan datos generales, evidencia audiovisual y un resumen descriptivo de la información obtenida durante la sesión.
+
+### Entrevista 1
+
+| Dato                | Información                                        |
+| ------------------- | -------------------------------------------------- |
+| Nombres y apellidos | Richard Palomino                                   |
+| Edad                | 23                                                 |
+| Distrito            | SJL                                                |
+| Segmento objetivo   | Conductores que requieren estacionamiento temporal |
+| Fecha de entrevista | 13/09/2026                                         |
+| Duración aproximada | 6 min 59 s                                         |
+| Inicio en el video  | 00:04                                              |
+| URL del video       | https://goo.su/n216mre                             |
+
+**Evidencia de la entrevista**
+
+![Entrevista 1 - Segmento 1](../assets/interviews1/segment-1/interview-01-segment1.png)
+
+**Resumen de la entrevista**
+
+Durante la entrevista, Richard Palomino, de 23 años, que corresponde al segmento de Conductores que requieren estacionamiento temporal, compartió sus experiencias y preferencias respecto al uso de su automóvil y la búsqueda de estacionamiento. Utiliza su vehículo de tres a cinco veces por semana principalmente para trasladarse a la universidad, hacer las compras de la semana y asistir a sus entrenamientos los fines de semana. Sin embargo, cuando debe acudir a eventos masivos o a zonas céntricas muy congestionadas, prefiere optar por el transporte público o un taxi para evitar el estrés y la pérdida de tiempo que implica encontrar un lugar donde estacionar.
+
+Al momento de buscar aparcamiento, el entrevistado suele demorar un máximo de 10 a 15 minutos antes de considerar alternativas como buscar una cochera más distante o un centro comercial cercano. Entre las principales dificultades que enfrenta en el día a día destacan la falta de espacios disponibles en horas punta, el tráfico en las entradas de los establecimientos, las tarifas elevadas o poco claras, y las zonas de maniobra reducidas que pueden provocar percances entre los conductores. Para orientarse en zonas desconocidas, recurre principalmente a aplicaciones de navegación como Google Maps y Waze desde su teléfono inteligente.
+
+Para sentirse cómodo dejando su vehículo, Richard prioriza la transparencia en las tarifas, la seguridad del lugar, los horarios y que la estructura sea techada para resguardar el auto del clima. Además, señala que su confianza aumentaría significativamente si existiera una plataforma que verifique la identidad del dueño de la cochera, muestre fotos reales e incluya calificaciones de otros usuarios. Finalmente, propone como solución ideal la posibilidad de consultar la disponibilidad de espacios libres en tiempo real y poder reservar y pagar de forma digital previa a su llegada.
+
+#### Entrevista 2
+
+| Dato                | Información                                        |
+| ------------------- | -------------------------------------------------- |
+| Nombres y apellidos | David Vivar                                        |
+| Edad                | 22                                                 |
+| Distrito            | Magdalena                                          |
+| Segmento objetivo   | Conductores que requieren estacionamiento temporal |
+| Fecha de entrevista | 15/09/2026                                         |
+| Duración aproximada | 7 min 33 s                                         |
+| Inicio en el video  | 00:03                                              |
+| URL del video       | https://goo.su/yqnJ                                |
+
+**Evidencia de la entrevista**
+
+![Entrevista 2 - Segmento 1](../assets/interviews1/segment-1/interview-02-segment2.png)
+
+**Resumen de la entrevista**
+
+En esta entrevista, David Vivar, residente del distrito de Magdalena, compartió sus experiencias sobre la conducción y la búsqueda de estacionamiento en la ciudad. Señaló que utiliza su vehículo de 5 a 6 veces por semana, principalmente para ir al trabajo, salir los fines de semana y realizar compras o reunirse con amigos. Relató que en su última experiencia buscando aparcamiento en La Rambla de San Borja, el lugar estaba completamente lleno, por lo que tuvo que dar vueltas durante 10 minutos y terminar dejando el vehículo en una calle a varias cuadras de distancia pagándole a un cuidador. Cuando no tiene un lugar asegurado, su primera opción es buscar un espacio permitido en la vía pública o recurrir a playas de estacionamiento conocidas o localizadas mediante Google Maps.
+
+Entre las principales dificultades que enfrenta, David mencionó la escasez de espacios durante las horas punta, los precios elevados de algunas playas de estacionamiento, la falta de seguridad al dejar el auto en la calle y la pérdida de tiempo que esto representa, lo que en ocasiones le genera retrasos para llegar al trabajo. Por estas razones, prioriza la seguridad del vehículo por encima de otros factores, estando dispuesto a pagar una tarifa más alta si el lugar le brinda confianza. Además, indicó que no suele dedicar más de 10 a 15 minutos a buscar aparcamiento antes de optar por una playa más costosa; e incluso prefiere acudir en Uber a eventos masivos como conciertos para evitar las complicaciones de estacionar.
+
+Respecto a sus hábitos digitales, David suele utilizar Waze y Google Maps para la navegación, billeteras digitales como Yape para pagos y servicios de transporte como Uber cuando no maneja. Realiza todas sus consultas y reservas exclusivamente desde su smartphone a través del navegador Google Chrome, prefiriendo canalizar comunicaciones breves por WhatsApp y recibir comprobantes de pago por correo electrónico.
+
+Finalmente, para sentirse cómodo en un estacionamiento, David requiere información precisa sobre la dirección, fotografías del local, tarifas transparentes (usualmente dispuestas a pagar entre 5 y 8 soles por hora), horarios, y elementos de seguridad como techo, cámaras y facilidad de acceso. Para confiar en el alquiler de una cochera privada de un tercero, considera imprescindible la verificación de identidad del propietario mediante DNI, referencias u opiniones de otros usuarios, contar con un seguro o garantía que cubra eventualidades y la posibilidad de gestionar los pagos directamente desde una aplicación para dejar constancia de la transacción.
+
+#### Entrevista 3
+
+| Dato                | Información                                                                        |
+| ------------------- | ---------------------------------------------------------------------------------- |
+| Nombres y apellidos | Wilson Zapata                                                                      |
+| Edad                | 45                                                                                 |
+| Distrito            | Jesus Maria                                                                        |
+| Segmento objetivo   | Conductores que requieren estacionamiento temporal                                 |
+| Fecha de entrevista | 18/09/2026                                                                         |
+| Duración aproximada | 6 min 58 s                                                                         |
+| Inicio en el video  | 00:01                                                                              |
+| URL del video       | https://drive.google.com/file/d/1Poxf-yU5P5wXuIEzPwNRekEPFfeDpQUz/view?usp=sharing |
+
+**Evidencia de la entrevista**
+
+![Entrevista 3 - Segmento 1](../assets/interviews1/segment-1/interview-02-segment1.jpg)
+
+**Resumen de la entrevista**
+
+Wilson zapata utiliza su vehiculo a diario para desplazarse a la oficina donde trabaja, para las compras o para el entretenimiento, para los lugares concurridos ya tiene identificado lugares pertinentes para aparcar con garantía sin embargo el también dispone de soluciones cuando tiene que lidiar con visitar un lugar donde no tiene estacionamiento asegurado. Y el no viajaria en vehiculo en el caso de que el lugar le quede cerca.
+
+Utiliza aplicaciones versatiles como waze que ofrece una opcion de mostrar estacionamientos locales ya sea por los mismos propietarios u reportados por otros usuarios de la aplicación.
+
+El selecciona un estacionamiento evaluandolo por el nivel de seguridad, precio y que esté ubicado cerca al lugar que quiere visitar para prevenir si es el tipo de servicios donde te solicitan la llave del vehiculo para aparcarlo o cambiarlo de lugar en el estacionamiento cuando lleguen más clientes.
+
+Su experiencia mejoraria si tuviera una aplicacion que le pueda mostrar el precio actual de estacionamientos adicionales que aplicaciones como waze todavia no hay registrado en los alrededores de su lugar de destino.
+
+#### Segmento 2: Propietarios de Espacios y Negocios
+
+#### Entrevista 1
+
+| Dato                | Información                                      |
+| ------------------- | ------------------------------------------------ |
+| Nombres y apellidos | Daniel Pinedo                                    |
+| Edad                | 21                                               |
+| Distrito            | Ventanilla                                       |
+| Segmento objetivo   | Propietarios de Espacios y Negocios              |
+| Fecha de entrevista | 11/09/2026                                       |
+| Duración aproximada | 6 min 54 s                                       |
+| Inicio en el video  | 00:01                                            |
+| URL del video       | https://youtu.be/DHeAJ3CKvXE?si=JknAzuz1o0-fJjBQ |
+
+**Evidencia de la entrevista**
+
+![Entrevista 1 - Segmento 2](../assets/interviews/segment-2/interview-01.png)
+
+**Resumen de la entrevista**
+
+Daniel Pinedo pertenece al segmento de Propietarios de Espacios y Negocios. Actualmente cuenta con una cochera ubicada dentro de su vivienda, con capacidad para un automóvil. El espacio es techado, se encuentra separado de la parte principal de la casa y su acceso se realiza desde la calle mediante un portón operado con control remoto.
+
+Respecto al uso del espacio, indicó que la cochera permanece desocupada durante una parte considerable de la semana. El automóvil familiar es utilizado principalmente por su padre para acudir al trabajo y, durante ciertos periodos del día y también algunos fines de semana, la cochera permanece vacía. Cuando esto sucede, generalmente el espacio no recibe ningún uso adicional, aunque ocasionalmente puede ser utilizado temporalmente por algún familiar.
+
+El entrevistado señaló que hasta el momento solo ha permitido utilizar la cochera a familiares o personas conocidas en quienes tiene confianza. No ha realizado un alquiler formal del espacio. Sin embargo, considera que la posibilidad de generar ingresos adicionales mediante un espacio que normalmente permanece desocupado sería una motivación importante para ofrecerlo temporalmente a otros conductores.
+
+En relación con sus principales preocupaciones, mencionó especialmente la seguridad. Permitir el ingreso de una persona desconocida a su propiedad le generaría preocupación debido a la posibilidad de daños dentro del inmueble o de que ocurra algún inconveniente relacionado con el vehículo. Por esta razón, considera importante poder conocer previamente información del conductor.
+
+Entre los datos que considera necesarios se encuentran el nombre de la persona, algún documento de identificación como el DNI y datos del vehículo, especialmente la placa. También manifestó interés en contar con un sistema de calificaciones para los conductores, ya que las experiencias registradas por otros propietarios podrían ayudarle a evaluar qué tan confiable resulta una persona antes de permitirle utilizar el espacio.
+
+Respecto a la disponibilidad, considera necesario establecer horarios específicos en los que la cochera pueda ser ofrecida. Como ejemplo, señaló que podría encontrarse disponible aproximadamente de lunes a viernes entre las 9:00 a. m. y las 5:00 p. m., siempre que durante ese periodo su familia no necesite utilizarla.
+
+Para establecer el precio del alquiler, tomaría en consideración las tarifas que cobran otros estacionamientos, el tiempo durante el cual permanecerá el vehículo, la ubicación del espacio y factores relacionados con la seguridad. Esto evidencia que el precio no estaría determinado únicamente por el tiempo de uso, sino también por las características y condiciones del estacionamiento.
+
+En cuanto al acceso, explicó que la cochera cuenta con un portón operado mediante control remoto. Actualmente, para permitir el ingreso de un conductor sería necesario que alguna persona se encontrara dentro de la vivienda para abrirlo. Esta situación representa una posible dificultad operativa para ofrecer el espacio cuando el propietario no se encuentra disponible.
+
+El entrevistado indicó también que podría dejar de ofrecer temporalmente la cochera cuando él o su familia necesiten utilizarla, cuando espere la visita de algún familiar o si llegara a tener experiencias negativas recurrentes con los conductores que hagan uso del espacio.
+
+Respecto a sus hábitos digitales, señaló que utiliza principalmente aplicaciones bancarias como BCP y una billetera digital para realizar pagos. También utiliza WhatsApp como uno de sus principales medios de comunicación. Su dispositivo de uso habitual es el teléfono celular y prefiere recibir información importante mediante notificaciones en el dispositivo o a través de WhatsApp.
+
+Finalmente, considera que para sentirse seguro utilizando una plataforma orientada al alquiler temporal de estacionamientos sería necesario contar con mecanismos de verificación de los conductores, conocer la placa de los vehículos, establecer horarios claramente definidos y recibir confirmaciones relacionadas con las reservas. También considera importante conocer con anticipación posibles cancelaciones y mantener control sobre la disponibilidad del espacio.
+
+#### Entrevista 3
+
+| Dato                | Información                                                                        |
+| ------------------- | ---------------------------------------------------------------------------------- |
+| Nombres y apellidos | Jilbert Rivera                                                                     |
+| Edad                | 50                                                                                 |
+| Distrito            | Jesus Maria                                                                        |
+| Segmento objetivo   | Propietarios de Espacios y Negocios                                                |
+| Fecha de entrevista | 14/09/2026                                                                         |
+| Duración aproximada | 7 min 49 s                                                                         |
+| Inicio en el video  | 00:06                                                                              |
+| URL del video       | https://drive.google.com/file/d/147Vbm-eZAHrwq5d-36Sf7RGtoFQLfkqJ/view?usp=sharing |
+
+**Evidencia de la entrevista**
+
+![Entrevista 3 - Segmento 2](../assets/interviews/segment-2/interview-03.jpg)
+
+**Resumen de la entrevista**
+
+Tiene estacionamientos en jesus maria de 12 metros cuadrados, generalmente los estacionamientos paran ocupados debido al trafico del distrito en los días laborales. Hay personal de seguridad que avisan si los propietarios o
+copropietarios de la cochera necesitan utilizar el espacio por la aplicacion whatsApp.
+
+La informacion que consulta jilbert antes de dejar que alguien ocupe sus estacionamientos en el caso de que sea por largo tiempo es que sea una persona que tenga las posibilidades de pagar para evitar el riesgo de que que se vaya sin pagar y otra caracteristica que mejora la confianza al alquilar la cochera es que el cliente viva en la zona o en el mismo distrito
+
+Para el alquiler de una cochera personal el considera que la persona que solicita le cobraría 5 o 10 soles la hora. Sus distintas cocheras tiene una puerta electronica por control remoto y antes deben identificarse con el portero del edificio. En un caso en el que el no permitiria ocupar una cochera temporalmente es por razones economicas. Las principales aplicaciones de comunicacion que utiliza son las de whatsApp y Messenger de facebook. Entre los dispositivos principales que maneja para el alquiler son el celular y la laptop.
+
+La aplicacion ideal deberia mostrar informacion fundamental del cliente, edad, el tipo de vehiculo que va a entrar, dimensiones del vehiculo para cocheras pequeñas y la zona donde reside o de donde viene.
+
+### 2.2.3 Análisis de entrevistas
+
+A partir de las entrevistas realizadas a los representantes de los segmentos objetivo de ParkShare, se identificaron patrones relacionados con sus comportamientos, necesidades, frustraciones, preferencias y hábitos tecnológicos.
+
+Los porcentajes presentados en esta sección fueron calculados tomando como base las respuestas y características registradas en las entrevistas realizadas a cada segmento.
+
+#### Segmento 1: Conductores en Zonas Urbanas
+
+Para el segmento de Conductores en Zonas Urbanas se realizaron tres entrevistas. Los participantes poseen edades entre los 22 y 45 años y utilizan el automóvil de manera frecuente para actividades relacionadas con el trabajo, estudios, compras y entretenimiento.
+
+A partir de sus respuestas se identificaron los siguientes patrones:
+
+| Característica identificada                                                                                                                         | Frecuencia | Porcentaje |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------: | ---------: |
+| Utiliza el automóvil frecuentemente durante la semana                                                                                               |     3 de 3 |       100% |
+| Considera la seguridad como un factor importante al elegir estacionamiento                                                                          |     3 de 3 |       100% |
+| Considera el precio o transparencia de las tarifas como un factor relevante                                                                         |     3 de 3 |       100% |
+| Utiliza aplicaciones de navegación para desplazarse o localizar estacionamientos                                                                    |     3 de 3 |       100% |
+| Utiliza Waze durante sus desplazamientos                                                                                                            |     3 de 3 |       100% |
+| Utiliza Google Maps como herramienta de navegación o búsqueda                                                                                       |     2 de 3 |      66.7% |
+| Ha experimentado dificultades relacionadas con la disponibilidad de estacionamientos en zonas concurridas                                           |     2 de 3 |      66.7% |
+| Está dispuesto a buscar aproximadamente entre 10 y 15 minutos antes de considerar otra alternativa                                                  |     2 de 3 |      66.7% |
+| Ha optado por otro medio de transporte para evitar dificultades de estacionamiento                                                                  |     2 de 3 |      66.7% |
+| Considera importante la ubicación o cercanía del estacionamiento respecto a su destino                                                              |     2 de 3 |      66.7% |
+| Mencionó explícitamente el smartphone como dispositivo utilizado para consultar información o servicios digitales                                   |     2 de 3 |      66.7% |
+| Considera útiles mecanismos como verificación de identidad, fotografías o calificaciones para aumentar la confianza en estacionamientos de terceros |     2 de 3 |      66.7% |
+
+#### Hábitos de movilidad
+
+El **100% de los entrevistados utiliza el automóvil de manera frecuente**. Richard Palomino indicó que conduce entre tres y cinco veces por semana, David Vivar entre cinco y seis veces, mientras que Wilson Zapata señaló utilizar su vehículo diariamente.
+
+Los principales motivos de desplazamiento están asociados con actividades cotidianas como trabajo, estudios, compras, reuniones y entretenimiento. Esto evidencia que el automóvil constituye un medio habitual de transporte para los usuarios entrevistados y que la necesidad de encontrar estacionamiento puede presentarse de manera recurrente.
+
+Asimismo, el **66.7% de los participantes manifestó haber optado en determinadas circunstancias por medios de transporte alternativos** para evitar las dificultades asociadas al estacionamiento. Richard indicó que prefiere transporte público o taxi para asistir a eventos masivos o lugares muy congestionados, mientras que David señaló recurrir a servicios como Uber en situaciones similares.
+
+#### Problemas durante la búsqueda de estacionamiento
+
+El **66.7% de los entrevistados manifestó explícitamente haber experimentado problemas relacionados con la falta de espacios disponibles**, principalmente durante horas de alta demanda o en zonas concurridas.
+
+Entre las principales dificultades identificadas se encuentran:
+
+- Falta de espacios disponibles.
+- Pérdida de tiempo durante la búsqueda.
+- Tráfico alrededor de los estacionamientos.
+- Tarifas elevadas o poco claras.
+- Falta de seguridad al estacionar en la vía pública.
+- Distancia entre el estacionamiento disponible y el destino.
+- Limitaciones en algunos estacionamientos para maniobrar o acceder al espacio.
+
+Richard y David indicaron que suelen dedicar aproximadamente entre **10 y 15 minutos a buscar estacionamiento antes de considerar otra alternativa**, lo que representa al **66.7% de los entrevistados**. Después de este periodo pueden optar por un estacionamiento más distante, una alternativa más costosa o incluso cambiar el medio de transporte.
+
+Estos resultados muestran que el tiempo dedicado a encontrar estacionamiento constituye una fuente importante de frustración para los conductores.
+
+#### Factores considerados al elegir un estacionamiento
+
+La **seguridad fue mencionada por el 100% de los entrevistados** como uno de los factores relevantes al momento de elegir dónde dejar el vehículo.
+
+David indicó que estaría dispuesto incluso a pagar una tarifa superior si el espacio ofrece mejores condiciones de seguridad, mientras que Wilson también señaló que evalúa este aspecto antes de seleccionar un estacionamiento. Richard, por su parte, considera importante conocer las condiciones del lugar y contar con elementos que aumenten su confianza.
+
+Asimismo, el **100% de los entrevistados mencionó el precio o las tarifas como un elemento relevante** para la elección del estacionamiento. Esto evidencia la necesidad de ofrecer información clara y actualizada acerca del costo del servicio antes de realizar una reserva.
+
+La ubicación también representa un factor importante. El **66.7% de los entrevistados mencionó explícitamente aspectos relacionados con la cercanía o ubicación del espacio respecto a su destino**, mostrando que los conductores buscan equilibrar seguridad, precio y distancia.
+
+#### Uso de tecnología y canales digitales
+
+El **100% de los entrevistados utiliza aplicaciones digitales de navegación** durante sus desplazamientos.
+
+**Waze fue mencionada por los tres entrevistados**, mientras que **Google Maps fue mencionada por dos de ellos, equivalente al 66.7%**. Estas aplicaciones son utilizadas principalmente para planificar rutas, orientarse en zonas desconocidas y, en algunos casos, identificar estacionamientos cercanos.
+
+El **66.7% mencionó explícitamente utilizar el smartphone como dispositivo principal para consultar información o servicios relacionados con sus desplazamientos**. Esto refuerza la importancia de que ParkShare posea una experiencia web responsive y optimizada para dispositivos móviles.
+
+También se identificó el uso de otros servicios digitales como billeteras digitales, aplicaciones de transporte, navegadores web, correo electrónico y WhatsApp, evidenciando que los usuarios entrevistados se encuentran familiarizados con realizar consultas, pagos y comunicaciones mediante herramientas digitales.
+
+#### Seguridad y confianza
+
+Además de considerar la seguridad física del estacionamiento, los entrevistados mostraron preocupación respecto a la confianza necesaria para utilizar espacios pertenecientes a terceros.
+
+El **66.7% de los participantes mencionó explícitamente mecanismos de confianza como la verificación de identidad del propietario, fotografías reales del espacio, referencias o calificaciones de otros usuarios**.
+
+Entre los mecanismos valorados se encuentran:
+
+- Verificación de la identidad del propietario.
+- Fotografías reales del estacionamiento.
+- Calificaciones y opiniones de otros conductores.
+- Información clara sobre ubicación y características.
+- Registro digital del pago.
+- Garantías frente a posibles inconvenientes.
+
+Estos elementos indican que ParkShare no debe limitarse únicamente a conectar conductores con espacios disponibles, sino que también debe proporcionar mecanismos que reduzcan la incertidumbre y aumenten la confianza entre los participantes.
+
+#### Oportunidades identificadas
+
+Las entrevistas permitieron identificar oportunidades relacionadas directamente con la propuesta de valor de ParkShare.
+
+Los conductores requieren acceder antes de llegar a su destino a información acerca de estacionamientos disponibles, ubicación, tarifas y características del espacio. Richard manifestó interés en consultar disponibilidad en tiempo real y poder reservar y pagar antes de llegar, mientras que Wilson señaló la necesidad de disponer de información actualizada sobre precios y estacionamientos que actualmente no aparecen en aplicaciones de navegación tradicionales.
+
+A partir de estos resultados se identifican como oportunidades principales:
+
+- Mostrar estacionamientos disponibles próximos al destino.
+- Consultar disponibilidad antes de desplazarse.
+- Mostrar tarifas de manera clara y actualizada.
+- Permitir realizar reservas anticipadas.
+- Permitir pagos digitales.
+- Proporcionar información detallada y fotografías del espacio.
+- Incorporar mecanismos de verificación y reputación.
+- Reducir el tiempo dedicado a buscar estacionamiento.
+
+#### Conclusión del segmento
+
+El análisis muestra que los Conductores en Zonas Urbanas entrevistados utilizan frecuentemente el automóvil y experimentan problemas relacionados principalmente con la disponibilidad, seguridad, precio y tiempo de búsqueda de estacionamiento.
+
+La seguridad y el precio fueron factores relevantes para el **100% de los entrevistados**, mientras que las herramientas digitales de navegación también estuvieron presentes en el **100% de los casos**.
+
+Estos resultados respaldan una solución como ParkShare, orientada a permitir que los conductores consulten espacios disponibles, conozcan previamente sus características y tarifas, realicen reservas y cuenten con mecanismos de confianza antes de utilizar un estacionamiento perteneciente a un tercero.
+
+### 2.3 Needfinding
+
+### 2.3.1. User Personas
+
+En esta sección se presentan los User Personas representativos de la plataforma. Estos arquetipos sintetizan las necesidades, frustraciones y comportamientos clave identificados en la investigación de mercado para guiar el diseño funcional y la toma de decisiones del proyecto.
+
+User persona del 1er segmento objetivo - Conductores que requieren estacionamiento temporal
+
+![userpersona1](/report/assets/Marcos%20Garcia%20-%20user%20persona.png)
+
+Marcos García representa al segmento de conductores con necesidad de estacionamiento temporal, construido a partir de las entrevistas realizadas a profesionales en zonas de alta congestión urbana. Se definió como un hombre de 38 años, asesor comercial ubicado en Lima, que refleja el perfil de usuarios que se desplazan constantemente por reuniones laborales y gestionan el parqueo de forma operativa y diaria. Sus objetivos de encontrar estacionamiento seguro de manera rápida, optimizar los tiempos de traslado y evitar sobrecostos por tarifas no transparentes responden directamente a lo expresado por la totalidad de los entrevistados, quienes señalaron la puntualidad, la seguridad del vehículo y la previsibilidad de costos como sus prioridades principales. Sus frustraciones de dar vueltas a la manzana perdiendo tiempo, la falta de información en tiempo real sobre disponibilidad, las tarifas elevadas en cocheras tradicionales y el temor al robo o daño de sus herramientas de trabajo fueron mencionadas de forma unánime en las entrevistas. Se eligieron Waze y Google Maps como referentes e influencias porque son las aplicaciones con las que este segmento interactúa diariamente para la navegación urbana. Sus canales incluyen WhatsApp, Google Maps, aplicaciones de pago digital y llamadas telefónicas, reflejando un perfil digitalizado que busca resolver la movilidad inmediata pero que aún depende de métodos informales para encontrar espacio al llegar a su destino.
+
+User persona del 2do segmento objetivo - Propietarios de cocheras privadas con disponibilidad temporal.
+
+![userpersona1](/report/assets/Maria%20Becerra%20-%20user%20persona.png)
+
+María Becerra representa al segmento de propietarios de cocheras privadas con disponibilidad temporal. Es una diseñadora de interiores de 33 años que reside en Surco, con un ingreso promedio de S/ 3,500 a S/ 5,500. Trabaja en modalidad remota desde su hogar, por lo que su cochera techada con portón eléctrico permanece desocupada de lunes a viernes mientras su esposo utiliza el auto familiar para ir a la oficina.
+
+Sus principales objetivos se enfocan en convertir ese espacio desuso en una fuente constante de ingresos pasivos sin salir de casa. Para lograrlo de forma segura, requiere conocer previamente el nombre, DNI, placa y puntuación del conductor antes de aceptar una reserva, garantizando flexibilidad total en los horarios de alquiler y recibiendo cobros digitales automáticos sin lidiar con efectivo ni coordinaciones manuales.
+
+Sus frustraciones clave radican en el temor a sufrir daños en su propiedad o tener inconvenientes con personas desconocidas. Asimismo, le resulta sumamente molesto interrumpir sus proyectos de diseño para abrir el portón manualmente cada vez que entra o sale un vehículo, sumado a la falta de alertas inmediatas cuando ocurren cambios o cancelaciones en las reservas.
+
+En cuanto a sus hábitos digitales, María muestra un perfil altamente conectado y organizado. Utiliza activamente canales como WhatsApp, Facebook, Instagram y correo electrónico para comunicarse, operando cotidianamente desde dispositivos móviles con sistema iOS y computadoras con Windows.
+
+### 2.3.2. User Task Matrix
+
+Para diseñar la solución que optimice el uso y rentabilidad de espacios de estacionamiento urbanos, se identificaron dos tipos de usuarios: los conductores con necesidad de estacionamiento temporal, que buscan un lugar para guardar su vehículo durante sus jornadas laborales; y los propietarios de cocheras privadas, que cuentan con disponibilidad temporal para sus espacios en desuso. El diseño de la plataforma se enfoca en facilitar la interacción entre ambos usuarios para asegurar flexibilidad, seguridad y transparencia en todo el proceso.
+
+![UserTaskMatrix](/report/assets/USER%20TASK%20MATRIX.png)
+
+### 2.3.3. User Journey Mapping
+
+El User Journey Mapping es una herramienta para mostrar paso a paso cómo vive una persona la experiencia de buscar o brindar un servicio. En este proyecto, diseñamos los mapas de viaje para los dos segmentos principales: Marcos García y María Becerra
+
+User Journey Mapping del 1er segmento objetivo - Conductores que requieren estacionamiento temporal
+
+![JourneyMapping](/report/assets/Marcos%20Garcia%20-%20Journey%20Map.png)
+
+User Journey Mapping del 2do segmento objetivo - Propietarios de cocheras privadas con disponibilidad temporal.
+
+![JourneyMapping2](/report/assets/Maria%20Becerra%20-%20Journey%20Map.png)
+
+### 2.3.4. Empathy Mapping
+
+El Empathy Mapping es un método que ayuda a ponernos en el lugar del usuario para entender lo que piensa, siente, escucha, ve, dice y hace. Nos permite conocer a fondo sus emociones, qué le preocupa en su rutina y qué espera conseguir.
+
+Para Park Share, crear esta matriz para Marcos García y María Becerra fue indispensable para ver de cerca los problemas cotidianos al buscar un estacionamiento libre o intentar alquilar una cochera vacía. Entender sus miedos sobre la seguridad del vehículo o la desconfianza al recibir extraños nos da las pautas para crear una aplicación simple, confiable y adaptada a sus necesidades reales.
+
+Empathy Mapping del 1er segmento objetivo - Conductores que requieren estacionamiento temporal
+
+![JourneyMapping2](/report/assets/Marcos%20-%20Empathy%20map.png)
+
+Empathy Mapping del 2do segmento objetivo - Propietarios de cocheras privadas con disponibilidad temporal.
+
+![JourneyMapping2](/report/assets/Maria%20Becerra%20-%20Empathy%20map.png)
+
+### 2.4. Big Picture Event Storming
+
+Para iniciar el modelado de la arquitectura de Proyect-Park-Share, el equipo llevó a cabo una sesión de Event Storming. El objetivo principal fue explorar el dominio del negocio de forma integral, identificando todos los eventos clave que ocurren durante la interacción de los usuarios con la plataforma, desde el registro inicial y la publicación de espacios hasta el inicio de la sesión de parqueo.
+
+Durante esta sesion, trabajamos en una secuencia lógica y cronológica para que todos los miembros del equipo aportaran su visión sobre las etapas del flujo. El enfoque se centró en alinearnos con la terminología del negocio sin preocuparnos aún por las limitaciones técnicas.
+
+## Paso 1: Exploración Desestructurada (Unstructured Exploration)
+
+En esta fase inicial realizamos una lluvia de ideas para identificar los Eventos de Dominio fundamentales de Proyect-Park-Share.
+Se identificaron eventos que cubren el ciclo de vida completo de los dos roles principales
+
+- Registro e Identidad: User Registration Initiated, User Type Chosen, Identity Verification Initiated, Identity Verified y User Account Activated.
+
+- Perfiles de Usuario: Driver Profile Completed y Property Owner Profile Completed.
+
+- Gestión del Espacio y Vehículo: Parking Space Listing Initiated, Parking Space Listed, Space Availability Scheduled y Vehicle Plate Registered.
+
+- Reserva y Uso del Parqueo: Parking Search Initiated, Reservation Requested, Reservation Confirmed, Vehicle Access Granted, Parking Session Started y Parking Session Ended.
+
+- Pagos: Payment Processed y Payout Transferred to Owner.
+
+- Excepciones y Cancelaciones: Identity Verification Failed, Listing Registration Rejected y Reservation Cancelled
+
+![STEP1](/report/assets/STEP1.png)
+
+## Paso 2: Líneas de Tiempo (Timelines)
+
+En este paso organizamos los eventos de manera secuencial, separando los flujos principales y definiendo los caminos alternativos o de error:
+
+- Registro e Identidad: Inicia con User Registration Initiated y User Type Chosen. Tras Identity Verified, la cuenta pasa a User Account Activated para derivar en Driver Profile Completed o Property Owner Profile Completed. Ante fallas, el flujo va a Registration Rejected o Identity Verification Failed.
+
+- Flujos Específicos: El propietario requiere Property Documentation Verified para llegar a Parking Space Listed. El conductor completa Driver Profile Created, Driver License Validated y Vehicle Plate Registered.
+
+- Encuentro de Uso: Ambos flujos coinciden en Parking Resource Assigned, pasan a System Permissions Configured y culminan en User Session Started. Si ocurre un error, se activa Space Capacity Exceeded o User Access Denied.
+
+![STEP2](/report/assets/STEP2.png)
+
+## Paso 3: Líneas de Tiempo con Puntos Criticos(Timelines with Hotspots)
+
+Para complementar el análisis, identificamos los Puntos de Dolor o Puntos de Conflicto (Hotspots) en color rosa sobre el flujo cronológico:
+
+- Antiguedad en el Selección de Rol: Existe confusión en la interfaz cuando un mismo usuario desea actuar como conductor y propietario en momentos distintos dentro de la plataforma.
+
+- Lentitud en la Verificación Manual: El proceso manual para validar documentos de identidad y titularidad de la propiedad ralentiza la activación de la cuenta, lo que desmotiva a nuevos usuarios durante el registro.
+
+- Incompatibilidad: Dificultad para verificar si las medidas reales de la cochera publicada coinciden con la categoría del vehículo registrado por el conductor.
+
+- Falta de Acceso Automatizado: Fricción en el ingreso si el propietario no se encuentra en casa y no dispone de un sistema de apertura automática o remoto para el portón.
+
+![STEP3](/report/assets/STEP3.png)
+
+### 2.5. Ubiquitous Language
+
+El Ubiquitous Language define los términos clave del dominio del negocio para asegurar una comunicación clara entre el equipo de desarrollo y los stakeholders.
+
+Driver (Conductor): Usuario perteneciente al segmento de movilidad temporal que busca, reserva y utiliza espacios de estacionamiento para sus desplazamientos comerciales o diarios.
+
+Property Owner (Propietario de Cochera): Usuario que posee un espacio de estacionamiento privado en desuso y lo publica en la plataforma para generar ingresos pasivos.
+
+Parking Space / Spot (Espacio de Parqueo / Cochera): Área física delimitada en una propiedad privada destinada al estacionamiento de un vehículo durante una franja horaria específica.
+
+Listing (Anuncio / Publicación): Registro creado por el propietario que describe las características del espacio de parqueo, como ubicación, fotos, dimensiones, tarifa y horarios de disponibilidad.
+
+Reservation (Reserva): Acuerdo formal y temporal entre un conductor y un propietario para el uso exclusivo de un espacio de parqueo en un rango de fecha y hora determinado.
+
+Parking Pass / Access Token (Pase de Acceso): Credencial digital o código generado por el sistema que autoriza e identifica el ingreso y salida del vehículo validado en la propiedad.
+
+Parking Session (Sesión de Estacionamiento): Intervalo de tiempo transcurrido desde el momento exacto en que el conductor ingresa el auto a la cochera hasta que se efectúa la salida.
+
+Verification / Identity Check (Validación de Identidad): Proceso de comprobación de la autenticidad del DNI, antecedentes y tarjeta de propiedad/licencia del conductor y propietario para garantizar un entorno seguro.
+
+Parking Fee (Tarifa de Parqueo): Costo monetario fijado por el propietario o determinado por la plataforma según el tiempo de permanencia o fracción de uso del espacio.
+
+Payout (Abono / Transferencia al Propietario): Liquidación financiera que la plataforma transfiere al propietario por los ingresos acumulados del alquiler de su cochera, descontando la comisión del servicio.
+
+Hotspot / Operational Bottleneck (Punto Crítico / Cuello de Botella Operativo): Evento o etapa del flujo donde existe riesgo de retraso, fallo de seguridad o fricción de uso (ej. retrasos en la validación manual de documentos o en el acceso físico al portón).
+
+Cancellation Policy (Política de Cancelación): Reglas establecidas por la plataforma que definen los tiempos límite, penalizaciones o reembolsos aplicables si el conductor o el propietario cancelan una reserva confirmada.
