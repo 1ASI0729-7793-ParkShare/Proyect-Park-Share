@@ -738,7 +738,11 @@ El Landing Page tiene como objetivo presentar la propuesta de valor del producto
 ### 4.7. Software Object-Oriented Design.
 
 ### 4.7.1. Class Diagrams.
+En esta sección se presenta el diseño orientado a la solución, desarrollado a partir de los requerimientos funcionales, User Stories, User Task Matrix, eventos identificados durante el proceso de análisis del dominio. El objetivo de este diseño es representar la estructura lógica del sistema mediante diagramas que describen las principales entidades, relaciones y comportamientos involucrados en ParkShare, la plataforma de búsqueda, reserva y gestión de espacios de estacionamiento.
 
+La solución fue modelada considerando un enfoque basado en bounded contexts, permitiendo organizar las responsabilidades del sistema en módulos funcionales relacionados con la gestión de usuarios, la administración de espacios de estacionamiento, la búsqueda y visualización en mapa interactivo, las reservas y disponibilidad, los pagos y facturación, y las notificaciones. Cada diagrama incluye clases, atributos, métodos, relaciones, multiplicidades y niveles de acceso. Para la elaboración de los diagramas se utilizará PlantUML.
+
+<div style="text-align:center;"><img src="../assets/class_diagram.png" alt="texto"></div>
 ### 4.8. Database Design.
 
 ### 4.8.1. Database Diagrams.
