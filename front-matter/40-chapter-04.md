@@ -468,6 +468,45 @@ Los wireframes de la aplicación web definen la disposición esquemática, la je
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
+  <div align="center"><img src="../assets/app-web/wireflow_reserva.png" alt="wireflow reserva">
+  
+</div>
+
+**User Goal:** El conductor busca una cochera disponible, revisa su detalle, confirma la reserva y recibe la confirmación.
+
+Pantallas:
+
+1. **Buscar cochera:** pantalla de búsqueda con filtros por ubicación, fecha y hora, más una lista de cocheras cercanas con precio y distancia.
+
+2. **Parqueos disponibles:** lista de resultados con detalles resumidos (nombre, dirección, precio por hora, disponibilidad).
+
+3. **Reservar:** pantalla de detalle de la cochera con formulario para seleccionar fecha, hora de inicio y duración, junto con el botón de confirmación.
+
+4. **Reserva concretada:** pantalla de éxito que confirma que la reserva se realizó correctamente.
+
+5. **Reserva no puedo realizarse:** pantalla alternativa que muestra un error cuando la reserva no puede completarse.
+
+<br>
+<br>
+
+**User Goal:** El conductor actualiza la información de su vehículo y verifica su identidad para mantener su perfil vigente en SafeStep.
+
+
+
+<div align="center"><img src="../assets/app-web/perfil.png" alt="wireflow reserva">
+  
+</div>
+
+Pantallas:
+
+1. **Buscar cochera:** punto de entrada desde la navegación principal (bottom nav → Perfil).
+
+2. **Mi perfil:** pantalla con la información del vehículo (placa, marca, modelo, color) y la sección de verificación de identidad (DNI, licencia de conducir).
+
+3. **Confirmación de cambio:** pantalla que muestra el mensaje "Se guardaron los cambios" tras actualizar la información.
+
+4. **Mi perfil (actualizado):** pantalla de regreso al perfil con los datos ya actualizados.
+
 ### 4.4.2. Web Applications Mock-ups.
 
 <div style="text-align:center;"><img src="../assets/app-web/app-web-mockup1.png" alt="texto"></div>
@@ -480,6 +519,65 @@ Los wireframes de la aplicación web definen la disposición esquemática, la je
 <div style="text-align:center;"><img src="../assets/app-web/app-web-mockup8.png" alt="texto"></div>
 
 ### 4.4.3. Web Applications User Flow Diagrams.
+
+En esta sección se presentan los User Flow Diagrams de SafeStep, elaborados a partir de los User Personas y sus objetivos principales. Cada diagrama representa el camino que sigue un usuario para completar una tarea específica dentro de la aplicación, mostrando los pasos, las decisiones y las rutas alternativas que puede tomar.
+
+<br>
+
+ ### User flow 1: Conductor reserva o busca cochera 
+
+<div style="text-align:center;"><img src="../assets/app-web/userflow1.png" alt="wireflow reservas"></div>
+
+<br>
+
+Este flujo describe el camino que sigue el conductor desde que ingresa a SafeStep hasta que completa una reserva. Comienza con el login, continúa con la búsqueda de cocheras mediante filtros de ubicación, fecha y hora, y avanza hacia la selección de una cochera y la confirmación del pago. Incluye rutas alternativas para el caso en que no haya resultados disponibles o el pago falle, lo que permite al usuario corregir su búsqueda o reintentar la operación sin perder el contexto.
+
+<br>
+<br>
+
+### User flow 2: Consultar historial de reservas
+
+<div style="text-align:center;"><img src="../assets/app-web/userflow2.png" alt="wireflow reservas"></div>
+
+<br>
+
+El conductor accede al historial de sus reservas anteriores. Desde el dashboard, el usuario selecciona la opción "Mis reservas" y visualiza la lista completa. Puede seleccionar una reserva para ver su detalle, cancelarla si aún está activa, o descargar el comprobante correspondiente. Si no tiene reservas registradas, el sistema muestra una pantalla de estado vacío con un mensaje orientador.
+
+<br>
+<br>
+
+### User flow 3: Conductor gestiona perfil y vehiculos
+
+<div style="text-align:center;"><img src="../assets/app-web/userflow3.png" alt="wireflow reservas"></div>
+
+<br>
+
+ El conductor administra su información personal y los datos de su vehículo. Desde el dashboard, accede a "Mi perfil" y puede editar sus datos personales, actualizar los datos del vehículo o completar la verificación de identidad subiendo su DNI y licencia de conducir. Si los datos no son válidos, el sistema muestra un mensaje de error y permite corregirlos antes de guardar. Al final, el usuario recibe una confirmación de que los cambios se guardaron correctamente.
+
+ <br>
+ <br>
+
+ ### User flow 4: Propietario publica cochera
+
+ <div style="text-align:center;"><img src="../assets/app-web/userflow4.png" alt="wireflow reservas"></div>
+
+ <br>
+
+ En este flujo se describe cómo el propietario registra una nueva cochera en la plataforma. Desde el dashboard, accede a "Mis cocheras" y selecciona la opción de publicar una nueva. Completa el formulario con la dirección, el precio, el horario y las fotos de la cochera. Si los datos están incompletos, el sistema muestra un error y solicita completar los campos faltantes. Al confirmar la publicación, la cochera aparece en el listado y queda disponible para los conductores.
+
+ <br>
+ <br>
+
+ ### User flow 5: Propietario consulta ingresos
+
+ <div style="text-align:center;"><img src="../assets/app-web/userflow5.png" alt="wireflow reservas"></div>
+
+<br>
+
+Este flujo describe cómo el propietario revisa los ingresos generados por sus cocheras. Desde el dashboard, accede a "Mis ingresos" y visualiza un resumen con los montos acumulados y las reservas que los generaron. Puede aplicar filtros por fecha o por cochera para analizar períodos específicos, y exportar el reporte en formato PDF o Excel para conservarlo como respaldo.
+
+<br>
+<br>
 
 ### 4.5. Web Applications Prototyping.
 
